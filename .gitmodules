@@ -1,0 +1,6 @@
+[submodule "Merge_Sorter"]
+	path = Merge_Sorter
+	url = https://github.com/ikwzm/Merge_Sorter.git
+[submodule "ZynqMP-ACP-Adapter"]
+	path = ZynqMP-ACP-Adapter
+	url = https://github.com/ikwzm/ZynqMP-ACP-Adapter.git
