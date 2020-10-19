@@ -192,31 +192,27 @@ proc create_root_design { parentCell } {
 
 
   # Create interface ports
-  set gpio_rtl [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 gpio_rtl ]
+  set GPIO [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 GPIO ]
 
 
   # Create ports
   set UART0_CTS [ create_bd_port -dir I UART0_CTS ]
   set UART0_RTS [ create_bd_port -dir O UART0_RTS ]
-  set reset_rtl [ create_bd_port -dir I -type rst reset_rtl ]
-  set_property -dict [ list \
-   CONFIG.POLARITY {ACTIVE_LOW} \
- ] $reset_rtl
 
   # Create instance: ArgSort_AXI_1, and set properties
   set ArgSort_AXI_1 [ create_bd_cell -type ip -vlnv ikwzm:Merge_Sorter:ArgSort_AXI:0.6 ArgSort_AXI_1 ]
   set_property -dict [ list \
    CONFIG.MRG_AXI_DATA_WIDTH {128} \
-   CONFIG.MRG_RD_AXI_XFER_SIZE {12} \
-   CONFIG.MRG_WR_AXI_XFER_SIZE {12} \
    CONFIG.MRG_FIFO_SIZE {64} \
    CONFIG.MRG_RD_ARB_PIPELINE {0} \
+   CONFIG.MRG_RD_AXI_XFER_SIZE {12} \
    CONFIG.MRG_WAYS {16} \
+   CONFIG.MRG_WR_AXI_XFER_SIZE {12} \
    CONFIG.STM_AXI_DATA_WIDTH {128} \
    CONFIG.STM_AXI_USER_WIDTH {1} \
+   CONFIG.STM_FEEDBACK {2} \
    CONFIG.STM_RD_AXI_XFER_SIZE {12} \
    CONFIG.STM_WR_AXI_XFER_SIZE {12} \
-   CONFIG.STM_FEEDBACK {2} \
  ] $ArgSort_AXI_1
 
   # Create instance: ZYNQMP_ACP_ADAPTER_0, and set properties
@@ -964,7 +960,7 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net ArgSort_AXI_1_MRG_AXI [get_bd_intf_pins ArgSort_AXI_1/MRG_AXI] [get_bd_intf_pins axi_interconnect_0/S00_AXI]
   connect_bd_intf_net -intf_net ArgSort_AXI_1_STM_AXI [get_bd_intf_pins ArgSort_AXI_1/STM_AXI] [get_bd_intf_pins ZYNQMP_ACP_ADAPTER_0/AXI]
   connect_bd_intf_net -intf_net ZYNQMP_ACP_ADAPTER_0_ACP [get_bd_intf_pins ZYNQMP_ACP_ADAPTER_0/ACP] [get_bd_intf_pins zynq_ultra_ps_e_0/S_AXI_ACP_FPD]
-  connect_bd_intf_net -intf_net axi_gpio_0_GPIO [get_bd_intf_ports gpio_rtl] [get_bd_intf_pins axi_gpio_0/GPIO]
+  connect_bd_intf_net -intf_net axi_gpio_0_GPIO [get_bd_intf_ports GPIO] [get_bd_intf_pins axi_gpio_0/GPIO]
   connect_bd_intf_net -intf_net axi_interconnect_0_M00_AXI [get_bd_intf_pins axi_gpio_0/S_AXI] [get_bd_intf_pins axi_interconnect_csr/M00_AXI]
   connect_bd_intf_net -intf_net axi_interconnect_0_M00_AXI1 [get_bd_intf_pins axi_interconnect_0/M00_AXI] [get_bd_intf_pins zynq_ultra_ps_e_0/S_AXI_HP0_FPD]
   connect_bd_intf_net -intf_net axi_interconnect_csr_M01_AXI [get_bd_intf_pins ArgSort_AXI_1/CSR_AXI] [get_bd_intf_pins axi_interconnect_csr/M01_AXI]
@@ -975,10 +971,9 @@ proc create_root_design { parentCell } {
   connect_bd_net -net UART0_CTS_1 [get_bd_ports UART0_CTS] [get_bd_pins zynq_ultra_ps_e_0/emio_uart0_ctsn]
   connect_bd_net -net proc_sys_reset_0_interconnect_aresetn [get_bd_pins ZYNQMP_ACP_ADAPTER_0/ARESETn] [get_bd_pins axi_interconnect_0/ARESETN] [get_bd_pins axi_interconnect_0/M00_ARESETN] [get_bd_pins axi_interconnect_0/S00_ARESETN] [get_bd_pins axi_interconnect_csr/ARESETN] [get_bd_pins axi_interconnect_csr/M00_ARESETN] [get_bd_pins axi_interconnect_csr/M01_ARESETN] [get_bd_pins axi_interconnect_csr/S00_ARESETN] [get_bd_pins proc_sys_reset_0/interconnect_aresetn]
   connect_bd_net -net proc_sys_reset_0_peripheral_aresetn [get_bd_pins ArgSort_AXI_1/ARESETn] [get_bd_pins axi_gpio_0/s_axi_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
-  connect_bd_net -net reset_rtl_1 [get_bd_ports reset_rtl] [get_bd_pins proc_sys_reset_0/ext_reset_in]
   connect_bd_net -net zynq_ultra_ps_e_0_emio_uart0_rtsn [get_bd_ports UART0_RTS] [get_bd_pins zynq_ultra_ps_e_0/emio_uart0_rtsn]
   connect_bd_net -net zynq_ultra_ps_e_0_pl_clk0 [get_bd_pins ArgSort_AXI_1/ACLK] [get_bd_pins ZYNQMP_ACP_ADAPTER_0/ACLK] [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins axi_interconnect_0/ACLK] [get_bd_pins axi_interconnect_0/M00_ACLK] [get_bd_pins axi_interconnect_0/S00_ACLK] [get_bd_pins axi_interconnect_csr/ACLK] [get_bd_pins axi_interconnect_csr/M00_ACLK] [get_bd_pins axi_interconnect_csr/M01_ACLK] [get_bd_pins axi_interconnect_csr/S00_ACLK] [get_bd_pins proc_sys_reset_0/slowest_sync_clk] [get_bd_pins zynq_ultra_ps_e_0/maxihpm0_fpd_aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0] [get_bd_pins zynq_ultra_ps_e_0/saxiacp_fpd_aclk] [get_bd_pins zynq_ultra_ps_e_0/saxihp0_fpd_aclk]
-  connect_bd_net -net zynq_ultra_ps_e_0_pl_resetn0 [get_bd_pins proc_sys_reset_0/aux_reset_in] [get_bd_pins zynq_ultra_ps_e_0/pl_resetn0]
+  connect_bd_net -net zynq_ultra_ps_e_0_pl_resetn0 [get_bd_pins proc_sys_reset_0/ext_reset_in] [get_bd_pins zynq_ultra_ps_e_0/pl_resetn0]
 
   # Create address segments
   assign_bd_address -offset 0x00000000 -range 0x000100000000 -target_address_space [get_bd_addr_spaces ArgSort_AXI_1/STM_AXI] [get_bd_addr_segs ZYNQMP_ACP_ADAPTER_0/AXI/reg0] -force
@@ -993,7 +988,6 @@ proc create_root_design { parentCell } {
   # Restore current instance
   current_bd_instance $oldCurInst
 
-  validate_bd_design
   save_bd_design
 }
 # End of create_root_design()
@@ -1005,4 +999,6 @@ proc create_root_design { parentCell } {
 
 create_root_design ""
 
+
+common::send_gid_msg -ssname BD::TCL -id 2053 -severity "WARNING" "This Tcl script was generated from a block design that has not been validated. It is possible that design <$design_name> may result in errors during validation."
 
