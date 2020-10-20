@@ -1,0 +1,4 @@
+all:
+{
+	[destination_device = pl] argsort_16_1_2/project.runs/impl_1/design_1_wrapper.bit
+}
