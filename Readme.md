@@ -172,3 +172,104 @@ Vivado > Tools > Run Tcl Script > argsort_16_1_2/implementation.tcl
 vivado% bootgen -image argsort_16_1_2.bif -arch zynqmp -w -o argsort_16_1_2.bin
 ```
 
+Behavioral Simulation with GHDL
+------------------------------------------------------------------------------------
+
+### Requirement
+
+* GHDL 0.35 or later
+
+### Download ArgSort-Ultra96
+
+```console
+shell$ git clone git://github.com/ikwzm/ArgSort-Ultra96.git
+shell$ cd ArgSort-Ultra96
+shell$ git submodule update --init --recursive
+```
+
+### Compile Dummy_Plug
+
+```console
+shell$ cd Merge_Sorter/Dummy_Plug/sim/ghdl-0.35/dummy_plug/
+shell$ make
+```
+
+### Compile PipeWork and Merge_Sorter
+
+```console
+shell$ cd sim/ghdl
+shell$ make dut
+../../Merge_Sorter/PipeWork/tools/vhdl-archiver.rb \
+            --library MERGE_SORTER \
+            --archive merge_sorter.vhd \
+            ../../ip/argsort_axi_0.6//src/MERGE_SORTER/
+/mnt/d/ichiro/work/ArgSort-Ultra96/Merge_Sorter/PipeWork/tools/lib/pipework/vhdl-reader.rb:149: warning: constant ::FALSE is deprecated
+/mnt/d/ichiro/work/ArgSort-Ultra96/Merge_Sorter/PipeWork/tools/lib/pipework/vhdl-reader.rb:159: warning: constant ::TRUE is deprecated
+/mnt/d/ichiro/work/ArgSort-Ultra96/Merge_Sorter/PipeWork/tools/lib/pipework/vhdl-reader.rb:155: warning: constant ::TRUE is deprecated
+../../Merge_Sorter/PipeWork/tools/vhdl-archiver.rb \
+            --library PIPEWORK \
+            --use_entity 'QUEUE_ARBITER(INTEGER_ARCH)' \
+            --use_entity 'SDPRAM(MODEL)' \
+            --archive    pipework.vhd \
+            ../../ip/argsort_axi_0.6//src/PIPEWORK/
+/mnt/d/ichiro/work/ArgSort-Ultra96/Merge_Sorter/PipeWork/tools/lib/pipework/vhdl-reader.rb:149: warning: constant ::FALSE is deprecated
+/mnt/d/ichiro/work/ArgSort-Ultra96/Merge_Sorter/PipeWork/tools/lib/pipework/vhdl-reader.rb:159: warning: constant ::TRUE is deprecated
+/mnt/d/ichiro/work/ArgSort-Ultra96/Merge_Sorter/PipeWork/tools/lib/pipework/vhdl-reader.rb:155: warning: constant ::TRUE is deprecated
+ghdl -a --mb-comments -P../../Merge_Sorter/Dummy_Plug/sim/ghdl-0.35/dummy_plug -P./ --work=PIPEWORK pipework.vhd
+pipework.vhd:11155:23:warning: declaration of "data_width" hides constant "data_width" [-Whide]
+pipework.vhd:13223:18:warning: declaration of "req_queue_empty" hides signal "req_queue_empty" [-Whide]
+pipework.vhd:17553:18:warning: declaration of "size" hides process labeled "size" [-Whide]
+pipework.vhd:17597:16:warning: declaration of "xfer_last" hides port "xfer_last" [-Whide]
+pipework.vhd:26909:15:warning: declaration of "queue_tree_arbiter" hides entity "queue_tree_arbiter" [-Whide]
+pipework.vhd:26992:13:warning: declaration of "arb" hides component instance "arb" [-Whide]
+pipework.vhd:27509:18:warning: declaration of "i_val" hides port "i_val" [-Whide]
+pipework.vhd:27591:18:warning: declaration of "i_val" hides port "i_val" [-Whide]
+ghdl -a --mb-comments -P../../Merge_Sorter/Dummy_Plug/sim/ghdl-0.35/dummy_plug -P./ --work=MERGE_SORTER merge_sorter.vhd
+merge_sorter.vhd:6356:23:warning: declaration of "outlet_last" hides port "outlet_last" [-Whide]
+merge_sorter.vhd:10042:9:warning: declaration of "req" hides block statement labeled "req" [-Whide]
+merge_sorter.vhd:10047:23:warning: declaration of "req_last" hides port "req_last" [-Whide]
+merge_sorter.vhd:11211:16:warning: declaration of "merge_sorter_tree" hides entity "merge_sorter_tree" [-Whide]
+merge_sorter.vhd:11953:32:warning: declaration of "a_word" hides port "a_word" [-Whide]
+merge_sorter.vhd:11953:40:warning: declaration of "b_word" hides port "b_word" [-Whide]
+merge_sorter.vhd:11968:30:warning: declaration of "a_word" hides port "a_word" [-Whide]
+merge_sorter.vhd:11968:38:warning: declaration of "b_word" hides port "b_word" [-Whide]
+```
+
+### Run Test Bench
+
+```console
+shell$ cd sim/ghdl
+shell$ make
+ghdl -a --mb-comments -P../../Merge_Sorter/Dummy_Plug/sim/ghdl-0.35/dummy_plug -P./ --work=MERGE_SORTER ../../Merge_Sorter/src/test/vhdl/argsort_axi_test_bench.vhd
+ghdl -e --mb-comments -P../../Merge_Sorter/Dummy_Plug/sim/ghdl-0.35/dummy_plug -P./ --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_F2
+ghdl -r --mb-comments -P../../Merge_Sorter/Dummy_Plug/sim/ghdl-0.35/dummy_plug -P./ --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_F2
+        35 ns| MARCHAL < ArgSort_AXI_Test TEST 1 Start.
+        55 ns| MARCHAL < ArgSort_AXI_Test TEST 1.1 Start.
+      1705 ns| MARCHAL < ArgSort_AXI_Test TEST 1.1 Done.
+           :
+	   :
+	   :
+   2391315 ns| MARCHAL < ArgSort_AXI_Test TEST 3.20 SIZE=502 Start.
+   2517085 ns| MARCHAL < ArgSort_AXI_Test TEST 3.20 SIZE=502 Done.
+   2517105 ns| MARCHAL < ArgSort_AXI_Test TEST 3 Done.
+  ***  
+  ***  ERROR REPORT TEST_X16_F2
+  ***  
+  ***  [ CSR ]
+  ***    Error    : 0
+  ***    Mismatch : 0
+  ***    Warning  : 0
+  ***  
+  ***  [ STM AXI]
+  ***    Error    : 0
+  ***    Mismatch : 0
+  ***    Warning  : 0
+  ***  
+  ***  [ MRG AXI]
+  ***    Error    : 0
+  ***    Mismatch : 0
+  ***    Warning  : 0
+  ***  
+../../Merge_Sorter/src/test/vhdl/argsort_axi_test_bench.vhd:874:13:@2517126ns:(assertion note): Simulation complete(success).
+```
+
