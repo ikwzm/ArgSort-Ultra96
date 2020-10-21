@@ -157,13 +157,13 @@ shell$ git submodule update --init --recursive
 #### Create Project
 
 ```
-Vivado > Tools > Run Tcl Script > argsort_16_1_2/create_project.tcl
+Vivado > Tools > Run Tcl Script... > argsort_16_1_2/create_project.tcl
 ```
 
 #### Implementation
 
 ```
-Vivado > Tools > Run Tcl Script > argsort_16_1_2/implementation.tcl
+Vivado > Tools > Run Tcl Script... > argsort_16_1_2/implementation.tcl
 ```
 
 #### Convert from Bitstream File to Binary File
@@ -271,5 +271,33 @@ ghdl -r --mb-comments -P../../Merge_Sorter/Dummy_Plug/sim/ghdl-0.35/dummy_plug -
   ***    Warning  : 0
   ***  
 ../../Merge_Sorter/src/test/vhdl/argsort_axi_test_bench.vhd:874:13:@2517126ns:(assertion note): Simulation complete(success).
+```
+
+Behavioral Simulation with Vivado
+------------------------------------------------------------------------------------
+
+### Requirement
+
+* Xilinx Vivado 2019.2
+
+### Download ArgSort-Ultra96
+
+```console
+shell$ git clone git://github.com/ikwzm/ArgSort-Ultra96.git
+shell$ cd ArgSort-Ultra96
+shell$ git submodule update --init --recursive
+```
+
+### Create Project
+
+```
+Vivado > Tools > Run Tcl Script... > sim/vivado/create_project.tcl
+```
+
+### Run Behavioral Simulation
+
+```
+Vivado > File > Project > Open... > sim/vivado/argsort_axi.xpr
+Vivado > Flow Navigator > Run Simulation > Run Behavioral Simulation
 ```
 
