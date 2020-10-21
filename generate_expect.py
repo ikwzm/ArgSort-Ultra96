@@ -22,4 +22,4 @@ if __name__ == '__main__':
     np.save(args.expect, expect)
     
     print ("generate_expect: time        : {0}".format(round(elapsed_time*1000.0,3)) + " [msec]")
-    print ("generate_expect: thougput    : {0}".format(round(((sample.size/elapsed_time)/(1000*1000)),3)) + "[Mwords/sec]")
+    print ("generate_expect: throughput  : {0}".format(round(((sample.size/elapsed_time)/(1000*1000)),3)) + "[Mwords/sec]")
