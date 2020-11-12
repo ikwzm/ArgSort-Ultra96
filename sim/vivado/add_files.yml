@@ -1,0 +1,25 @@
+
+- Global:
+    Print    :  true
+
+- Library:
+    Name     :  merge_sorter
+    Format   :  "add_vhdl_file sources_1 #{library_name} #{file_name}"
+    PathList :  ["../../ip/argsort_axi_0.6/src/MERGE_SORTER/"]
+
+- Library:
+    Name     :  pipework
+    Format   :  "add_vhdl_file sources_1 #{library_name} #{file_name}"
+    PathList :  ["../../ip/argsort_axi_0.6/src/PIPEWORK/"]
+
+- Library:
+    Name     :  dummy_plug
+    Format   :  "add_vhdl_file sim_1     #{library_name} #{file_name}"
+    Exclude  :  ["../../Merge_Sorter/Dummy_Plug/src/main/vhdl/core/sync_alt.vhd"]
+    PathList :  ["../../Merge_Sorter/Dummy_Plug/src/main/vhdl/"]
+
+- Library:
+    Name     :  work
+    Format   :  "add_vhdl_file sim_1     #{library_name} #{file_name}"
+    PathList :  ["../../Merge_Sorter/src/test/vhdl"]
+    Top      :  ["ArgSort_AXI_Test_Bench"]
