@@ -1,4 +1,4 @@
-TARGET                 = "argsort_16_1_2"
+TARGET                 = "argsort_16_2_2"
 FPGA_BITSTREAM_FILE    = TARGET + ".bin"
 LINUX_KERNEL_RELEASE   = /^(\d+\.\d+)/.match(`uname -r`)[1]
 DEVICE_TREE_FILE       = TARGET + "_" + LINUX_KERNEL_RELEASE + ".dts"
