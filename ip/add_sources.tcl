@@ -23,6 +23,7 @@ add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/axi4/axi4_master_a
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/axi4/axi4_master_transfer_queue.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/axi4/axi4_register_read_interface.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/axi4/axi4_register_write_interface.vhd
+add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/pipeline_register_controller.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/pool_intake_port.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/queue_arbiter.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/queue_receiver.vhd
@@ -35,6 +36,7 @@ add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/pump/pump_flow_syn
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/axi4/axi4_master_read_interface.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/axi4/axi4_master_write_interface.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/axi4/axi4_register_interface.vhd
+add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/pipeline_register.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/queue_arbiter_one_hot_arch.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/queue_tree_arbiter.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/register_access_adapter.vhd
@@ -45,11 +47,14 @@ add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/components/sdpram_
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/pump/pump_stream_intake_controller.vhd
 add_vhdl_file sources_1 PIPEWORK ../Merge_Sorter/PipeWork/src/pump/pump_stream_outlet_controller.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/word.vhd
+add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/sorting_network.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/core_components.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/word_compare.vhd
+add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/sorting_network_core.vhd
+add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/word_queue.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/interface/interface.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/merge_sorter_node.vhd
-add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/word_queue.vhd
+add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/core/word_reducer.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/examples/argsort_axi/argsort_axi_components.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/examples/argsort_axi/argsort_reader.vhd
 add_vhdl_file sources_1 MERGE_SORTER ../Merge_Sorter/src/main/vhdl/examples/argsort_axi/argsort_writer.vhd
