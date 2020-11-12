@@ -104,24 +104,19 @@ python3 argsort_test.py --sample sample.npy --result result.npy -n 10
 argsort_test   : sample_file : sample.npy
 argsort_test   : size        : 8388608
 argsort_test   : loops       : 10
-argsort_test   : time        : 267.967 [msec]
-argsort_test   : time        : 268.095 [msec]
-argsort_test   : time        : 267.919 [msec]
-argsort_test   : time        : 268.094 [msec]
-argsort_test   : time        : 267.987 [msec]
-argsort_test   : time        : 268.254 [msec]
-argsort_test   : time        : 268.641 [msec]
-argsort_test   : time        : 268.11 [msec]
-argsort_test   : time        : 267.956 [msec]
-argsort_test   : time        : 267.923 [msec]
+argsort_test   : time        : 251.793 [msec]
+argsort_test   : time        : 251.809 [msec]
+argsort_test   : time        : 251.927 [msec]
+argsort_test   : time        : 251.972 [msec]
+argsort_test   : time        : 251.718 [msec]
+argsort_test   : time        : 252.777 [msec]
+argsort_test   : time        : 252.017 [msec]
+argsort_test   : time        : 251.86 [msec]
+argsort_test   : time        : 253.792 [msec]
+argsort_test   : time        : 253.422 [msec]
 argsort_test   : result_file : result.npy
-argsort_test   : average_time: 268.095 [msec]
-argsort_test   : throughput  : 31.29[Mwords/sec]
-python3 check_result.py --sample sample.npy --result result.npy --expect expect.npy
-check_result: sample file : sample.npy
-check_result: expect file : expect.npy
-check_result: result file : result.npy
-check_result: OK
+argsort_test   : average_time: 252.309 [msec]
+argsort_test   : throughput  : 33.247[Mwords/sec]
 ```
 
 ### Uninstall
