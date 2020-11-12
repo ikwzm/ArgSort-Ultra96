@@ -33,16 +33,16 @@ See https://github.com/ikwzm/ZynqMP-FPGA-Linux or https://github.com/ikwzm/ZynqM
 #### Download ArgSort-Ultra96 to Ultra96
 
 ```console
-fpga@debian-fpga:~/$ git clone --branch 0.6.0 git://github.com/ikwzm/ArgSort-Ultra96.git
+fpga@debian-fpga:~/$ git clone --branch 0.7.0 git://github.com/ikwzm/ArgSort-Ultra96.git
 fpga@debian-fpga:~/$ cd ArgSort-Ultra96
 ```
 #### Install FPGA Bitstream file and Device Tree
 
 ```console
 fpga@debian-fpga:~/ArgSort-Ultra96$ sudo rake install
-./dtbocfg.rb --install argsort --dts argsort_16_1_2_5.4.dts
+./dtbocfg.rb --install argsort --dts argsort_16_2_2_5.4.dts
 /tmp/dtovly20201021-1043-r9dc1n: Warning (unit_address_vs_reg): /fragment@2/__overlay__/uio_argsort: node /tmp/dtovly20201021-1043-r9dc1n: Warning (avoid_unnecessary_addr_size): /fragment@2: unnecessary #address-cells/#size-cells without "ranges" or child "reg" property has a reg or ranges property, but no unit name
-[ 4382.922884] fpga_manager fpga0: writing argsort_16_1_2.bin to Xilinx ZynqMP FPGA Manager
+[ 4382.922884] fpga_manager fpga0: writing argsort_16_2_2.bin to Xilinx ZynqMP FPGA Manager
 [ 4383.084520] OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-full/firmware-name
 [ 4383.097432] fclkcfg amba_pl@0:fclk0: driver version : 1.7.1
 [ 4383.103056] fclkcfg amba_pl@0:fclk0: device name    : amba_pl@0:fclk0
@@ -152,24 +152,24 @@ shell$ cd ArgSort-Ultra96
 shell$ git submodule update --init --recursive
 ```
 
-### Build argsort_16_1_2.bin
+### Build argsort_16_2_2.bin
 
 #### Create Project
 
 ```
-Vivado > Tools > Run Tcl Script... > argsort_16_1_2/create_project.tcl
+Vivado > Tools > Run Tcl Script... > argsort_16_2_2/create_project.tcl
 ```
 
 #### Implementation
 
 ```
-Vivado > Tools > Run Tcl Script... > argsort_16_1_2/implementation.tcl
+Vivado > Tools > Run Tcl Script... > argsort_16_2_2/implementation.tcl
 ```
 
 #### Convert from Bitstream File to Binary File
 
 ```console
-vivado% bootgen -image argsort_16_1_2.bif -arch zynqmp -w -o argsort_16_1_2.bin
+vivado% bootgen -image argsort_16_2_2.bif -arch zynqmp -w -o argsort_16_2_2.bin
 ```
 
 Behavioral Simulation with GHDL
