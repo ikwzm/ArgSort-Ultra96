@@ -16,10 +16,33 @@ def calc_transaction(size,ways,words,feedback):
     for i in range(len(transactions)):
         if   (transactions[i]['block_size'  ] == 1) :
             transactions[i]['bytes'] = size * 4
+            transactions[i]['size' ] = size
         elif (transactions[i]['block_number'] == 1) :
             transactions[i]['bytes'] = size * 4
+            transactions[i]['size' ] = size
         else:
             transactions[i]['bytes'] = size * 8
+            transactions[i]['size' ] = size
+
+    for i in range(len(transactions)):
+        xfer_size    = transactions[i]['size'        ]
+        block_size   = transactions[i]['block_size'  ]
+        block_number = transactions[i]['block_number']
+        
+        if (xfer_size < (block_size * block_number)):
+            block_index = 1
+            remain_size = xfer_size
+            while (block_size*block_index < xfer_size):
+                block_index = block_index + 1
+                remain_size = remain_size - block_size
+
+            if (block_index > 1):
+                transactions[i]['info'] = "{0} x {1}, {2} x 1".format(block_size, block_index, remain_size)
+            else:
+                transactions[i]['info'] = "{0} x {1}".format(xfer_size, block_index)
+        else:
+                transactions[i]['info'] = "{0} x {1}".format(block_size, block_number)
+            
     return transactions
         
 if __name__ == '__main__':
@@ -50,6 +73,7 @@ if __name__ == '__main__':
     else:
         size   = args.size
 
+    clock_freqency   = (250*1000.0*1000.0       ) # 250MHz
     band_width       = (2.0*1000.0*1000.0*1000.0) # 2.0GByte/sec
     transaction_list = calc_transaction(size,ways,words,feedback)
 
@@ -60,21 +84,28 @@ if __name__ == '__main__':
         write_transaction  = transaction_list.pop(0)
         read_block_size    = read_transaction ['block_size'  ]
         read_block_number  = read_transaction ['block_number']
+        read_size          = read_transaction ['size'        ]
         read_bytes         = read_transaction ['bytes'       ]
+        read_info          = read_transaction ['info'        ]
         write_block_size   = write_transaction['block_size'  ]
         write_block_number = write_transaction['block_number']
+        write_size         = write_transaction['size'        ]
         write_bytes        = write_transaction['bytes'       ]
-        transaction_time   = ((write_bytes + read_bytes) / band_width)*1000.0
-        print("{0}: Read: {1} x {2} , Write {3} x {4}, time {5} [msec]".format(
+        write_info         = write_transaction['info'        ]
+        transaction_time   = ((write_bytes + read_bytes) / band_width)
+        merge_sort_time    = ((write_size / words) / clock_freqency)
+        run_time           = max(transaction_time, merge_sort_time)
+
+        print("{0}: Read: {1}, Write: {2}, Time: {3} (max({4},{5})) [msec]".format(
             transaction_index,
-            read_block_size,
-            read_block_number,
-            write_block_size,
-            write_block_number,
-            transaction_time))
+            read_info,
+            write_info,
+            round(run_time*1000.0,3),
+            round(transaction_time*1000.0,3),
+            round(merge_sort_time *1000.0,3)))
         transaction_index  = transaction_index + 1
-        predicted_run_time = predicted_run_time + transaction_time
+        predicted_run_time = predicted_run_time + run_time
         read_transaction   = write_transaction
 
-    print("expected run time {0} [msec]".format(predicted_run_time))
+    print("expected run time {0} [msec]".format(round(predicted_run_time*1000.0,3)))
     
