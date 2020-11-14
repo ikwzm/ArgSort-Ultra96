@@ -5,8 +5,8 @@
 set project_directory       [file dirname [info script]]
 set project_name            "argsort_axi"
 set device_parts            "xc7z020clg400-1"
-set test_bench              "ArgSort_AXI_Test_Bench_X16_F2"
-set scenario_file           [file join $project_directory ".." ".." "Merge_Sorter" "src" "test" "scenarios" "argsort_axi" "test_1.snr" ]
+set test_bench              "ArgSort_AXI_Test_Bench_X16_W1_F2"
+set scenario_file           [file join $project_directory ".." ".." "Merge_Sorter" "src" "test" "scenarios" "argsort_axi" "test_3.snr" ]
 #
 # Create project
 #
