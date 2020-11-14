@@ -1,5 +1,5 @@
 
-ARGSORT_IP_PATH      = ../../ip/argsort_axi_0.6/
+ARGSORT_IP_PATH      = ../../ip/argsort_axi_0.8/
 PIPEWORK_PATH        = ../../Merge_Sorter/PipeWork
 PIPEWORK_TOOL_PATH   = $(PIPEWORK_PATH)/tools
 
@@ -15,7 +15,7 @@ REMOVE     = -rm
 GHDL       = ghdl
 GHDLFLAGS  = --mb-comments -P$(DUMMY_PLUG_WORK_PATH) -P./
 
-test   : test_x16_f2 \
+test   : test_x16_w1_f2 \
          $(END_LIST)
 
 clean  :
@@ -27,7 +27,6 @@ pipework-obj93.cf : pipework.vhd
 pipework.vhd : 
 	$(PIPEWORK_TOOL_PATH)/vhdl-archiver.rb \
             --library PIPEWORK \
-            --use_entity 'QUEUE_ARBITER(INTEGER_ARCH)' \
             --use_entity 'SDPRAM(MODEL)' \
             --archive    pipework.vhd \
             $(ARGSORT_IP_PATH)/src/PIPEWORK/
@@ -46,10 +45,10 @@ dut         :  merge_sorter-obj93.cf
 test_bench  :  dut
 	$(GHDL) -a $(GHDLFLAGS) --work=MERGE_SORTER ../../Merge_Sorter/src/test/vhdl/argsort_axi_test_bench.vhd
 
-test_x16_f2 : test_x16_f2.snr test_bench
-	$(GHDL) -e $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_F2
-	$(GHDL) -r $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_F2
+test_x16_w1_f2 : test_x16_w1_f2.snr test_bench
+	$(GHDL) -e $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_W1_F2
+	$(GHDL) -r $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_W1_F2
 
-test_x16_f2.snr : $(SCENARIO_PATH)/test_1.snr $(SCENARIO_PATH)/test_2.snr $(SCENARIO_PATH)/test_3.snr
+test_x16_w1_f2.snr : $(SCENARIO_PATH)/test_1.snr $(SCENARIO_PATH)/test_2.snr $(SCENARIO_PATH)/test_3.snr
 	$(CAT) $^ > $@
 
