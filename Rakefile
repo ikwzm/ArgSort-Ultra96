@@ -1,5 +1,6 @@
 TARGET                 = "argsort_16_2_2"
 FPGA_BITSTREAM_FILE    = TARGET + ".bin"
+FPGA_BITSTREAM_GZ_FILE = FPGA_BITSTREAM_FILE + ".gz"
 LINUX_KERNEL_RELEASE   = /^(\d+\.\d+)/.match(`uname -r`)[1]
 DEVICE_TREE_FILE       = TARGET + "_" + LINUX_KERNEL_RELEASE + ".dts"
 DEVICE_TREE_NAME       = "argsort"
@@ -83,8 +84,8 @@ task :uninstall do
   sh "./dtbocfg.rb --remove #{DEVICE_TREE_NAME}"
 end
 
-file "/lib/firmware/" + FPGA_BITSTREAM_FILE => [ FPGA_BITSTREAM_FILE ] do
-  sh "cp #{FPGA_BITSTREAM_FILE} /lib/firmware/#{FPGA_BITSTREAM_FILE}"
+file "/lib/firmware/" + FPGA_BITSTREAM_FILE => [ FPGA_BITSTREAM_GZ_FILE ] do
+  sh "gzip -d -f -c #{FPGA_BITSTREAM_GZ_FILE} > /lib/firmware/#{FPGA_BITSTREAM_FILE}"
 end
 
 directory DEVICE_TREE_DIRECTORY do
