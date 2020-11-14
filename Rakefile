@@ -1,4 +1,4 @@
-TARGET                 = "argsort_16_2_2"
+TARGET                 = ENV.fetch("TARGET", "argsort_16_2_2")
 FPGA_BITSTREAM_FILE    = TARGET + ".bin"
 FPGA_BITSTREAM_GZ_FILE = FPGA_BITSTREAM_FILE + ".gz"
 LINUX_KERNEL_RELEASE   = /^(\d+\.\d+)/.match(`uname -r`)[1]
@@ -16,6 +16,7 @@ RESULT_FILE_NAME       = "result.npy"
 PYTHON                 = "python3"
 CC                     = "g++"
 CFLAGS                 = "-I ./include -Wpointer-arith"
+DTBOCFG                = "./dtbocfg.rb"
 
 def find_uio_device(name)
   found_device_name = nil
@@ -31,10 +32,10 @@ def find_uio_device(name)
   return found_device_name
 end
 
-desc "Install fpga and devicetrees"
+desc "Install fpga and devicetrees(#{DEVICE_TREE_NAME})"
 task :install => ["/lib/firmware/#{FPGA_BITSTREAM_FILE}", DEVICE_TREE_FILE] do
   begin
-    sh "./dtbocfg.rb --install #{DEVICE_TREE_NAME} --dts #{DEVICE_TREE_FILE}"
+    sh "#{DTBOCFG} --install #{DEVICE_TREE_NAME} --dts #{DEVICE_TREE_FILE}"
   rescue => e
     print "error raised:"
     p e
@@ -76,12 +77,12 @@ task :install => ["/lib/firmware/#{FPGA_BITSTREAM_FILE}", DEVICE_TREE_FILE] do
   end
 end
 
-desc "Uninstall fpga and devicetrees"
+desc "Uninstall fpga and devicetrees(#{DEVICE_TREE_NAME})"
 task :uninstall do
   if (Dir.exist?(DEVICE_TREE_DIRECTORY) == false)
     abort "can not #{DEVICE_TREE_DIRECTORY} uninstalled: does not already exists."
   end
-  sh "./dtbocfg.rb --remove #{DEVICE_TREE_NAME}"
+  sh "#{DTBOCFG} --remove #{DEVICE_TREE_NAME}"
 end
 
 file "/lib/firmware/" + FPGA_BITSTREAM_FILE => [ FPGA_BITSTREAM_GZ_FILE ] do
@@ -128,10 +129,15 @@ file RESULT_FILE_NAME => [ SAMPLE_FILE_NAME ] do
   sh "#{PYTHON} argsort_test.py --sample #{SAMPLE_FILE_NAME} --result #{RESULT_FILE_NAME}"
 end
 
-desc "argsort_test"
-task :test do
+desc "ArgSort_AXI Test"
+task :test => [SAMPLE_FILE_NAME, EXPECT_FILE_NAME] do
   sh "#{PYTHON} argsort_test.py --sample #{SAMPLE_FILE_NAME} --result #{RESULT_FILE_NAME} -n 10"
   sh "#{PYTHON} check_result.py --sample #{SAMPLE_FILE_NAME} --result #{RESULT_FILE_NAME} --expect #{EXPECT_FILE_NAME}"
+end
+
+desc "ArgSort_AXI Infomation"
+task :info do
+  sh "#{PYTHON} argsort_info.py"
 end
 
 task :default => ["test"]

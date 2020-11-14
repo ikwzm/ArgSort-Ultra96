@@ -2,39 +2,42 @@ from uio import Uio
 
 class ArgSort_AXI:
 
-    VERSION_REGS_ADDR = 0x0000
-    RD_ADDR_REGS_ADDR = 0x0008
-    WR_ADDR_REGS_ADDR = 0x0010
-    T0_ADDR_REGS_ADDR = 0x0018
-    T1_ADDR_REGS_ADDR = 0x0020
-    RD_MODE_REGS_ADDR = 0x0028
-    WR_MODE_REGS_ADDR = 0x002C
-    T0_MODE_REGS_ADDR = 0x0030
-    T1_MODE_REGS_ADDR = 0x0034
-    SIZE_REGS_ADDR    = 0x0038
-    MODE_REGS_ADDR    = 0x003C
-    STAT_REGS_ADDR    = 0x003E
-    CTRL_REGS_ADDR    = 0x003F
+    VERSION_REGS_ADDR   = 0x0000
+    RD_ADDR_REGS_ADDR   = 0x0008
+    WR_ADDR_REGS_ADDR   = 0x0010
+    T0_ADDR_REGS_ADDR   = 0x0018
+    T1_ADDR_REGS_ADDR   = 0x0020
+    RD_MODE_REGS_ADDR   = 0x0028
+    WR_MODE_REGS_ADDR   = 0x002C
+    T0_MODE_REGS_ADDR   = 0x0030
+    T1_MODE_REGS_ADDR   = 0x0034
+    SIZE_REGS_ADDR      = 0x0038
+    MODE_REGS_ADDR      = 0x003C
+    STAT_REGS_ADDR      = 0x003E
+    CTRL_REGS_ADDR      = 0x003F
 
-    RW_MODE_AXI_CACHE = (0xF << 4)
-    RW_MODE_AXI_PROT  = (0x2 << 8)
+    RW_MODE_AXI_CACHE   = (0xF <<  4)
+    RW_MODE_AXI_PROT    = (0x2 <<  8)
+    RW_MODE_AXI_ID_0    = (0x0 << 13)
+    RW_MODE_AXI_ID_1    = (0x1 << 13)
+    RW_MODE_SPECULATIVE = (0x1 << 14)
     
-    MODE_IRQ_ENABLE   = 0x01
+    MODE_IRQ_ENABLE     = 0x01
 
-    CTRL_RESET        = 0x80
-    CTRL_PAUSE        = 0x40
-    CTRL_STOP         = 0x20
-    CTRL_START        = 0x10
-    CTRL_IRQ_ENABLE   = 0x04
-    CTRL_FIRST        = 0x02
-    CTRL_LAST         = 0x01
+    CTRL_RESET          = 0x80
+    CTRL_PAUSE          = 0x40
+    CTRL_STOP           = 0x20
+    CTRL_START          = 0x10
+    CTRL_IRQ_ENABLE     = 0x04
+    CTRL_FIRST          = 0x02
+    CTRL_LAST           = 0x01
 
     def __init__(self, regs):
         self.regs    = regs
         self.rd_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_CACHE | ArgSort_AXI.RW_MODE_AXI_PROT
         self.wr_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_CACHE | ArgSort_AXI.RW_MODE_AXI_PROT
-        self.t0_mode = 0x0000
-        self.t1_mode = 0x0000
+        self.t0_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_ID_0
+        self.t1_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_ID_1
         self.read_info()
 
     def read_info(self):
