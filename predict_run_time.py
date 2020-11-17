@@ -4,14 +4,14 @@ import numpy as np
 import argparse
 
 def calc_transaction(size,ways,words,feedback):
-    transactions = [{'block_size': 1, 'block_number': size}]
+    transactions = [{'block_size': 1, 'block_number': size, 'feedback': 0}]
     block_size   = words*(ways**(feedback+1))
     block_number = (size + block_size - 1) // block_size
-    transactions.append({'block_size': block_size, 'block_number': block_number})
+    transactions.append({'block_size': block_size, 'block_number': block_number, 'feedback': feedback})
     while (transactions[-1]['block_number'] > 1):
         next_block_size   = transactions[-1]['block_size'] * ways
         next_block_number = (size + next_block_size - 1) // next_block_size
-        next_transaction  = {'block_size': next_block_size, 'block_number': next_block_number}
+        next_transaction  = {'block_size': next_block_size, 'block_number': next_block_number, 'feedback': 0}
         transactions.append(next_transaction)
     for i in range(len(transactions)):
         if   (transactions[i]['block_size'  ] == 1) :
@@ -92,17 +92,20 @@ if __name__ == '__main__':
         write_size         = write_transaction['size'        ]
         write_bytes        = write_transaction['bytes'       ]
         write_info         = write_transaction['info'        ]
+        feedback           = write_transaction['feedback'    ]
         transaction_time   = ((write_bytes + read_bytes) / band_width)
         merge_sort_time    = ((write_size / words) / clock_freqency)
-        run_time           = max(transaction_time, merge_sort_time)
+        feedback_sort_time = merge_sort_time * (feedback)
+        run_time           = max(transaction_time, merge_sort_time) + feedback_sort_time
 
-        print("{0}: Read: {1}, Write: {2}, Time: {3} (max({4},{5})) [msec]".format(
+        print("{0}: Read: {1}, Write: {2}, Time: {3} (max({4},{5})+{6}) [msec]".format(
             transaction_index,
             read_info,
             write_info,
             round(run_time*1000.0,3),
-            round(transaction_time*1000.0,3),
-            round(merge_sort_time *1000.0,3)))
+            round(transaction_time  *1000.0,3),
+            round(merge_sort_time   *1000.0,3),
+            round(feedback_sort_time*1000.0,3)))
         transaction_index  = transaction_index + 1
         predicted_run_time = predicted_run_time + run_time
         read_transaction   = write_transaction
