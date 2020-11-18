@@ -61,6 +61,8 @@ if __name__ == '__main__':
     args   = parser.parse_args()
     test   = ArgSort_Test()
 
+    test.argsort_axi.print_info("argsort_test   :")
+
     print ("argsort_test   : sample_file : {0}".format(args.sample))
     sample = np.load(args.sample)
     print ("argsort_test   : size        : {0}".format(sample.size))
