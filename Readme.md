@@ -33,7 +33,7 @@ See https://github.com/ikwzm/ZynqMP-FPGA-Linux or https://github.com/ikwzm/ZynqM
 #### Download ArgSort-Ultra96 to Ultra96
 
 ```console
-fpga@debian-fpga:~/$ git clone --branch 0.8.0 git://github.com/ikwzm/ArgSort-Ultra96.git
+fpga@debian-fpga:~/$ git clone --branch 0.9.0 git://github.com/ikwzm/ArgSort-Ultra96.git
 fpga@debian-fpga:~/$ cd ArgSort-Ultra96
 ```
 #### Install FPGA Bitstream file and Device Tree
@@ -42,36 +42,36 @@ fpga@debian-fpga:~/$ cd ArgSort-Ultra96
 fpga@debian-fpga:~/ArgSort-Ultra96$ sudo rake install
 gzip -d -f -c argsort_16_2_2.bin.gz > /lib/firmware/argsort_16_2_2.bin
 ./dtbocfg.rb --install argsort --dts argsort_16_2_2_5.4.dts
-/tmp/dtovly20201115-633-587ixj: Warning (unit_address_vs_reg): /fragment@2/__overlay__/uio_argsort: node has a reg or ranges property, but no unit name
-/tmp/dtovly20201115-633-587ixj: Warning (avoid_unnecessary_addr_size): /fragment@2: unnecessary #address-cells/#size-cells without "ranges" or child "reg" property
-[  206.085884] fpga_manager fpga0: writing argsort_16_2_2.bin to Xilinx ZynqMP FPGA Manager
-[  206.247120] OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-full/firmware-name
-[  206.260577] fclkcfg amba_pl@0:fclk0: driver version : 1.7.1
-[  206.266196] fclkcfg amba_pl@0:fclk0: device name    : amba_pl@0:fclk0
-[  206.272693] fclkcfg amba_pl@0:fclk0: clock  name    : pl0_ref
-[  206.278449] fclkcfg amba_pl@0:fclk0: clock  rate    : 249999998
-[  206.284392] fclkcfg amba_pl@0:fclk0: clock  enabled : 1
-[  206.289628] fclkcfg amba_pl@0:fclk0: remove rate    : 1000000
-[  206.295376] fclkcfg amba_pl@0:fclk0: remove enable  : 0
-[  206.300596] fclkcfg amba_pl@0:fclk0: driver installed.
-[  206.322259] u-dma-buf udmabuf-argsort-in: driver version = 3.2.0
-[  206.328270] u-dma-buf udmabuf-argsort-in: major number   = 241
-[  206.334114] u-dma-buf udmabuf-argsort-in: minor number   = 0
-[  206.339771] u-dma-buf udmabuf-argsort-in: phys address   = 0x0000000070400000
-[  206.346906] u-dma-buf udmabuf-argsort-in: buffer size    = 33554432
-[  206.353178] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver installed.
-[  206.375211] u-dma-buf udmabuf-argsort-out: driver version = 3.2.0
-[  206.381306] u-dma-buf udmabuf-argsort-out: major number   = 241
-[  206.387233] u-dma-buf udmabuf-argsort-out: minor number   = 1
-[  206.392979] u-dma-buf udmabuf-argsort-out: phys address   = 0x0000000072400000
-[  206.400200] u-dma-buf udmabuf-argsort-out: buffer size    = 33554432
-[  206.406555] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver installed.
-[  206.471775] u-dma-buf udmabuf-argsort-tmp: driver version = 3.2.0
-[  206.477868] u-dma-buf udmabuf-argsort-tmp: major number   = 241
-[  206.483792] u-dma-buf udmabuf-argsort-tmp: minor number   = 2
-[  206.489535] u-dma-buf udmabuf-argsort-tmp: phys address   = 0x0000000074400000
-[  206.496757] u-dma-buf udmabuf-argsort-tmp: buffer size    = 134217728
-[  206.503198] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver installed.
+/tmp/dtovly20201118-1281-1tf8e0q: Warning (unit_address_vs_reg): /fragment@2/__overlay__/uio_argsort: node has a reg or ranges property, but no unit name
+/tmp/dtovly20201118-1281-1tf8e0q: Warning (avoid_unnecessary_addr_size): /fragment@2: unnecessary #address-cells/#size-cells without "ranges" or child "reg" property
+[10952.701089] fpga_manager fpga0: writing argsort_16_2_2.bin to Xilinx ZynqMP FPGA Manager
+[10952.861395] OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-full/firmware-name
+[10952.874409] fclkcfg amba_pl@0:fclk0: driver version : 1.7.1
+[10952.879998] fclkcfg amba_pl@0:fclk0: device name    : amba_pl@0:fclk0
+[10952.886447] fclkcfg amba_pl@0:fclk0: clock  name    : pl0_ref
+[10952.892194] fclkcfg amba_pl@0:fclk0: clock  rate    : 249999998
+[10952.898138] fclkcfg amba_pl@0:fclk0: clock  enabled : 1
+[10952.903363] fclkcfg amba_pl@0:fclk0: remove rate    : 1000000
+[10952.909107] fclkcfg amba_pl@0:fclk0: remove enable  : 0
+[10952.914327] fclkcfg amba_pl@0:fclk0: driver installed.
+[10952.935858] u-dma-buf udmabuf-argsort-in: driver version = 3.2.0
+[10952.941868] u-dma-buf udmabuf-argsort-in: major number   = 241
+[10952.947704] u-dma-buf udmabuf-argsort-in: minor number   = 0
+[10952.953360] u-dma-buf udmabuf-argsort-in: phys address   = 0x0000000070400000
+[10952.960498] u-dma-buf udmabuf-argsort-in: buffer size    = 33554432
+[10952.966762] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver installed.
+[10952.988678] u-dma-buf udmabuf-argsort-out: driver version = 3.2.0
+[10952.994773] u-dma-buf udmabuf-argsort-out: major number   = 241
+[10953.000697] u-dma-buf udmabuf-argsort-out: minor number   = 1
+[10953.006438] u-dma-buf udmabuf-argsort-out: phys address   = 0x0000000072400000
+[10953.013662] u-dma-buf udmabuf-argsort-out: buffer size    = 33554432
+[10953.020014] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver installed.
+[10953.085033] u-dma-buf udmabuf-argsort-tmp: driver version = 3.2.0
+[10953.091130] u-dma-buf udmabuf-argsort-tmp: major number   = 241
+[10953.097060] u-dma-buf udmabuf-argsort-tmp: minor number   = 2
+[10953.102804] u-dma-buf udmabuf-argsort-tmp: phys address   = 0x0000000074400000
+[10953.110028] u-dma-buf udmabuf-argsort-tmp: buffer size    = 134217728
+[10953.116466] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver installed.
 ```
 
 ### Run 
@@ -83,7 +83,7 @@ fpga@debian-fpga:~/ArgSort-Ultra96$ rake sample.npy
 python3 generate_sample.py --size 8388608 --sample sample.npy
 generate_sample: sample_file : sample.npy
 generate_sample: size        : 8388608
-generate_sample: time        : 342.474 [msec]
+generate_sample: time        : 347.344 [msec]
 ```
 
 #### Generate expect.npy
@@ -94,8 +94,8 @@ python3 generate_expect.py --sample sample.npy --expect expect.npy
 generate_expect: sample_file : sample.npy
 generate_expect: expect_file : expect.npy
 generate_expect: size        : 8388608
-generate_expect: time        : 19556.543 [msec]
-generate_expect: throughput  : 0.429[Mwords/sec]
+generate_expect: time        : 19599.039 [msec]
+generate_expect: throughput  : 0.428[Mwords/sec]
 ```
 
 #### Run argsort_test
@@ -103,22 +103,31 @@ generate_expect: throughput  : 0.429[Mwords/sec]
 ```console
 fpga@debian-fpga:~/ArgSort-Ultra96$ rake test
 python3 argsort_test.py --sample sample.npy --result result.npy -n 10
+argsort_test   : Version     : 0.9
+argsort_test   : Ways        : 16
+argsort_test   : Words       : 2
+argsort_test   : Feedback    : 2
+argsort_test   : WordBits    : 32
+argsort_test   : IndexBits   : 32
+argsort_test   : Sort Order  : 0
+argsort_test   : Sign Compare: 0
+argsort_test   : Debug Enable: 1
 argsort_test   : sample_file : sample.npy
 argsort_test   : size        : 8388608
 argsort_test   : loops       : 10
-argsort_test   : time        : 251.962 [msec]
-argsort_test   : time        : 252.212 [msec]
-argsort_test   : time        : 251.918 [msec]
-argsort_test   : time        : 251.921 [msec]
-argsort_test   : time        : 252.344 [msec]
-argsort_test   : time        : 252.362 [msec]
-argsort_test   : time        : 252.189 [msec]
-argsort_test   : time        : 252.254 [msec]
-argsort_test   : time        : 252.028 [msec]
-argsort_test   : time        : 252.077 [msec]
+argsort_test   : time        : 252.58 [msec]
+argsort_test   : time        : 251.791 [msec]
+argsort_test   : time        : 251.914 [msec]
+argsort_test   : time        : 251.818 [msec]
+argsort_test   : time        : 251.798 [msec]
+argsort_test   : time        : 252.294 [msec]
+argsort_test   : time        : 251.987 [msec]
+argsort_test   : time        : 252.085 [msec]
+argsort_test   : time        : 252.3 [msec]
+argsort_test   : time        : 252.09 [msec]
 argsort_test   : result_file : result.npy
-argsort_test   : average_time: 252.127 [msec]
-argsort_test   : throughput  : 33.271[Mwords/sec]
+argsort_test   : average_time: 252.066 [msec]
+argsort_test   : throughput  : 33.279[Mwords/sec]
 python3 check_result.py --sample sample.npy --result result.npy --expect expect.npy
 check_result: sample file : sample.npy
 check_result: expect file : expect.npy
@@ -133,10 +142,10 @@ check_result: OK
 ```console
 fpga@debian-fpga:~/ArgSort-Ultra96$ sudo rake uninstall
 ./dtbocfg.rb --remove argsort
-[  403.789505] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver removed.
-[  403.801558] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver removed.
-[  403.813506] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver removed.
-[  403.821016] fclkcfg amba_pl@0:fclk0: driver removed.
+[11218.745653] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver removed.
+[11218.757907] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver removed.
+[11218.770021] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver removed.
+[11218.777459] fclkcfg amba_pl@0:fclk0: driver removed.
 ```
 
 Build Bitstream file
@@ -149,7 +158,7 @@ Build Bitstream file
 ### Download ArgSort-Ultra96
 
 ```console
-shell$ git clone --branch 0.8.0 git://github.com/ikwzm/ArgSort-Ultra96.git
+shell$ git clone --branch 0.9.0 git://github.com/ikwzm/ArgSort-Ultra96.git
 shell$ cd ArgSort-Ultra96
 shell$ git submodule update --init --recursive
 ```

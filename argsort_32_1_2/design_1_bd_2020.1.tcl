@@ -202,14 +202,14 @@ proc create_root_design { parentCell } {
   # Create instance: ArgSort_AXI_1, and set properties
   set ArgSort_AXI_1 [ create_bd_cell -type ip -vlnv ikwzm:Merge_Sorter:ArgSort_AXI:0.9 ArgSort_AXI_1 ]
   set_property -dict [ list \
-   CONFIG.MRG_WAYS {16} \
-   CONFIG.MRG_WORDS {2} \
+   CONFIG.MRG_WAYS {32} \
+   CONFIG.MRG_WORDS {1} \
    CONFIG.STM_FEEDBACK {2} \
    CONFIG.MRG_AXI_DATA_WIDTH {128} \
    CONFIG.MRG_AXI_ID_WIDTH {2} \
    CONFIG.MRG_AXI_ID_BASE {2} \
    CONFIG.MRG_FIFO_SIZE {64} \
-   CONFIG.MRG_RD_ARB_PIPELINE {0} \
+   CONFIG.MRG_RD_ARB_PIPELINE {3} \
    CONFIG.MRG_RD_AXI_XFER_SIZE {12} \
    CONFIG.MRG_WR_AXI_XFER_SIZE {12} \
    CONFIG.STM_AXI_DATA_WIDTH {128} \
