@@ -87,9 +87,16 @@ ipx::infer_bus_interfaces xilinx.com:interface:axis_rtl:1.0  [ipx::current_core]
 #
 set_property supported_families {zynq Production virtex7 Production qvirtex7 Production kintex7 Production kintex7l Production qkintex7 Production qkintex7l Production artix7 Production artix7l Production aartix7 Production qartix7 Production zynq Production qzynq Production azynq Production zynquplus Production} [ipx::current_core]
 #
+# Add PipeWork Logo
+#
+ipx::add_file_group -type utility {} [ipx::current_core]
+file copy -force [file join [file dirname [info script]] PipeWork.png] [file join $ip_root_directory "src"]
+ipx::add_file "src/PipeWork.png" [ipx::get_file_groups xilinx_utilityxitfiles -of_objects [ipx::current_core]]
+set_property type LOGO [ipx::get_files "src/PipeWork.png" -of_objects [ipx::get_file_groups xilinx_utilityxitfiles -of_objects [ipx::current_core]]]
+#
 # Set Core Version
 #
-set_property core_revision 0               [ipx::current_core]
+set_property core_revision 1               [ipx::current_core]
 set_property name          $ip_name        [ipx::current_core]
 set_property display_name  $ip_name        [ipx::current_core]
 set_property version       $ip_version     [ipx::current_core]
