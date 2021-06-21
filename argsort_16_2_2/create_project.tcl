@@ -8,7 +8,9 @@ set board_part              [get_board_parts -quiet -latest_file_version "*ultra
 lappend constrs_file_list   [file join $project_directory "design_1_pin.xdc" ]
 lappend ip_repo_path_list   [file join $project_directory ".." "ip"]
 lappend ip_repo_path_list   [file join $project_directory ".." "ZynqMP-ACP-Adapter" "ip"]
-if       { [string first "2020.1" [version -short]] == 0 } {
+if       { [string first "2020.2" [version -short]] == 0 } {
+    set design_bd_tcl_file      [file join $project_directory "design_1_bd_2020.2.tcl"  ]
+} elseif { [string first "2020.1" [version -short]] == 0 } {
     set design_bd_tcl_file      [file join $project_directory "design_1_bd_2020.1.tcl"  ]
 } else {
 }
