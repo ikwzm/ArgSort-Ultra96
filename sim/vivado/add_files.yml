@@ -5,12 +5,12 @@
 - Library:
     Name     :  merge_sorter
     Format   :  "add_vhdl_file sources_1 #{library_name} #{file_name}"
-    PathList :  ["../../ip/argsort_axi_0.8/src/MERGE_SORTER/"]
+    PathList :  ["../../ip/argsort_axi_1.1/src/MERGE_SORTER/"]
 
 - Library:
     Name     :  pipework
     Format   :  "add_vhdl_file sources_1 #{library_name} #{file_name}"
-    PathList :  ["../../ip/argsort_axi_0.8/src/PIPEWORK/"]
+    PathList :  ["../../ip/argsort_axi_1.1/src/PIPEWORK/"]
 
 - Library:
     Name     :  dummy_plug
