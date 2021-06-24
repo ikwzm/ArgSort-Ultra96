@@ -2,11 +2,11 @@
 # create_ip.tcl  Tcl script for create project and generate IP
 #
 set ip_name                 "ArgSort_AXI"
-set ip_version              "0.9"
+set ip_version              "1.1"
 set ip_vendor_name          "ikwzm"
 set ip_description          "ArgSort_AXI"
 set ip_library_name         "Merge_Sorter"
-set ip_root_directory       [file join [file dirname [info script]] "argsort_axi_0.9"]
+set ip_root_directory       [file join [file dirname [info script]] "argsort_axi_1.1"]
 set project_name            "argsort_axi"
 set project_directory       [file join [file dirname [info script]] "work"]
 set device_parts            "xc7z010clg400-1"
@@ -96,7 +96,7 @@ set_property type LOGO [ipx::get_files "src/PipeWork.png" -of_objects [ipx::get_
 #
 # Set Core Version
 #
-set_property core_revision 1               [ipx::current_core]
+set_property core_revision 0               [ipx::current_core]
 set_property name          $ip_name        [ipx::current_core]
 set_property display_name  $ip_name        [ipx::current_core]
 set_property version       $ip_version     [ipx::current_core]
