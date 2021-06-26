@@ -8,7 +8,9 @@ set board_part              [get_board_parts -quiet -latest_file_version "*ultra
 lappend constrs_file_list   [file join $project_directory "design_1_pin.xdc" ]
 lappend ip_repo_path_list   [file join $project_directory ".." "ip"]
 lappend ip_repo_path_list   [file join $project_directory ".." "ZynqMP-ACP-Adapter" "ip"]
-if       { [string first "2020.1" [version -short]] == 0 } {
+if       { [string first "2020.2" [version -short]] == 0 } {
+    set design_bd_tcl_file      [file join $project_directory "design_1_bd_2020.2.tcl"  ]
+} elseif { [string first "2020.1" [version -short]] == 0 } {
     set design_bd_tcl_file      [file join $project_directory "design_1_bd_2020.1.tcl"  ]
 } else {
 }
@@ -71,7 +73,7 @@ current_run -synthesis [get_runs synth_1]
 # Create run "impl_1" and set property
 #
 set impl_1_flow      "Vivado Implementation 2020"
-set impl_1_strategy  "Performance_ExplorePostRoutePhysOpt"
+set impl_1_strategy  "Vivado Implementation Defaults"
 if {[string equal [get_runs -quiet impl_1] ""]} {
     create_run -name impl_1 -flow $impl_1_flow -strategy $impl_1_strategy -constrset constrs_1 -parent_run synth_1
 } else {
