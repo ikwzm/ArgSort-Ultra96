@@ -124,7 +124,7 @@ set bCheckIPsPassed 1
 set bCheckIPs 1
 if { $bCheckIPs == 1 } {
    set list_check_ips "\ 
-ikwzm:Merge_Sorter:ArgSort_AXI:1.1\
+ikwzm:Merge_Sorter:ArgSort_AXI:1.2\
 ikwzm:PIPEORK:ZYNQMP_ACP_ADAPTER:0.4\
 xilinx.com:ip:axi_gpio:2.0\
 xilinx.com:ip:proc_sys_reset:5.0\
@@ -200,7 +200,7 @@ proc create_root_design { parentCell } {
   set UART0_RTS [ create_bd_port -dir O UART0_RTS ]
 
   # Create instance: ArgSort_AXI_1, and set properties
-  set ArgSort_AXI_1 [ create_bd_cell -type ip -vlnv ikwzm:Merge_Sorter:ArgSort_AXI:1.1 ArgSort_AXI_1 ]
+  set ArgSort_AXI_1 [ create_bd_cell -type ip -vlnv ikwzm:Merge_Sorter:ArgSort_AXI:1.2 ArgSort_AXI_1 ]
   set_property -dict [ list \
    CONFIG.MRG_WAYS {16} \
    CONFIG.MRG_WORDS {2} \
