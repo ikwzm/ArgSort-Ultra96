@@ -73,7 +73,8 @@ current_run -synthesis [get_runs synth_1]
 # Create run "impl_1" and set property
 #
 set impl_1_flow      "Vivado Implementation 2020"
-set impl_1_strategy  "Vivado Implementation Defaults"
+set impl_1_strategy  "Performance_ExploreWithRemap"
+#set impl_1_strategy  "Vivado Implementation Defaults"
 if {[string equal [get_runs -quiet impl_1] ""]} {
     create_run -name impl_1 -flow $impl_1_flow -strategy $impl_1_strategy -constrset constrs_1 -parent_run synth_1
 } else {
