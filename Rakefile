@@ -1,4 +1,16 @@
-TARGET                 = ENV.fetch("TARGET", "argsort_16_2_2")
+require 'yaml'
+ENV_YAML_FILE = "Rakefile.env"
+if File.exist?(ENV_YAML_FILE)
+  env = open(ENV_YAML_FILE, 'r'){ |f| YAML.load(f) }
+else
+  env = {}
+end
+if ENV.key?("TARGET")
+  env["TARGET"] = ENV["TARGET"]
+  YAML.dump(env, File.open(ENV_YAML_FILE, 'w'))
+end
+TARGET                 = env.fetch("TARGET", "argsort_16_2_2")
+
 FPGA_BITSTREAM_FILE    = TARGET + ".bin"
 FPGA_BITSTREAM_GZ_FILE = FPGA_BITSTREAM_FILE + ".gz"
 LINUX_KERNEL_RELEASE   = /^(\d+\.\d+)/.match(`uname -r`)[1]
@@ -8,15 +20,19 @@ DEVICE_TREE_DIRECTORY  = "/config/device-tree/overlays/" + DEVICE_TREE_NAME
 UIO_DEVICE_NAMES       = ["uio_argsort"]
 UDMABUF_DEVICE_NAMES   = ["udmabuf-argsort-in", "udmabuf-argsort-out", "udmabuf-argsort-tmp"]
 
-SAMPLE_SIZE            = 0x02000000/4
-SAMPLE_FILE_NAME       = "sample.npy"
-EXPECT_FILE_NAME       = "expect.npy"
-RESULT_FILE_NAME       = "result.npy"
-
+SAMPLE_SIZE_LIST       = Array.new(200){|i| (i+1)*5000}
+SAMPLE_FILE_FORMAT     = "sample_%010d.npy"
+EXPECT_FILE_FORMAT     = "expect_%010d.npy"
+RESULT_FILE_FORMAT     = "result_%010d.npy"
+TEST_LOG_FILE_NAME     = "#{TARGET}.log"
+EXPECT_LOG_FILE_NAME   = "expect.log"
+print(TARGET)
 PYTHON                 = "python3"
 CC                     = "g++"
 CFLAGS                 = "-I ./include -Wpointer-arith"
 DTBOCFG                = "./dtbocfg.rb"
+
+require 'rake/clean'
 
 def find_uio_device(name)
   found_device_name = nil
@@ -88,6 +104,7 @@ end
 file "/lib/firmware/" + FPGA_BITSTREAM_FILE => [ FPGA_BITSTREAM_GZ_FILE ] do
   sh "gzip -d -f -c #{FPGA_BITSTREAM_GZ_FILE} > /lib/firmware/#{FPGA_BITSTREAM_FILE}"
 end
+CLOBBER.include("/lib/firmware/" + FPGA_BITSTREAM_FILE)
 
 directory DEVICE_TREE_DIRECTORY do
   Rake::Task["install"].invoke
@@ -117,22 +134,58 @@ file DEVICE_TREE_FILE => [ "argsort_axi.dts" ] do
   end
 end
 
-file SAMPLE_FILE_NAME => [ "generate_sample.py" ] do
-  sh "#{PYTHON} generate_sample.py --size #{SAMPLE_SIZE} --sample #{SAMPLE_FILE_NAME}"
+TEST_TASK_LIST = Array.new
+SAMPLE_SIZE_LIST.each do |sample_size|
+  sample_file_name = SAMPLE_FILE_FORMAT % [sample_size]
+  expect_file_name = EXPECT_FILE_FORMAT % [sample_size]
+  result_file_name = RESULT_FILE_FORMAT % [sample_size]
+  
+  file sample_file_name => [ "generate_sample.py" ] do
+    sh "#{PYTHON} generate_sample.py --size #{sample_size} --sample #{sample_file_name}"
+  end
+  CLOBBER.include(sample_file_name)
+
+  file expect_file_name => [ "generate_expect.py", sample_file_name ] do
+    sh "#{PYTHON} generate_expect.py --sample #{sample_file_name} --expect #{expect_file_name} --log #{EXPECT_LOG_FILE_NAME}"
+  end
+  CLOBBER.include(expect_file_name)
+
+  file result_file_name => [ sample_file_name ] do
+    sh "#{PYTHON} argsort_test.py --sample #{sample_file_name} --result #{result_file_name}"
+  end
+  CLEAN.include(result_file_name)
+
+  desc "ArgSort_Krnl Test(size=#{sample_size})"
+  task_name = sprintf("test_%d", sample_size).to_sym
+  task task_name => [sample_file_name, expect_file_name] do
+    sh "#{PYTHON} argsort_test.py --sample #{sample_file_name} --result #{result_file_name} -n 10 -d 2 --log #{TEST_LOG_FILE_NAME} "
+    sh "#{PYTHON} check_result.py --sample #{sample_file_name} --result #{result_file_name} --expect #{expect_file_name}"
+  end
+
+  TEST_TASK_LIST << task_name
 end
 
-file EXPECT_FILE_NAME => [ "generate_expect.py", SAMPLE_FILE_NAME ] do
-  sh "#{PYTHON} generate_expect.py --sample #{SAMPLE_FILE_NAME} --expect #{EXPECT_FILE_NAME}"
+task :sample_all do
+  SAMPLE_SIZE_LIST.each do |sample_size|
+    sample_file_name = SAMPLE_FILE_FORMAT % [sample_size]
+    Rake::Task[sample_file_name].invoke
+  end
 end
 
-file RESULT_FILE_NAME => [ SAMPLE_FILE_NAME ] do
-  sh "#{PYTHON} argsort_test.py --sample #{SAMPLE_FILE_NAME} --result #{RESULT_FILE_NAME}"
+task :expect_all do
+  sh "echo --- > #{EXPECT_LOG_FILE_NAME}"
+  SAMPLE_SIZE_LIST.each do |sample_size|
+    expect_file_name = EXPECT_FILE_FORMAT % [sample_size]
+    Rake::Task[expect_file_name].invoke
+  end
 end
 
-desc "ArgSort_AXI Test"
-task :test => [SAMPLE_FILE_NAME, EXPECT_FILE_NAME] do
-  sh "#{PYTHON} argsort_test.py --sample #{SAMPLE_FILE_NAME} --result #{RESULT_FILE_NAME} -n 10"
-  sh "#{PYTHON} check_result.py --sample #{SAMPLE_FILE_NAME} --result #{RESULT_FILE_NAME} --expect #{EXPECT_FILE_NAME}"
+desc "ArgSort_Krnl Test All Size"
+task :test_all do
+  sh "echo --- > #{TEST_LOG_FILE_NAME}"
+  TEST_TASK_LIST.each do |task_name|
+    Rake::Task[task_name].invoke
+  end    
 end
 
 desc "ArgSort_AXI Infomation"
@@ -140,4 +193,5 @@ task :info do
   sh "#{PYTHON} argsort_info.py"
 end
 
-task :default => ["test"]
+task :default => [TEST_TASK_LIST[0]]
+
