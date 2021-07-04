@@ -1,5 +1,5 @@
 
-ARGSORT_IP_PATH      = ../../ip/argsort_axi_0.8/
+ARGSORT_IP_PATH      = ../../ip/argsort_kernel_1.0/
 PIPEWORK_PATH        = ../../Merge_Sorter/PipeWork
 PIPEWORK_TOOL_PATH   = $(PIPEWORK_PATH)/tools
 
@@ -7,7 +7,7 @@ DUMMY_PLUG_PATH      = ../../Merge_Sorter/Dummy_Plug
 DUMMY_PLUG_SRC_PATH  = $(DUMMY_PLUG_PATH)/src/main/vhdl
 DUMMY_PLUG_WORK_PATH = $(DUMMY_PLUG_PATH)/sim/ghdl-0.35/dummy_plug
 
-SCENARIO_PATH        = ../../Merge_Sorter/src/test/scenarios/argsort_axi
+SCENARIO_PATH        = ../../Merge_Sorter/src/test/scenarios/argsort_kernel
 
 COPY       = cp
 CAT        = cat
@@ -43,12 +43,12 @@ merge_sorter.vhd :
 dut         :  merge_sorter-obj93.cf
 
 test_bench  :  dut
-	$(GHDL) -a $(GHDLFLAGS) --work=MERGE_SORTER ../../Merge_Sorter/src/test/vhdl/argsort_axi_test_bench.vhd
+	$(GHDL) -a $(GHDLFLAGS) --work=MERGE_SORTER ../../Merge_Sorter/src/test/vhdl/argsort_kernel_test_bench.vhd
 
 test_x16_w1_f2 : test_x16_w1_f2.snr test_bench
-	$(GHDL) -e $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_W1_F2
-	$(GHDL) -r $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_AXI_Test_Bench_X16_W1_F2
+	$(GHDL) -e $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_Kernel_Test_Bench_X16_W1_F2
+	$(GHDL) -r $(GHDLFLAGS) --work=MERGE_SORTER ArgSort_Kernel_Test_Bench_X16_W1_F2
 
-test_x16_w1_f2.snr : $(SCENARIO_PATH)/test_1.snr $(SCENARIO_PATH)/test_2.snr $(SCENARIO_PATH)/test_3.snr
+test_x16_w1_f2.snr : $(SCENARIO_PATH)/test_x16_w1_f2_1.snr $(SCENARIO_PATH)/test_x16_w1_f2_2.snr $(SCENARIO_PATH)/test_x16_w1_f2_3.snr
 	$(CAT) $^ > $@
 

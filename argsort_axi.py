@@ -1,4 +1,5 @@
 from uio import Uio
+import sys
 
 class ArgSort_AXI:
 
@@ -60,17 +61,20 @@ class ArgSort_AXI:
         self.ways          = (version_hi >> 14) & 0x3FF
         self.words         = (version_hi >>  4) & 0x3FF
         self.stm_feedback  = (version_hi >>  0) & 0xF
+        self.regs.write_word(ArgSort_AXI.SIZE_REGS_ADDR, 0xFFFFFFFF)
+        self.max_size      = self.regs.read_word(ArgSort_AXI.SIZE_REGS_ADDR)
 
-    def print_info(self, tag="ArgSort_AXI"):
-        print ("{0} Version     : {1}.{2}".format(tag, self.version_major, self.version_minor))
-        print ("{0} Ways        : {1}"    .format(tag, self.ways))
-        print ("{0} Words       : {1}"    .format(tag, self.words))
-        print ("{0} Feedback    : {1}"    .format(tag, self.stm_feedback))
-        print ("{0} WordBits    : {1}"    .format(tag, self.word_bits ))
-        print ("{0} IndexBits   : {1}"    .format(tag, self.index_bits))
-        print ("{0} Sort Order  : {1}"    .format(tag, self.sort_order))
-        print ("{0} Sign Compare: {1}"    .format(tag, self.comp_sign ))
-        print ("{0} Debug Enable: {1}"    .format(tag, self.debug_enable))
+    def print_info(self, tag="ArgSort_AXI", file=sys.stdout):
+        print ("{0} Version      : {1}.{2}".format(tag, self.version_major, self.version_minor),file=file)
+        print ("{0} Ways         : {1}"    .format(tag, self.ways        ), file=file)
+        print ("{0} Words        : {1}"    .format(tag, self.words       ), file=file)
+        print ("{0} Feedback     : {1}"    .format(tag, self.stm_feedback), file=file)
+        print ("{0} WordBits     : {1}"    .format(tag, self.word_bits   ), file=file)
+        print ("{0} IndexBits    : {1}"    .format(tag, self.index_bits  ), file=file)
+        print ("{0} Sort Order   : {1}"    .format(tag, self.sort_order  ), file=file)
+        print ("{0} Sign Compare : {1}"    .format(tag, self.comp_sign   ) ,file=file)
+        print ("{0} Max Size     : {1}"    .format(tag, self.max_size    ), file=file)
+        print ("{0} Debug Enable : {1}"    .format(tag, self.debug_enable), file=file)
 
     def read_frequency(self):
         file = open(ArgSort_AXI.FCLK0_RATE_FILE)
@@ -105,15 +109,15 @@ class ArgSort_AXI:
                         size_array.append({'block_size': blk, 'last' : last})
         return size_array
         
-    def print_debug(self, tag="ArgSort_AXI"):
+    def print_debug(self, tag="ArgSort_AXI", file=sys.stdout):
         time_array = self.read_debug_time()
         for i, time in enumerate(time_array):
-            print ("{0} Debug Time  : [{1}] : {2} [msec]".format(tag, i, round(time*1000.0,3)))
+            print ("{0} Debug_Time({1:1d}): {2:>8.3f} # [msec]".format(tag, i, round(time*1000.0,3)), file=file)
         size_array = self.read_debug_size()
         for i, dict in enumerate(size_array):
-            print ("{0} Debug Size  : [{1}] : {2}, {3}".format(tag, i, dict['block_size'], dict['last']))
+            print ("{0} Debug_Size({1:1d}): [{2},{3}]".format(tag, i, dict['block_size'], dict['last']), file=file)
         
-    def setup(self, src_addr, dst_addr, tmp0_addr, tmp1_addr, size):
+    def setup(self, src_addr, dst_addr, tmp0_addr, tmp1_addr, size, debug_mode = 0):
         self.regs.write_word(ArgSort_AXI.RD_ADDR_REGS_ADDR+0, (src_addr  >>  0) & 0xFFFFFFFF)
         self.regs.write_word(ArgSort_AXI.RD_ADDR_REGS_ADDR+4, (src_addr  >> 32) & 0xFFFFFFFF)
         self.regs.write_word(ArgSort_AXI.WR_ADDR_REGS_ADDR+0, (dst_addr  >>  0) & 0xFFFFFFFF)
@@ -127,7 +131,14 @@ class ArgSort_AXI:
         self.regs.write_word(ArgSort_AXI.T0_MODE_REGS_ADDR  , self.t0_mode)
         self.regs.write_word(ArgSort_AXI.T1_MODE_REGS_ADDR  , self.t1_mode)
         self.regs.write_word(ArgSort_AXI.SIZE_REGS_ADDR     , size)
-        self.regs.write_word(ArgSort_AXI.MODE_REGS_ADDR     , ArgSort_AXI.MODE_IRQ_ENABLE | ArgSort_AXI.MODE_DEBUG_2)
+        if   debug_mode == 2:
+            mode = ArgSort_AXI.MODE_DEBUG_2
+        elif debug_mode == 1:
+            mode = ArgSort_AXI.MODE_DEBUG_1
+        else:
+            mode = ArgSort_AXI.MODE_DEBUG_0
+        mode = mode | ArgSort_AXI.MODE_IRQ_ENABLE
+        self.regs.write_word(ArgSort_AXI.MODE_REGS_ADDR     , mode)
     
     def start(self):
         ctrl = ArgSort_AXI.CTRL_START | ArgSort_AXI.CTRL_FIRST | ArgSort_AXI.CTRL_LAST | ArgSort_AXI.CTRL_IRQ_ENABLE

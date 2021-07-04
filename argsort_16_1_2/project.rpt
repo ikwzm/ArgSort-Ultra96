@@ -1,13 +1,13 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-----------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Wed Nov 18 12:53:48 2020
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun 30 17:44:39 2021
 | Host         : Jabberwock running 64-bit major release  (build 9200)
-| Command      : report_utilization -file D:/ichiro/work/ArgSort-Ultra96/argsort_16_1_2/project.rpt
+| Command      : report_utilization -file project.rpt
 | Design       : design_1_wrapper
 | Device       : xczu3egsbva484-1
-| Design State : Routed
-----------------------------------------------------------------------------------------------------
+| Design State : Physopt postRoute
+------------------------------------------------------------------------------------
 
 Utilization Design Information
 
@@ -32,17 +32,17 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Fixed | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| CLB LUTs                   | 38219 |     0 |     70560 | 54.17 |
-|   LUT as Logic             | 37973 |     0 |     70560 | 53.82 |
+| CLB LUTs                   | 41799 |     0 |     70560 | 59.24 |
+|   LUT as Logic             | 41553 |     0 |     70560 | 58.89 |
 |   LUT as Memory            |   246 |     0 |     28800 |  0.85 |
 |     LUT as Distributed RAM |   200 |     0 |           |       |
 |     LUT as Shift Register  |    46 |     0 |           |       |
-| CLB Registers              | 26698 |     0 |    141120 | 18.92 |
-|   Register as Flip Flop    | 26698 |     0 |    141120 | 18.92 |
+| CLB Registers              | 26261 |     0 |    141120 | 18.61 |
+|   Register as Flip Flop    | 26261 |     0 |    141120 | 18.61 |
 |   Register as Latch        |     0 |     0 |    141120 |  0.00 |
-| CARRY8                     |  1047 |     0 |      8820 | 11.87 |
-| F7 Muxes                   |    89 |     0 |     35280 |  0.25 |
-| F8 Muxes                   |     0 |     0 |     17640 |  0.00 |
+| CARRY8                     |   960 |     0 |      8820 | 10.88 |
+| F7 Muxes                   |   130 |     0 |     35280 |  0.37 |
+| F8 Muxes                   |    31 |     0 |     17640 |  0.18 |
 | F9 Muxes                   |     0 |     0 |      8820 |  0.00 |
 +----------------------------+-------+-------+-----------+-------+
 
@@ -60,7 +60,7 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 154   |          Yes |           - |          Set |
-| 24698 |          Yes |           - |        Reset |
+| 24261 |          Yes |           - |        Reset |
 | 42    |          Yes |         Set |            - |
 | 1804  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
@@ -72,13 +72,13 @@ Table of Contents
 +--------------------------------------------+-------+-------+-----------+-------+
 |                  Site Type                 |  Used | Fixed | Available | Util% |
 +--------------------------------------------+-------+-------+-----------+-------+
-| CLB                                        |  7312 |     0 |      8820 | 82.90 |
-|   CLBL                                     |  4336 |     0 |           |       |
-|   CLBM                                     |  2976 |     0 |           |       |
-| LUT as Logic                               | 37973 |     0 |     70560 | 53.82 |
-|   using O5 output only                     |   254 |       |           |       |
-|   using O6 output only                     | 27901 |       |           |       |
-|   using O5 and O6                          |  9818 |       |           |       |
+| CLB                                        |  7598 |     0 |      8820 | 86.15 |
+|   CLBL                                     |  4602 |     0 |           |       |
+|   CLBM                                     |  2996 |     0 |           |       |
+| LUT as Logic                               | 41553 |     0 |     70560 | 58.89 |
+|   using O5 output only                     |   250 |       |           |       |
+|   using O6 output only                     | 33476 |       |           |       |
+|   using O5 and O6                          |  7827 |       |           |       |
 | LUT as Memory                              |   246 |     0 |     28800 |  0.85 |
 |   LUT as Distributed RAM                   |   200 |     0 |           |       |
 |     using O5 output only                   |     0 |       |           |       |
@@ -88,12 +88,12 @@ Table of Contents
 |     using O5 output only                   |     0 |       |           |       |
 |     using O6 output only                   |    46 |       |           |       |
 |     using O5 and O6                        |     0 |       |           |       |
-| CLB Registers                              | 26698 |     0 |    141120 | 18.92 |
-|   Register driven from within the CLB      | 23153 |       |           |       |
-|   Register driven from outside the CLB     |  3545 |       |           |       |
-|     LUT in front of the register is unused |  2173 |       |           |       |
-|     LUT in front of the register is used   |  1372 |       |           |       |
-| Unique Control Sets                        |  1148 |       |     17640 |  6.51 |
+| CLB Registers                              | 26261 |     0 |    141120 | 18.61 |
+|   Register driven from within the CLB      | 22932 |       |           |       |
+|   Register driven from outside the CLB     |  3329 |       |           |       |
+|     LUT in front of the register is unused |  1937 |       |           |       |
+|     LUT in front of the register is used   |  1392 |       |           |       |
+| Unique Control Sets                        |  1116 |       |     17640 |  6.33 |
 +--------------------------------------------+-------+-------+-----------+-------+
 * * Note: Available Control Sets calculated as Slices * 2, Review the Control Sets Report for more information regarding control sets.
 
@@ -200,21 +200,22 @@ Table of Contents
 +----------+-------+---------------------+
 | Ref Name |  Used | Functional Category |
 +----------+-------+---------------------+
-| FDCE     | 24698 |            Register |
-| LUT6     | 15243 |                 CLB |
-| LUT4     |  9720 |                 CLB |
-| LUT3     |  8564 |                 CLB |
-| LUT2     |  6912 |                 CLB |
-| LUT5     |  6778 |                 CLB |
+| FDCE     | 24261 |            Register |
+| LUT6     | 21309 |                 CLB |
+| LUT3     |  8217 |                 CLB |
+| LUT4     |  7140 |                 CLB |
+| LUT5     |  6731 |                 CLB |
+| LUT2     |  5287 |                 CLB |
 | FDRE     |  1804 |            Register |
-| CARRY8   |  1047 |                 CLB |
-| LUT1     |   574 |                 CLB |
+| CARRY8   |   960 |                 CLB |
+| LUT1     |   696 |                 CLB |
 | RAMD32   |   386 |                 CLB |
 | FDPE     |   154 |            Register |
-| MUXF7    |    89 |                 CLB |
-| RAMB36E2 |    54 |           Block Ram |
+| MUXF7    |   130 |                 CLB |
+| RAMB36E2 |    54 |            BLOCKRAM |
 | FDSE     |    42 |            Register |
 | SRLC32E  |    35 |                 CLB |
+| MUXF8    |    31 |                 CLB |
 | INBUF    |    17 |                 I/O |
 | IBUFCTRL |    17 |              Others |
 | OBUFT    |    16 |                 I/O |
@@ -252,39 +253,39 @@ Table of Contents
 
 
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-------------------------------------------------------------------------------------------------------------
-| Tool Version      : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date              : Wed Nov 18 12:54:00 2020
+-----------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date              : Wed Jun 30 17:44:49 2021
 | Host              : Jabberwock running 64-bit major release  (build 9200)
-| Command           : report_timing -file D:/ichiro/work/ArgSort-Ultra96/argsort_16_1_2/project.rpt -append
+| Command           : report_timing -file project.rpt -append
 | Design            : design_1_wrapper
 | Device            : xczu3eg-sbva484
-| Speed File        : -1  PRODUCTION 1.27 02-28-2020
+| Speed File        : -1  PRODUCTION 1.29 08-03-2020
 | Temperature Grade : E
-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 
 Timing Report
 
-Slack (VIOLATED) :        -0.581ns  (required time - arrival time)
-  Source:                 design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/i_ready_reg/C
+Slack (MET) :             0.120ns  (required time - arrival time)
+  Source:                 design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MAIN_CTRL.mrg_reader_xsize_reg[12]/C
                             (rising edge-triggered cell FDCE clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
-  Destination:            design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/curr_queue_reg[3][DATA][22]/D
+  Destination:            design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[26]/D
                             (rising edge-triggered cell FDCE clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
   Path Group:             clk_pl_0
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            4.000ns  (clk_pl_0 rise@4.000ns - clk_pl_0 rise@0.000ns)
-  Data Path Delay:        4.508ns  (logic 0.245ns (5.435%)  route 4.263ns (94.565%))
-  Logic Levels:           1  (LUT6=1)
-  Clock Path Skew:        0.030ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    2.026ns = ( 6.026 - 4.000 ) 
-    Source Clock Delay      (SCD):    2.118ns
-    Clock Pessimism Removal (CPR):    0.122ns
+  Data Path Delay:        3.677ns  (logic 1.320ns (35.899%)  route 2.357ns (64.101%))
+  Logic Levels:           10  (CARRY8=8 LUT1=1 LUT2=1)
+  Clock Path Skew:        -0.099ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.739ns = ( 5.739 - 4.000 ) 
+    Source Clock Delay      (SCD):    1.999ns
+    Clock Pessimism Removal (CPR):    0.161ns
   Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
     Total System Jitter     (TSJ):    0.071ns
     Discrete Jitter          (DJ):    0.251ns
     Phase Error              (PE):    0.000ns
-  Clock Net Delay (Source):      1.911ns (routing 0.814ns, distribution 1.097ns)
-  Clock Net Delay (Destination): 1.859ns (routing 0.736ns, distribution 1.123ns)
+  Clock Net Delay (Source):      1.792ns (routing 0.638ns, distribution 1.154ns)
+  Clock Net Delay (Destination): 1.572ns (routing 0.576ns, distribution 0.996ns)
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
@@ -292,37 +293,64 @@ Slack (VIOLATED) :        -0.581ns  (required time - arrival time)
                                                       0.000     0.000 r  
     PS8_X0Y0             PS8                          0.000     0.000 r  design_1_i/zynq_ultra_ps_e_0/U0/PS8_i/PLCLK[0]
                          net (fo=1, routed)           0.178     0.178    design_1_i/zynq_ultra_ps_e_0/U0/pl_clk_unbuffered[0]
-    BUFG_PS_X0Y71        BUFG_PS (Prop_BUFG_PS_I_O)
+    BUFG_PS_X0Y58        BUFG_PS (Prop_BUFG_PS_I_O)
                                                       0.029     0.207 r  design_1_i/zynq_ultra_ps_e_0/U0/buffer_pl_clk_0.PL_CLK_0_BUFG/O
-    X0Y1 (CLOCK_ROOT)    net (fo=27256, routed)       1.911     2.118    design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/ACLK
-    SLICE_X21Y83         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/i_ready_reg/C
+    X0Y1 (CLOCK_ROOT)    net (fo=26819, routed)       1.792     1.999    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/ACLK
+    SLICE_X17Y36         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MAIN_CTRL.mrg_reader_xsize_reg[12]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X21Y83         FDCE (Prop_EFF_SLICEL_C_Q)
-                                                      0.096     2.214 r  design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/i_ready_reg/Q
-                         net (fo=1021, routed)        4.203     6.417    design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/i_ready_reg_0
-    SLICE_X44Y49         LUT6 (Prop_H6LUT_SLICEL_I1_O)
-                                                      0.149     6.566 r  design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/curr_queue[3][DATA][22]_i_1__21/O
-                         net (fo=1, routed)           0.060     6.626    design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/curr_queue[3][DATA][22]_i_1__21_n_0
-    SLICE_X44Y49         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/curr_queue_reg[3][DATA][22]/D
+    SLICE_X17Y36         FDCE (Prop_EFF_SLICEL_C_Q)
+                                                      0.096     2.095 f  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MAIN_CTRL.mrg_reader_xsize_reg[12]/Q
+                         net (fo=80, routed)          0.412     2.507    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/A[12]
+    SLICE_X22Y33         LUT1 (Prop_B6LUT_SLICEL_I0_O)
+                                                      0.040     2.547 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size[13]_i_3/O
+                         net (fo=1, routed)           0.010     2.557    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size[13]_i_3_n_0
+    SLICE_X22Y33         CARRY8 (Prop_CARRY8_SLICEL_S[1]_CO[2])
+                                                      0.121     2.678 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[13]_i_2/CO[2]
+                         net (fo=2, routed)           0.327     3.005    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[13]_i_2_n_5
+    SLICE_X23Y39         CARRY8 (Prop_CARRY8_SLICEL_CI_CO[2])
+                                                      0.136     3.141 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[15]_i_2/CO[2]
+                         net (fo=2, routed)           0.199     3.340    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[15]_i_2_n_5
+    SLICE_X23Y38         CARRY8 (Prop_CARRY8_SLICEL_CI_CO[2])
+                                                      0.136     3.476 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[17]_i_2/CO[2]
+                         net (fo=2, routed)           0.195     3.671    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[17]_i_2_n_5
+    SLICE_X22Y39         CARRY8 (Prop_CARRY8_SLICEL_CI_CO[2])
+                                                      0.136     3.807 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[19]_i_2/CO[2]
+                         net (fo=2, routed)           0.259     4.066    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[19]_i_2_n_5
+    SLICE_X22Y40         CARRY8 (Prop_CARRY8_SLICEL_CI_CO[2])
+                                                      0.136     4.202 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[21]_i_2/CO[2]
+                         net (fo=2, routed)           0.331     4.533    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[21]_i_2_n_5
+    SLICE_X26Y43         CARRY8 (Prop_CARRY8_SLICEL_CI_CO[2])
+                                                      0.136     4.669 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[23]_i_2/CO[2]
+                         net (fo=2, routed)           0.191     4.860    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[23]_i_2_n_5
+    SLICE_X27Y44         CARRY8 (Prop_CARRY8_SLICEL_CI_CO[2])
+                                                      0.136     4.996 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[25]_i_2/CO[2]
+                         net (fo=2, routed)           0.258     5.254    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[25]_i_2_n_5
+    SLICE_X28Y43         CARRY8 (Prop_CARRY8_SLICEM_CI_O[1])
+                                                      0.167     5.421 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[26]_i_3/O[1]
+                         net (fo=1, routed)           0.153     5.574    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[26]_i_3_n_14
+    SLICE_X27Y43         LUT2 (Prop_H5LUT_SLICEL_I0_O)
+                                                      0.080     5.654 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size[26]_i_2/O
+                         net (fo=1, routed)           0.022     5.676    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size[26]_i_2_n_0
+    SLICE_X27Y43         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[26]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock clk_pl_0 rise edge)
                                                       4.000     4.000 r  
     PS8_X0Y0             PS8                          0.000     4.000 r  design_1_i/zynq_ultra_ps_e_0/U0/PS8_i/PLCLK[0]
                          net (fo=1, routed)           0.140     4.140    design_1_i/zynq_ultra_ps_e_0/U0/pl_clk_unbuffered[0]
-    BUFG_PS_X0Y71        BUFG_PS (Prop_BUFG_PS_I_O)
+    BUFG_PS_X0Y58        BUFG_PS (Prop_BUFG_PS_I_O)
                                                       0.027     4.167 r  design_1_i/zynq_ultra_ps_e_0/U0/buffer_pl_clk_0.PL_CLK_0_BUFG/O
-    X0Y1 (CLOCK_ROOT)    net (fo=27256, routed)       1.859     6.026    design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/ACLK
-    SLICE_X44Y49         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/curr_queue_reg[3][DATA][22]/C
-                         clock pessimism              0.122     6.148    
-                         clock uncertainty           -0.130     6.018    
-    SLICE_X44Y49         FDCE (Setup_HFF_SLICEL_C_D)
-                                                      0.027     6.045    design_1_i/ArgSort_AXI_1/U0/CORE/STM_INTAKE.QUEUE/SINGLE_WORD.INTAKE_QUEUE/Q__0/curr_queue_reg[3][DATA][22]
+    X0Y1 (CLOCK_ROOT)    net (fo=26819, routed)       1.572     5.739    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/ACLK
+    SLICE_X27Y43         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[26]/C
+                         clock pessimism              0.161     5.900    
+                         clock uncertainty           -0.130     5.769    
+    SLICE_X27Y43         FDCE (Setup_HFF2_SLICEL_C_D)
+                                                      0.027     5.796    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/CTRL/MRG_RD_CTRL[3].offset_size_reg[26]
   -------------------------------------------------------------------
-                         required time                          6.045    
-                         arrival time                          -6.626    
+                         required time                          5.796    
+                         arrival time                          -5.676    
   -------------------------------------------------------------------
-                         slack                                 -0.581    
+                         slack                                  0.120    
 
 
 

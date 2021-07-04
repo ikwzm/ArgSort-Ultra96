@@ -1,0 +1,362 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun 29 07:11:58 2021
+| Host         : Jabberwock running 64-bit major release  (build 9200)
+| Command      : report_utilization -file D:/ichiro/work/ArgSort-Ultra96/argsort_16_2_1/project.rpt
+| Design       : design_1_wrapper
+| Device       : xczu3egsbva484-1
+| Design State : Routed
+----------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. CLB Logic
+1.1 Summary of Registers by Type
+2. CLB Logic Distribution
+3. BLOCKRAM
+4. ARITHMETIC
+5. I/O
+6. CLOCK
+7. ADVANCED
+8. CONFIGURATION
+9. Primitives
+10. Black Boxes
+11. Instantiated Netlists
+
+1. CLB Logic
+------------
+
++----------------------------+-------+-------+-----------+-------+
+|          Site Type         |  Used | Fixed | Available | Util% |
++----------------------------+-------+-------+-----------+-------+
+| CLB LUTs                   | 60828 |     0 |     70560 | 86.21 |
+|   LUT as Logic             | 58022 |     0 |     70560 | 82.23 |
+|   LUT as Memory            |  2806 |     0 |     28800 |  9.74 |
+|     LUT as Distributed RAM |  2760 |     0 |           |       |
+|     LUT as Shift Register  |    46 |     0 |           |       |
+| CLB Registers              | 57063 |     0 |    141120 | 40.44 |
+|   Register as Flip Flop    | 57063 |     0 |    141120 | 40.44 |
+|   Register as Latch        |     0 |     0 |    141120 |  0.00 |
+| CARRY8                     |  1088 |     0 |      8820 | 12.34 |
+| F7 Muxes                   |   145 |     0 |     35280 |  0.41 |
+| F8 Muxes                   |    31 |     0 |     17640 |  0.18 |
+| F9 Muxes                   |     0 |     0 |      8820 |  0.00 |
++----------------------------+-------+-------+-----------+-------+
+
+
+1.1 Summary of Registers by Type
+--------------------------------
+
++-------+--------------+-------------+--------------+
+| Total | Clock Enable | Synchronous | Asynchronous |
++-------+--------------+-------------+--------------+
+| 0     |            _ |           - |            - |
+| 0     |            _ |           - |          Set |
+| 0     |            _ |           - |        Reset |
+| 0     |            _ |         Set |            - |
+| 0     |            _ |       Reset |            - |
+| 0     |          Yes |           - |            - |
+| 274   |          Yes |           - |          Set |
+| 52841 |          Yes |           - |        Reset |
+| 42    |          Yes |         Set |            - |
+| 3906  |          Yes |       Reset |            - |
++-------+--------------+-------------+--------------+
+
+
+2. CLB Logic Distribution
+-------------------------
+
++--------------------------------------------+-------+-------+-----------+-------+
+|                  Site Type                 |  Used | Fixed | Available | Util% |
++--------------------------------------------+-------+-------+-----------+-------+
+| CLB                                        |  8773 |     0 |      8820 | 99.47 |
+|   CLBL                                     |  5199 |     0 |           |       |
+|   CLBM                                     |  3574 |     0 |           |       |
+| LUT as Logic                               | 58022 |     0 |     70560 | 82.23 |
+|   using O5 output only                     |   244 |       |           |       |
+|   using O6 output only                     | 40265 |       |           |       |
+|   using O5 and O6                          | 17513 |       |           |       |
+| LUT as Memory                              |  2806 |     0 |     28800 |  9.74 |
+|   LUT as Distributed RAM                   |  2760 |     0 |           |       |
+|     using O5 output only                   |     0 |       |           |       |
+|     using O6 output only                   |  2560 |       |           |       |
+|     using O5 and O6                        |   200 |       |           |       |
+|   LUT as Shift Register                    |    46 |     0 |           |       |
+|     using O5 output only                   |     0 |       |           |       |
+|     using O6 output only                   |    46 |       |           |       |
+|     using O5 and O6                        |     0 |       |           |       |
+| CLB Registers                              | 57063 |     0 |    141120 | 40.44 |
+|   Register driven from within the CLB      | 49435 |       |           |       |
+|   Register driven from outside the CLB     |  7628 |       |           |       |
+|     LUT in front of the register is unused |  2190 |       |           |       |
+|     LUT in front of the register is used   |  5438 |       |           |       |
+| Unique Control Sets                        |   688 |       |     17640 |  3.90 |
++--------------------------------------------+-------+-------+-----------+-------+
+* * Note: Available Control Sets calculated as Slices * 2, Review the Control Sets Report for more information regarding control sets.
+
+
+3. BLOCKRAM
+-----------
+
++-------------------+------+-------+-----------+-------+
+|     Site Type     | Used | Fixed | Available | Util% |
++-------------------+------+-------+-----------+-------+
+| Block RAM Tile    |   38 |     0 |       216 | 17.59 |
+|   RAMB36/FIFO*    |   38 |     0 |       216 | 17.59 |
+|     RAMB36E2 only |   38 |       |           |       |
+|   RAMB18          |    0 |     0 |       432 |  0.00 |
++-------------------+------+-------+-----------+-------+
+* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E2 or one FIFO18E2. However, if a FIFO18E2 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E2
+
+
+4. ARITHMETIC
+-------------
+
++-----------+------+-------+-----------+-------+
+| Site Type | Used | Fixed | Available | Util% |
++-----------+------+-------+-----------+-------+
+| DSPs      |    0 |     0 |       360 |  0.00 |
++-----------+------+-------+-----------+-------+
+
+
+5. I/O
+------
+
++------------------+------+-------+-----------+-------+
+|     Site Type    | Used | Fixed | Available | Util% |
++------------------+------+-------+-----------+-------+
+| Bonded IOB       |   18 |    18 |        82 | 21.95 |
+| HPIOB_M          |    0 |     0 |        26 |  0.00 |
+| HPIOB_S          |    0 |     0 |        26 |  0.00 |
+| HDIOB_M          |    8 |     8 |        12 | 66.67 |
+|   INPUT          |    1 |       |           |       |
+|   OUTPUT         |    0 |       |           |       |
+|   BIDIR          |    7 |       |           |       |
+| HDIOB_S          |   10 |    10 |        12 | 83.33 |
+|   INPUT          |    0 |       |           |       |
+|   OUTPUT         |    1 |       |           |       |
+|   BIDIR          |    9 |       |           |       |
+| HPIOB_SNGL       |    0 |     0 |         6 |  0.00 |
+| HPIOBDIFFINBUF   |    0 |     0 |        72 |  0.00 |
+| HPIOBDIFFOUTBUF  |    0 |     0 |        72 |  0.00 |
+| HDIOBDIFFINBUF   |    0 |     0 |        48 |  0.00 |
+| BITSLICE_CONTROL |    0 |     0 |        24 |  0.00 |
+| BITSLICE_RX_TX   |    0 |     0 |       156 |  0.00 |
+| BITSLICE_TX      |    0 |     0 |        24 |  0.00 |
+| RIU_OR           |    0 |     0 |        12 |  0.00 |
++------------------+------+-------+-----------+-------+
+
+
+6. CLOCK
+--------
+
++----------------------+------+-------+-----------+-------+
+|       Site Type      | Used | Fixed | Available | Util% |
++----------------------+------+-------+-----------+-------+
+| GLOBAL CLOCK BUFFERs |    2 |     0 |       196 |  1.02 |
+|   BUFGCE             |    1 |     0 |        88 |  1.14 |
+|   BUFGCE_DIV         |    0 |     0 |        12 |  0.00 |
+|   BUFG_PS            |    1 |     0 |        72 |  1.39 |
+|   BUFGCTRL*          |    0 |     0 |        24 |  0.00 |
+| PLL                  |    0 |     0 |         6 |  0.00 |
+| MMCM                 |    0 |     0 |         3 |  0.00 |
++----------------------+------+-------+-----------+-------+
+* Note: Each used BUFGCTRL counts as two GLOBAL CLOCK BUFFERs. This table does not include global clocking resources, only buffer cell usage. See the Clock Utilization Report (report_clock_utilization) for detailed accounting of global clocking resource availability.
+
+
+7. ADVANCED
+-----------
+
++-----------+------+-------+-----------+--------+
+| Site Type | Used | Fixed | Available |  Util% |
++-----------+------+-------+-----------+--------+
+| PS8       |    1 |     0 |         1 | 100.00 |
+| SYSMONE4  |    0 |     0 |         1 |   0.00 |
++-----------+------+-------+-----------+--------+
+
+
+8. CONFIGURATION
+----------------
+
++-------------+------+-------+-----------+-------+
+|  Site Type  | Used | Fixed | Available | Util% |
++-------------+------+-------+-----------+-------+
+| BSCANE2     |    0 |     0 |         4 |  0.00 |
+| DNA_PORTE2  |    0 |     0 |         1 |  0.00 |
+| EFUSE_USR   |    0 |     0 |         1 |  0.00 |
+| FRAME_ECCE4 |    0 |     0 |         1 |  0.00 |
+| ICAPE3      |    0 |     0 |         2 |  0.00 |
+| MASTER_JTAG |    0 |     0 |         1 |  0.00 |
+| STARTUPE3   |    0 |     0 |         1 |  0.00 |
++-------------+------+-------+-----------+-------+
+
+
+9. Primitives
+-------------
+
++----------+-------+---------------------+
+| Ref Name |  Used | Functional Category |
++----------+-------+---------------------+
+| FDCE     | 52841 |            Register |
+| LUT4     | 20912 |                 CLB |
+| LUT3     | 19935 |                 CLB |
+| LUT6     | 17073 |                 CLB |
+| LUT5     | 11005 |                 CLB |
+| LUT2     |  6234 |                 CLB |
+| FDRE     |  3906 |            Register |
+| RAMD64E  |  2560 |                 CLB |
+| CARRY8   |  1088 |                 CLB |
+| RAMD32   |   386 |                 CLB |
+| LUT1     |   376 |                 CLB |
+| FDPE     |   274 |            Register |
+| MUXF7    |   145 |                 CLB |
+| FDSE     |    42 |            Register |
+| RAMB36E2 |    38 |            BLOCKRAM |
+| SRLC32E  |    35 |                 CLB |
+| MUXF8    |    31 |                 CLB |
+| INBUF    |    17 |                 I/O |
+| IBUFCTRL |    17 |              Others |
+| OBUFT    |    16 |                 I/O |
+| RAMS32   |    14 |                 CLB |
+| SRL16E   |    11 |                 CLB |
+| PS8      |     1 |            Advanced |
+| OBUF     |     1 |                 I/O |
+| BUFG_PS  |     1 |               Clock |
+| BUFGCE   |     1 |               Clock |
++----------+-------+---------------------+
+
+
+10. Black Boxes
+---------------
+
++----------+------+
+| Ref Name | Used |
++----------+------+
+
+
+11. Instantiated Netlists
+-------------------------
+
++---------------------------------+------+
+|             Ref Name            | Used |
++---------------------------------+------+
+| design_1_zynq_ultra_ps_e_0_0    |    1 |
+| design_1_xbar_0                 |    1 |
+| design_1_proc_sys_reset_0_0     |    1 |
+| design_1_axi_gpio_0_0           |    1 |
+| design_1_auto_pc_0              |    1 |
+| design_1_auto_ds_0              |    1 |
+| design_1_ZYNQMP_ACP_ADAPTER_0_0 |    1 |
+| design_1_ArgSort_AXI_1_0        |    1 |
++---------------------------------+------+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date              : Tue Jun 29 07:12:15 2021
+| Host              : Jabberwock running 64-bit major release  (build 9200)
+| Command           : report_timing -file D:/ichiro/work/ArgSort-Ultra96/argsort_16_2_1/project.rpt -append
+| Design            : design_1_wrapper
+| Device            : xczu3eg-sbva484
+| Speed File        : -1  PRODUCTION 1.29 08-03-2020
+| Temperature Grade : E
+------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.167ns  (required time - arrival time)
+  Source:                 design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/flow_counter_reg[11]/C
+                            (rising edge-triggered cell FDCE clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Destination:            design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/flow_counter_reg[11]/D
+                            (rising edge-triggered cell FDCE clocked by clk_pl_0  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Path Group:             clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            4.000ns  (clk_pl_0 rise@4.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        3.620ns  (logic 1.637ns (45.221%)  route 1.983ns (54.779%))
+  Logic Levels:           11  (CARRY8=2 LUT3=2 LUT4=1 LUT5=3 LUT6=3)
+  Clock Path Skew:        -0.109ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.858ns = ( 5.858 - 4.000 ) 
+    Source Clock Delay      (SCD):    2.137ns
+    Clock Pessimism Removal (CPR):    0.170ns
+  Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.251ns
+    Phase Error              (PE):    0.000ns
+  Clock Net Delay (Source):      1.930ns (routing 0.803ns, distribution 1.127ns)
+  Clock Net Delay (Destination): 1.691ns (routing 0.727ns, distribution 0.964ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    PS8_X0Y0             PS8                          0.000     0.000 r  design_1_i/zynq_ultra_ps_e_0/U0/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.178     0.178    design_1_i/zynq_ultra_ps_e_0/U0/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y62        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.029     0.207 r  design_1_i/zynq_ultra_ps_e_0/U0/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X0Y1 (CLOCK_ROOT)    net (fo=60149, routed)       1.930     2.137    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/ACLK
+    SLICE_X7Y87          FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/flow_counter_reg[11]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X7Y87          FDCE (Prop_CFF2_SLICEL_C_Q)
+                                                      0.097     2.234 f  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/flow_counter_reg[11]/Q
+                         net (fo=6, routed)           0.251     2.485    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/Q[11]
+    SLICE_X7Y87          LUT6 (Prop_G6LUT_SLICEL_I3_O)
+                                                      0.147     2.632 f  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/i___390_i_5/O
+                         net (fo=3, routed)           0.064     2.696    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/i___390_i_5_n_0
+    SLICE_X7Y87          LUT6 (Prop_A6LUT_SLICEL_I5_O)
+                                                      0.149     2.845 f  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/i___390_i_14/O
+                         net (fo=2, routed)           0.236     3.081    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/POOL_DVAL[11]
+    SLICE_X10Y87         LUT3 (Prop_H6LUT_SLICEL_I0_O)
+                                                      0.100     3.181 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/i___390_i_6/O
+                         net (fo=5, routed)           0.136     3.317    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/O_SIDE.O_PORT/count_assert_bit1_in[1]
+    SLICE_X11Y87         LUT4 (Prop_D6LUT_SLICEL_I0_O)
+                                                      0.147     3.464 f  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/i___390_i_9/O
+                         net (fo=4, routed)           0.201     3.665    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/i___390_i_9_n_0
+    SLICE_X7Y86          LUT5 (Prop_B6LUT_SLICEL_I0_O)
+                                                      0.177     3.842 f  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/i___390_i_4/O
+                         net (fo=1, routed)           0.058     3.900    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER_n_363
+    SLICE_X7Y86          LUT6 (Prop_F6LUT_SLICEL_I5_O)
+                                                      0.148     4.048 f  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/i___390/O
+                         net (fo=6, routed)           0.463     4.511    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/INTAKE_CTRL.curr_read_ptr_reg[7]_i_2[0]
+    SLICE_X10Y78         LUT5 (Prop_B6LUT_SLICEL_I2_O)
+                                                      0.064     4.575 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/next_counter0__0_carry_i_3/O
+                         net (fo=2, routed)           0.162     4.737    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/flow_counter_reg[4]_0[0]
+    SLICE_X10Y79         LUT5 (Prop_F6LUT_SLICEL_I4_O)
+                                                      0.114     4.851 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/O_SIDE.VALVE/next_counter0__0_carry_i_10/O
+                         net (fo=1, routed)           0.012     4.863    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/flow_counter_reg[7]_1[5]
+    SLICE_X10Y79         CARRY8 (Prop_CARRY8_SLICEL_S[5]_CO[7])
+                                                      0.197     5.060 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/next_counter0__0_carry/CO[7]
+                         net (fo=1, routed)           0.028     5.088    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/next_counter0__0_carry_n_0
+    SLICE_X10Y80         CARRY8 (Prop_CARRY8_SLICEL_CI_O[3])
+                                                      0.104     5.192 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/next_counter0__0_carry__0/O[3]
+                         net (fo=1, routed)           0.350     5.542    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/AXI_IF/AR/flow_counter_reg[8][3]
+    SLICE_X11Y80         LUT3 (Prop_D5LUT_SLICEL_I1_O)
+                                                      0.193     5.735 r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/AXI_IF/AR/flow_counter[11]_i_1/O
+                         net (fo=1, routed)           0.022     5.757    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/D[11]
+    SLICE_X11Y80         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/flow_counter_reg[11]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                      4.000     4.000 r  
+    PS8_X0Y0             PS8                          0.000     4.000 r  design_1_i/zynq_ultra_ps_e_0/U0/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.140     4.140    design_1_i/zynq_ultra_ps_e_0/U0/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y62        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.027     4.167 r  design_1_i/zynq_ultra_ps_e_0/U0/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X0Y1 (CLOCK_ROOT)    net (fo=60149, routed)       1.691     5.858    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/ACLK
+    SLICE_X11Y80         FDCE                                         r  design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/flow_counter_reg[11]/C
+                         clock pessimism              0.170     6.028    
+                         clock uncertainty           -0.130     5.897    
+    SLICE_X11Y80         FDCE (Setup_DFF2_SLICEL_C_D)
+                                                      0.027     5.924    design_1_i/ArgSort_AXI_1/U0/ARGSORT_IF/STM_RD/READER/CTRL/I_SIDE/VALVE/GEN_NON_FIXED_CLOSE.VALVE/flow_counter_reg[11]
+  -------------------------------------------------------------------
+                         required time                          5.924    
+                         arrival time                          -5.757    
+  -------------------------------------------------------------------
+                         slack                                  0.167    
+
+
+
+

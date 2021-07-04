@@ -1,0 +1,3795 @@
+---
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 5000
+   average_time :    0.304 # [msec]
+   throughput   :   16.464 # [mwords/sec]
+   Debug_Time(0):    0.112 # [msec]
+   Debug_Time(1):    0.023 # [msec]
+   Debug_Time(2):    0.062 # [msec]
+   Debug_Time(3):    0.027 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 10000
+   average_time :    0.422 # [msec]
+   throughput   :   23.722 # [mwords/sec]
+   Debug_Time(0):    0.224 # [msec]
+   Debug_Time(1):    0.044 # [msec]
+   Debug_Time(2):    0.126 # [msec]
+   Debug_Time(3):    0.054 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 15000
+   average_time :    0.538 # [msec]
+   throughput   :   27.889 # [mwords/sec]
+   Debug_Time(0):    0.332 # [msec]
+   Debug_Time(1):    0.065 # [msec]
+   Debug_Time(2):    0.187 # [msec]
+   Debug_Time(3):    0.080 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 20000
+   average_time :    0.638 # [msec]
+   throughput   :   31.337 # [mwords/sec]
+   Debug_Time(0):    0.433 # [msec]
+   Debug_Time(1):    0.086 # [msec]
+   Debug_Time(2):    0.241 # [msec]
+   Debug_Time(3):    0.105 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 25000
+   average_time :    0.754 # [msec]
+   throughput   :   33.169 # [mwords/sec]
+   Debug_Time(0):    0.544 # [msec]
+   Debug_Time(1):    0.108 # [msec]
+   Debug_Time(2):    0.306 # [msec]
+   Debug_Time(3):    0.130 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 30000
+   average_time :    0.876 # [msec]
+   throughput   :   34.235 # [mwords/sec]
+   Debug_Time(0):    0.649 # [msec]
+   Debug_Time(1):    0.129 # [msec]
+   Debug_Time(2):    0.364 # [msec]
+   Debug_Time(3):    0.156 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 35000
+   average_time :    1.157 # [msec]
+   throughput   :   30.256 # [mwords/sec]
+   Debug_Time(0):    0.902 # [msec]
+   Debug_Time(1):    0.155 # [msec]
+   Debug_Time(2):    0.408 # [msec]
+   Debug_Time(3):    0.195 # [msec]
+   Debug_Time(4):    0.143 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 40000
+   average_time :    1.321 # [msec]
+   throughput   :   30.273 # [mwords/sec]
+   Debug_Time(0):    1.029 # [msec]
+   Debug_Time(1):    0.171 # [msec]
+   Debug_Time(2):    0.470 # [msec]
+   Debug_Time(3):    0.226 # [msec]
+   Debug_Time(4):    0.163 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 45000
+   average_time :    1.459 # [msec]
+   throughput   :   30.851 # [mwords/sec]
+   Debug_Time(0):    1.153 # [msec]
+   Debug_Time(1):    0.193 # [msec]
+   Debug_Time(2):    0.523 # [msec]
+   Debug_Time(3):    0.253 # [msec]
+   Debug_Time(4):    0.184 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 50000
+   average_time :    1.673 # [msec]
+   throughput   :   29.880 # [mwords/sec]
+   Debug_Time(0):    1.279 # [msec]
+   Debug_Time(1):    0.214 # [msec]
+   Debug_Time(2):    0.581 # [msec]
+   Debug_Time(3):    0.281 # [msec]
+   Debug_Time(4):    0.203 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 55000
+   average_time :    1.863 # [msec]
+   throughput   :   29.525 # [mwords/sec]
+   Debug_Time(0):    1.410 # [msec]
+   Debug_Time(1):    0.235 # [msec]
+   Debug_Time(2):    0.639 # [msec]
+   Debug_Time(3):    0.312 # [msec]
+   Debug_Time(4):    0.223 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 60000
+   average_time :    2.037 # [msec]
+   throughput   :   29.454 # [mwords/sec]
+   Debug_Time(0):    1.543 # [msec]
+   Debug_Time(1):    0.256 # [msec]
+   Debug_Time(2):    0.700 # [msec]
+   Debug_Time(3):    0.344 # [msec]
+   Debug_Time(4):    0.242 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 65000
+   average_time :    2.209 # [msec]
+   throughput   :   29.421 # [mwords/sec]
+   Debug_Time(0):    1.664 # [msec]
+   Debug_Time(1):    0.278 # [msec]
+   Debug_Time(2):    0.758 # [msec]
+   Debug_Time(3):    0.366 # [msec]
+   Debug_Time(4):    0.263 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 70000
+   average_time :    2.358 # [msec]
+   throughput   :   29.690 # [mwords/sec]
+   Debug_Time(0):    1.792 # [msec]
+   Debug_Time(1):    0.299 # [msec]
+   Debug_Time(2):    0.813 # [msec]
+   Debug_Time(3):    0.396 # [msec]
+   Debug_Time(4):    0.284 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 75000
+   average_time :    2.517 # [msec]
+   throughput   :   29.799 # [mwords/sec]
+   Debug_Time(0):    1.914 # [msec]
+   Debug_Time(1):    0.320 # [msec]
+   Debug_Time(2):    0.873 # [msec]
+   Debug_Time(3):    0.417 # [msec]
+   Debug_Time(4):    0.304 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 80000
+   average_time :    2.678 # [msec]
+   throughput   :   29.871 # [mwords/sec]
+   Debug_Time(0):    2.044 # [msec]
+   Debug_Time(1):    0.341 # [msec]
+   Debug_Time(2):    0.934 # [msec]
+   Debug_Time(3):    0.444 # [msec]
+   Debug_Time(4):    0.325 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 85000
+   average_time :    2.852 # [msec]
+   throughput   :   29.806 # [mwords/sec]
+   Debug_Time(0):    2.206 # [msec]
+   Debug_Time(1):    0.383 # [msec]
+   Debug_Time(2):    0.990 # [msec]
+   Debug_Time(3):    0.488 # [msec]
+   Debug_Time(4):    0.345 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 90000
+   average_time :    3.025 # [msec]
+   throughput   :   29.750 # [mwords/sec]
+   Debug_Time(0):    2.320 # [msec]
+   Debug_Time(1):    0.404 # [msec]
+   Debug_Time(2):    1.050 # [msec]
+   Debug_Time(3):    0.502 # [msec]
+   Debug_Time(4):    0.364 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 95000
+   average_time :    3.179 # [msec]
+   throughput   :   29.880 # [mwords/sec]
+   Debug_Time(0):    2.451 # [msec]
+   Debug_Time(1):    0.427 # [msec]
+   Debug_Time(2):    1.107 # [msec]
+   Debug_Time(3):    0.532 # [msec]
+   Debug_Time(4):    0.385 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 100000
+   average_time :    3.326 # [msec]
+   throughput   :   30.064 # [mwords/sec]
+   Debug_Time(0):    2.603 # [msec]
+   Debug_Time(1):    0.494 # [msec]
+   Debug_Time(2):    1.140 # [msec]
+   Debug_Time(3):    0.564 # [msec]
+   Debug_Time(4):    0.405 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 105000
+   average_time :    3.571 # [msec]
+   throughput   :   29.405 # [mwords/sec]
+   Debug_Time(0):    2.828 # [msec]
+   Debug_Time(1):    0.583 # [msec]
+   Debug_Time(2):    1.223 # [msec]
+   Debug_Time(3):    0.597 # [msec]
+   Debug_Time(4):    0.425 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 110000
+   average_time :    3.737 # [msec]
+   throughput   :   29.434 # [mwords/sec]
+   Debug_Time(0):    3.057 # [msec]
+   Debug_Time(1):    0.716 # [msec]
+   Debug_Time(2):    1.280 # [msec]
+   Debug_Time(3):    0.616 # [msec]
+   Debug_Time(4):    0.445 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 115000
+   average_time :    3.983 # [msec]
+   throughput   :   28.874 # [mwords/sec]
+   Debug_Time(0):    3.274 # [msec]
+   Debug_Time(1):    0.816 # [msec]
+   Debug_Time(2):    1.336 # [msec]
+   Debug_Time(3):    0.656 # [msec]
+   Debug_Time(4):    0.466 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 120000
+   average_time :    4.213 # [msec]
+   throughput   :   28.481 # [mwords/sec]
+   Debug_Time(0):    3.480 # [msec]
+   Debug_Time(1):    0.935 # [msec]
+   Debug_Time(2):    1.392 # [msec]
+   Debug_Time(3):    0.667 # [msec]
+   Debug_Time(4):    0.486 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 125000
+   average_time :    4.428 # [msec]
+   throughput   :   28.231 # [mwords/sec]
+   Debug_Time(0):    3.747 # [msec]
+   Debug_Time(1):    1.067 # [msec]
+   Debug_Time(2):    1.451 # [msec]
+   Debug_Time(3):    0.723 # [msec]
+   Debug_Time(4):    0.506 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 130000
+   average_time :    4.661 # [msec]
+   throughput   :   27.891 # [mwords/sec]
+   Debug_Time(0):    4.019 # [msec]
+   Debug_Time(1):    1.250 # [msec]
+   Debug_Time(2):    1.509 # [msec]
+   Debug_Time(3):    0.735 # [msec]
+   Debug_Time(4):    0.526 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 135000
+   average_time :    4.917 # [msec]
+   throughput   :   27.454 # [mwords/sec]
+   Debug_Time(0):    4.266 # [msec]
+   Debug_Time(1):    1.389 # [msec]
+   Debug_Time(2):    1.572 # [msec]
+   Debug_Time(3):    0.758 # [msec]
+   Debug_Time(4):    0.547 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 140000
+   average_time :    5.159 # [msec]
+   throughput   :   27.137 # [mwords/sec]
+   Debug_Time(0):    4.530 # [msec]
+   Debug_Time(1):    1.546 # [msec]
+   Debug_Time(2):    1.632 # [msec]
+   Debug_Time(3):    0.785 # [msec]
+   Debug_Time(4):    0.567 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 145000
+   average_time :    5.406 # [msec]
+   throughput   :   26.823 # [mwords/sec]
+   Debug_Time(0):    4.808 # [msec]
+   Debug_Time(1):    1.716 # [msec]
+   Debug_Time(2):    1.690 # [msec]
+   Debug_Time(3):    0.816 # [msec]
+   Debug_Time(4):    0.587 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 150000
+   average_time :    5.605 # [msec]
+   throughput   :   26.763 # [mwords/sec]
+   Debug_Time(0):    5.031 # [msec]
+   Debug_Time(1):    1.831 # [msec]
+   Debug_Time(2):    1.744 # [msec]
+   Debug_Time(3):    0.849 # [msec]
+   Debug_Time(4):    0.607 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 155000
+   average_time :    5.897 # [msec]
+   throughput   :   26.283 # [mwords/sec]
+   Debug_Time(0):    5.433 # [msec]
+   Debug_Time(1):    2.033 # [msec]
+   Debug_Time(2):    1.883 # [msec]
+   Debug_Time(3):    0.890 # [msec]
+   Debug_Time(4):    0.627 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 160000
+   average_time :    6.057 # [msec]
+   throughput   :   26.417 # [mwords/sec]
+   Debug_Time(0):    5.647 # [msec]
+   Debug_Time(1):    2.145 # [msec]
+   Debug_Time(2):    1.938 # [msec]
+   Debug_Time(3):    0.915 # [msec]
+   Debug_Time(4):    0.648 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 165000
+   average_time :    6.367 # [msec]
+   throughput   :   25.914 # [mwords/sec]
+   Debug_Time(0):    6.214 # [msec]
+   Debug_Time(1):    2.689 # [msec]
+   Debug_Time(2):    1.927 # [msec]
+   Debug_Time(3):    0.927 # [msec]
+   Debug_Time(4):    0.670 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 170000
+   average_time :    6.609 # [msec]
+   throughput   :   25.724 # [mwords/sec]
+   Debug_Time(0):    6.478 # [msec]
+   Debug_Time(1):    2.857 # [msec]
+   Debug_Time(2):    1.976 # [msec]
+   Debug_Time(3):    0.956 # [msec]
+   Debug_Time(4):    0.689 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 175000
+   average_time :    6.863 # [msec]
+   throughput   :   25.500 # [mwords/sec]
+   Debug_Time(0):    6.655 # [msec]
+   Debug_Time(1):    2.935 # [msec]
+   Debug_Time(2):    2.032 # [msec]
+   Debug_Time(3):    0.979 # [msec]
+   Debug_Time(4):    0.709 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 180000
+   average_time :    7.074 # [msec]
+   throughput   :   25.444 # [mwords/sec]
+   Debug_Time(0):    6.881 # [msec]
+   Debug_Time(1):    3.044 # [msec]
+   Debug_Time(2):    2.090 # [msec]
+   Debug_Time(3):    1.017 # [msec]
+   Debug_Time(4):    0.730 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 185000
+   average_time :    7.348 # [msec]
+   throughput   :   25.176 # [mwords/sec]
+   Debug_Time(0):    7.082 # [msec]
+   Debug_Time(1):    3.131 # [msec]
+   Debug_Time(2):    2.148 # [msec]
+   Debug_Time(3):    1.053 # [msec]
+   Debug_Time(4):    0.750 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 190000
+   average_time :    7.558 # [msec]
+   throughput   :   25.140 # [mwords/sec]
+   Debug_Time(0):    7.298 # [msec]
+   Debug_Time(1):    3.249 # [msec]
+   Debug_Time(2):    2.211 # [msec]
+   Debug_Time(3):    1.066 # [msec]
+   Debug_Time(4):    0.772 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 195000
+   average_time :    7.789 # [msec]
+   throughput   :   25.036 # [mwords/sec]
+   Debug_Time(0):    7.499 # [msec]
+   Debug_Time(1):    3.336 # [msec]
+   Debug_Time(2):    2.282 # [msec]
+   Debug_Time(3):    1.091 # [msec]
+   Debug_Time(4):    0.790 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 200000
+   average_time :    7.962 # [msec]
+   throughput   :   25.121 # [mwords/sec]
+   Debug_Time(0):    7.725 # [msec]
+   Debug_Time(1):    3.447 # [msec]
+   Debug_Time(2):    2.337 # [msec]
+   Debug_Time(3):    1.123 # [msec]
+   Debug_Time(4):    0.818 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 205000
+   average_time :    7.715 # [msec]
+   throughput   :   26.570 # [mwords/sec]
+   Debug_Time(0):    8.164 # [msec]
+   Debug_Time(1):    3.629 # [msec]
+   Debug_Time(2):    2.530 # [msec]
+   Debug_Time(3):    1.173 # [msec]
+   Debug_Time(4):    0.832 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 210000
+   average_time :    8.426 # [msec]
+   throughput   :   24.924 # [mwords/sec]
+   Debug_Time(0):    8.127 # [msec]
+   Debug_Time(1):    3.643 # [msec]
+   Debug_Time(2):    2.455 # [msec]
+   Debug_Time(3):    1.177 # [msec]
+   Debug_Time(4):    0.852 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 215000
+   average_time :    8.249 # [msec]
+   throughput   :   26.065 # [mwords/sec]
+   Debug_Time(0):    8.383 # [msec]
+   Debug_Time(1):    3.726 # [msec]
+   Debug_Time(2):    2.543 # [msec]
+   Debug_Time(3):    1.214 # [msec]
+   Debug_Time(4):    0.901 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 220000
+   average_time :    8.536 # [msec]
+   throughput   :   25.773 # [mwords/sec]
+   Debug_Time(0):    8.555 # [msec]
+   Debug_Time(1):    3.844 # [msec]
+   Debug_Time(2):    2.559 # [msec]
+   Debug_Time(3):    1.235 # [msec]
+   Debug_Time(4):    0.917 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 225000
+   average_time :    8.696 # [msec]
+   throughput   :   25.873 # [mwords/sec]
+   Debug_Time(0):    8.625 # [msec]
+   Debug_Time(1):    3.823 # [msec]
+   Debug_Time(2):    2.617 # [msec]
+   Debug_Time(3):    1.249 # [msec]
+   Debug_Time(4):    0.936 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 230000
+   average_time :    9.279 # [msec]
+   throughput   :   24.788 # [mwords/sec]
+   Debug_Time(0):    9.043 # [msec]
+   Debug_Time(1):    3.982 # [msec]
+   Debug_Time(2):    2.749 # [msec]
+   Debug_Time(3):    1.336 # [msec]
+   Debug_Time(4):    0.976 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 235000
+   average_time :    9.456 # [msec]
+   throughput   :   24.852 # [mwords/sec]
+   Debug_Time(0):    9.251 # [msec]
+   Debug_Time(1):    4.073 # [msec]
+   Debug_Time(2):    2.855 # [msec]
+   Debug_Time(3):    1.352 # [msec]
+   Debug_Time(4):    0.970 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 240000
+   average_time :    9.682 # [msec]
+   throughput   :   24.789 # [mwords/sec]
+   Debug_Time(0):    9.612 # [msec]
+   Debug_Time(1):    4.303 # [msec]
+   Debug_Time(2):    2.946 # [msec]
+   Debug_Time(3):    1.356 # [msec]
+   Debug_Time(4):    1.007 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 245000
+   average_time :    9.921 # [msec]
+   throughput   :   24.694 # [mwords/sec]
+   Debug_Time(0):    9.951 # [msec]
+   Debug_Time(1):    4.521 # [msec]
+   Debug_Time(2):    2.957 # [msec]
+   Debug_Time(3):    1.365 # [msec]
+   Debug_Time(4):    1.107 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 250000
+   average_time :   10.104 # [msec]
+   throughput   :   24.744 # [mwords/sec]
+   Debug_Time(0):    9.810 # [msec]
+   Debug_Time(1):    4.282 # [msec]
+   Debug_Time(2):    2.999 # [msec]
+   Debug_Time(3):    1.418 # [msec]
+   Debug_Time(4):    1.111 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 255000
+   average_time :   10.305 # [msec]
+   throughput   :   24.745 # [mwords/sec]
+   Debug_Time(0):    9.951 # [msec]
+   Debug_Time(1):    4.387 # [msec]
+   Debug_Time(2):    3.004 # [msec]
+   Debug_Time(3):    1.427 # [msec]
+   Debug_Time(4):    1.134 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 260000
+   average_time :   10.488 # [msec]
+   throughput   :   24.791 # [mwords/sec]
+   Debug_Time(0):   10.100 # [msec]
+   Debug_Time(1):    4.458 # [msec]
+   Debug_Time(2):    3.038 # [msec]
+   Debug_Time(3):    1.468 # [msec]
+   Debug_Time(4):    1.136 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 265000
+   average_time :   10.706 # [msec]
+   throughput   :   24.753 # [mwords/sec]
+   Debug_Time(0):   10.212 # [msec]
+   Debug_Time(1):    4.529 # [msec]
+   Debug_Time(2):    3.083 # [msec]
+   Debug_Time(3):    1.494 # [msec]
+   Debug_Time(4):    1.105 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 270000
+   average_time :   10.882 # [msec]
+   throughput   :   24.812 # [mwords/sec]
+   Debug_Time(0):   10.250 # [msec]
+   Debug_Time(1):    4.485 # [msec]
+   Debug_Time(2):    3.135 # [msec]
+   Debug_Time(3):    1.517 # [msec]
+   Debug_Time(4):    1.112 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 275000
+   average_time :   11.089 # [msec]
+   throughput   :   24.799 # [mwords/sec]
+   Debug_Time(0):   10.605 # [msec]
+   Debug_Time(1):    4.731 # [msec]
+   Debug_Time(2):    3.195 # [msec]
+   Debug_Time(3):    1.544 # [msec]
+   Debug_Time(4):    1.134 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 280000
+   average_time :   11.255 # [msec]
+   throughput   :   24.878 # [mwords/sec]
+   Debug_Time(0):   10.739 # [msec]
+   Debug_Time(1):    4.793 # [msec]
+   Debug_Time(2):    3.225 # [msec]
+   Debug_Time(3):    1.580 # [msec]
+   Debug_Time(4):    1.141 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 285000
+   average_time :   11.450 # [msec]
+   throughput   :   24.891 # [mwords/sec]
+   Debug_Time(0):   10.956 # [msec]
+   Debug_Time(1):    4.851 # [msec]
+   Debug_Time(2):    3.309 # [msec]
+   Debug_Time(3):    1.596 # [msec]
+   Debug_Time(4):    1.201 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 290000
+   average_time :   11.658 # [msec]
+   throughput   :   24.875 # [mwords/sec]
+   Debug_Time(0):   11.123 # [msec]
+   Debug_Time(1):    4.930 # [msec]
+   Debug_Time(2):    3.373 # [msec]
+   Debug_Time(3):    1.607 # [msec]
+   Debug_Time(4):    1.214 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 295000
+   average_time :   11.825 # [msec]
+   throughput   :   24.948 # [mwords/sec]
+   Debug_Time(0):   11.375 # [msec]
+   Debug_Time(1):    5.062 # [msec]
+   Debug_Time(2):    3.400 # [msec]
+   Debug_Time(3):    1.655 # [msec]
+   Debug_Time(4):    1.257 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 300000
+   average_time :   12.077 # [msec]
+   throughput   :   24.841 # [mwords/sec]
+   Debug_Time(0):   11.630 # [msec]
+   Debug_Time(1):    5.185 # [msec]
+   Debug_Time(2):    3.471 # [msec]
+   Debug_Time(3):    1.685 # [msec]
+   Debug_Time(4):    1.289 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 305000
+   average_time :   12.276 # [msec]
+   throughput   :   24.845 # [mwords/sec]
+   Debug_Time(0):   11.792 # [msec]
+   Debug_Time(1):    5.282 # [msec]
+   Debug_Time(2):    3.544 # [msec]
+   Debug_Time(3):    1.714 # [msec]
+   Debug_Time(4):    1.252 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 310000
+   average_time :   12.426 # [msec]
+   throughput   :   24.947 # [mwords/sec]
+   Debug_Time(0):   12.038 # [msec]
+   Debug_Time(1):    5.366 # [msec]
+   Debug_Time(2):    3.596 # [msec]
+   Debug_Time(3):    1.746 # [msec]
+   Debug_Time(4):    1.330 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 315000
+   average_time :   12.603 # [msec]
+   throughput   :   24.994 # [mwords/sec]
+   Debug_Time(0):   12.066 # [msec]
+   Debug_Time(1):    5.288 # [msec]
+   Debug_Time(2):    3.657 # [msec]
+   Debug_Time(3):    1.778 # [msec]
+   Debug_Time(4):    1.343 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 320000
+   average_time :   12.809 # [msec]
+   throughput   :   24.982 # [mwords/sec]
+   Debug_Time(0):   12.314 # [msec]
+   Debug_Time(1):    5.434 # [msec]
+   Debug_Time(2):    3.712 # [msec]
+   Debug_Time(3):    1.793 # [msec]
+   Debug_Time(4):    1.376 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 325000
+   average_time :   12.997 # [msec]
+   throughput   :   25.005 # [mwords/sec]
+   Debug_Time(0):   12.631 # [msec]
+   Debug_Time(1):    5.635 # [msec]
+   Debug_Time(2):    3.782 # [msec]
+   Debug_Time(3):    1.828 # [msec]
+   Debug_Time(4):    1.386 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 330000
+   average_time :   13.210 # [msec]
+   throughput   :   24.981 # [mwords/sec]
+   Debug_Time(0):   12.774 # [msec]
+   Debug_Time(1):    5.694 # [msec]
+   Debug_Time(2):    3.835 # [msec]
+   Debug_Time(3):    1.860 # [msec]
+   Debug_Time(4):    1.385 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 335000
+   average_time :   13.381 # [msec]
+   throughput   :   25.035 # [mwords/sec]
+   Debug_Time(0):   12.931 # [msec]
+   Debug_Time(1):    5.763 # [msec]
+   Debug_Time(2):    3.890 # [msec]
+   Debug_Time(3):    1.882 # [msec]
+   Debug_Time(4):    1.396 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 340000
+   average_time :   13.588 # [msec]
+   throughput   :   25.023 # [mwords/sec]
+   Debug_Time(0):   13.098 # [msec]
+   Debug_Time(1):    5.835 # [msec]
+   Debug_Time(2):    3.931 # [msec]
+   Debug_Time(3):    1.915 # [msec]
+   Debug_Time(4):    1.417 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 345000
+   average_time :   13.782 # [msec]
+   throughput   :   25.032 # [mwords/sec]
+   Debug_Time(0):   13.376 # [msec]
+   Debug_Time(1):    5.973 # [msec]
+   Debug_Time(2):    4.006 # [msec]
+   Debug_Time(3):    1.950 # [msec]
+   Debug_Time(4):    1.448 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 350000
+   average_time :   13.982 # [msec]
+   throughput   :   25.032 # [mwords/sec]
+   Debug_Time(0):   13.612 # [msec]
+   Debug_Time(1):    6.055 # [msec]
+   Debug_Time(2):    4.056 # [msec]
+   Debug_Time(3):    1.982 # [msec]
+   Debug_Time(4):    1.519 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 355000
+   average_time :   14.181 # [msec]
+   throughput   :   25.033 # [mwords/sec]
+   Debug_Time(0):   13.684 # [msec]
+   Debug_Time(1):    6.067 # [msec]
+   Debug_Time(2):    4.123 # [msec]
+   Debug_Time(3):    1.976 # [msec]
+   Debug_Time(4):    1.518 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 360000
+   average_time :   14.381 # [msec]
+   throughput   :   25.033 # [mwords/sec]
+   Debug_Time(0):   14.028 # [msec]
+   Debug_Time(1):    6.188 # [msec]
+   Debug_Time(2):    4.169 # [msec]
+   Debug_Time(3):    2.026 # [msec]
+   Debug_Time(4):    1.644 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 365000
+   average_time :   14.588 # [msec]
+   throughput   :   25.021 # [mwords/sec]
+   Debug_Time(0):   14.161 # [msec]
+   Debug_Time(1):    6.228 # [msec]
+   Debug_Time(2):    4.204 # [msec]
+   Debug_Time(3):    2.052 # [msec]
+   Debug_Time(4):    1.676 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 370000
+   average_time :   14.793 # [msec]
+   throughput   :   25.012 # [mwords/sec]
+   Debug_Time(0):   14.506 # [msec]
+   Debug_Time(1):    6.365 # [msec]
+   Debug_Time(2):    4.340 # [msec]
+   Debug_Time(3):    2.084 # [msec]
+   Debug_Time(4):    1.717 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 375000
+   average_time :   15.008 # [msec]
+   throughput   :   24.987 # [mwords/sec]
+   Debug_Time(0):   14.642 # [msec]
+   Debug_Time(1):    6.362 # [msec]
+   Debug_Time(2):    4.450 # [msec]
+   Debug_Time(3):    2.106 # [msec]
+   Debug_Time(4):    1.725 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 380000
+   average_time :   15.208 # [msec]
+   throughput   :   24.987 # [mwords/sec]
+   Debug_Time(0):   14.908 # [msec]
+   Debug_Time(1):    6.517 # [msec]
+   Debug_Time(2):    4.471 # [msec]
+   Debug_Time(3):    2.145 # [msec]
+   Debug_Time(4):    1.775 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 385000
+   average_time :   15.410 # [msec]
+   throughput   :   24.983 # [mwords/sec]
+   Debug_Time(0):   15.099 # [msec]
+   Debug_Time(1):    6.657 # [msec]
+   Debug_Time(2):    4.499 # [msec]
+   Debug_Time(3):    2.166 # [msec]
+   Debug_Time(4):    1.777 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 390000
+   average_time :   15.571 # [msec]
+   throughput   :   25.046 # [mwords/sec]
+   Debug_Time(0):   15.332 # [msec]
+   Debug_Time(1):    6.775 # [msec]
+   Debug_Time(2):    4.548 # [msec]
+   Debug_Time(3):    2.197 # [msec]
+   Debug_Time(4):    1.812 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 395000
+   average_time :   15.799 # [msec]
+   throughput   :   25.002 # [mwords/sec]
+   Debug_Time(0):   15.384 # [msec]
+   Debug_Time(1):    6.713 # [msec]
+   Debug_Time(2):    4.619 # [msec]
+   Debug_Time(3):    2.216 # [msec]
+   Debug_Time(4):    1.836 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 400000
+   average_time :   15.934 # [msec]
+   throughput   :   25.103 # [mwords/sec]
+   Debug_Time(0):   15.604 # [msec]
+   Debug_Time(1):    6.884 # [msec]
+   Debug_Time(2):    4.660 # [msec]
+   Debug_Time(3):    2.248 # [msec]
+   Debug_Time(4):    1.812 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 405000
+   average_time :   16.157 # [msec]
+   throughput   :   25.066 # [mwords/sec]
+   Debug_Time(0):   15.712 # [msec]
+   Debug_Time(1):    6.823 # [msec]
+   Debug_Time(2):    4.734 # [msec]
+   Debug_Time(3):    2.268 # [msec]
+   Debug_Time(4):    1.886 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 410000
+   average_time :   16.388 # [msec]
+   throughput   :   25.019 # [mwords/sec]
+   Debug_Time(0):   15.920 # [msec]
+   Debug_Time(1):    6.933 # [msec]
+   Debug_Time(2):    4.766 # [msec]
+   Debug_Time(3):    2.288 # [msec]
+   Debug_Time(4):    1.933 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 415000
+   average_time :   16.525 # [msec]
+   throughput   :   25.113 # [mwords/sec]
+   Debug_Time(0):   16.012 # [msec]
+   Debug_Time(1):    6.994 # [msec]
+   Debug_Time(2):    4.812 # [msec]
+   Debug_Time(3):    2.320 # [msec]
+   Debug_Time(4):    1.886 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 420000
+   average_time :   16.725 # [msec]
+   throughput   :   25.112 # [mwords/sec]
+   Debug_Time(0):   16.257 # [msec]
+   Debug_Time(1):    7.071 # [msec]
+   Debug_Time(2):    4.896 # [msec]
+   Debug_Time(3):    2.367 # [msec]
+   Debug_Time(4):    1.924 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 425000
+   average_time :   16.952 # [msec]
+   throughput   :   25.071 # [mwords/sec]
+   Debug_Time(0):   16.518 # [msec]
+   Debug_Time(1):    7.101 # [msec]
+   Debug_Time(2):    4.938 # [msec]
+   Debug_Time(3):    2.392 # [msec]
+   Debug_Time(4):    2.087 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 430000
+   average_time :   17.158 # [msec]
+   throughput   :   25.061 # [mwords/sec]
+   Debug_Time(0):   16.836 # [msec]
+   Debug_Time(1):    7.237 # [msec]
+   Debug_Time(2):    4.988 # [msec]
+   Debug_Time(3):    2.412 # [msec]
+   Debug_Time(4):    2.199 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 435000
+   average_time :   17.340 # [msec]
+   throughput   :   25.086 # [mwords/sec]
+   Debug_Time(0):   17.081 # [msec]
+   Debug_Time(1):    7.353 # [msec]
+   Debug_Time(2):    5.086 # [msec]
+   Debug_Time(3):    2.522 # [msec]
+   Debug_Time(4):    2.120 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 440000
+   average_time :   17.584 # [msec]
+   throughput   :   25.023 # [mwords/sec]
+   Debug_Time(0):   17.367 # [msec]
+   Debug_Time(1):    7.446 # [msec]
+   Debug_Time(2):    5.180 # [msec]
+   Debug_Time(3):    2.557 # [msec]
+   Debug_Time(4):    2.184 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 445000
+   average_time :   17.719 # [msec]
+   throughput   :   25.115 # [mwords/sec]
+   Debug_Time(0):   17.497 # [msec]
+   Debug_Time(1):    7.493 # [msec]
+   Debug_Time(2):    5.343 # [msec]
+   Debug_Time(3):    2.570 # [msec]
+   Debug_Time(4):    2.091 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 450000
+   average_time :   17.938 # [msec]
+   throughput   :   25.087 # [mwords/sec]
+   Debug_Time(0):   17.793 # [msec]
+   Debug_Time(1):    7.566 # [msec]
+   Debug_Time(2):    5.485 # [msec]
+   Debug_Time(3):    2.549 # [msec]
+   Debug_Time(4):    2.192 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 455000
+   average_time :   18.133 # [msec]
+   throughput   :   25.092 # [mwords/sec]
+   Debug_Time(0):   18.117 # [msec]
+   Debug_Time(1):    7.726 # [msec]
+   Debug_Time(2):    5.524 # [msec]
+   Debug_Time(3):    2.567 # [msec]
+   Debug_Time(4):    2.299 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 460000
+   average_time :   18.300 # [msec]
+   throughput   :   25.137 # [mwords/sec]
+   Debug_Time(0):   18.238 # [msec]
+   Debug_Time(1):    7.875 # [msec]
+   Debug_Time(2):    5.567 # [msec]
+   Debug_Time(3):    2.582 # [msec]
+   Debug_Time(4):    2.214 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 465000
+   average_time :   18.555 # [msec]
+   throughput   :   25.061 # [mwords/sec]
+   Debug_Time(0):   18.476 # [msec]
+   Debug_Time(1):    7.975 # [msec]
+   Debug_Time(2):    5.620 # [msec]
+   Debug_Time(3):    2.615 # [msec]
+   Debug_Time(4):    2.265 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 470000
+   average_time :   18.727 # [msec]
+   throughput   :   25.097 # [mwords/sec]
+   Debug_Time(0):   18.667 # [msec]
+   Debug_Time(1):    8.122 # [msec]
+   Debug_Time(2):    5.631 # [msec]
+   Debug_Time(3):    2.639 # [msec]
+   Debug_Time(4):    2.275 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 475000
+   average_time :   18.921 # [msec]
+   throughput   :   25.104 # [mwords/sec]
+   Debug_Time(0):   18.830 # [msec]
+   Debug_Time(1):    8.252 # [msec]
+   Debug_Time(2):    5.649 # [msec]
+   Debug_Time(3):    2.673 # [msec]
+   Debug_Time(4):    2.256 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 480000
+   average_time :   19.102 # [msec]
+   throughput   :   25.128 # [mwords/sec]
+   Debug_Time(0):   19.039 # [msec]
+   Debug_Time(1):    8.388 # [msec]
+   Debug_Time(2):    5.695 # [msec]
+   Debug_Time(3):    2.687 # [msec]
+   Debug_Time(4):    2.269 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 485000
+   average_time :   19.295 # [msec]
+   throughput   :   25.136 # [mwords/sec]
+   Debug_Time(0):   18.790 # [msec]
+   Debug_Time(1):    8.165 # [msec]
+   Debug_Time(2):    5.629 # [msec]
+   Debug_Time(3):    2.718 # [msec]
+   Debug_Time(4):    2.278 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 490000
+   average_time :   19.474 # [msec]
+   throughput   :   25.162 # [mwords/sec]
+   Debug_Time(0):   18.932 # [msec]
+   Debug_Time(1):    8.201 # [msec]
+   Debug_Time(2):    5.694 # [msec]
+   Debug_Time(3):    2.761 # [msec]
+   Debug_Time(4):    2.276 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 495000
+   average_time :   19.715 # [msec]
+   throughput   :   25.108 # [mwords/sec]
+   Debug_Time(0):   19.180 # [msec]
+   Debug_Time(1):    8.399 # [msec]
+   Debug_Time(2):    5.730 # [msec]
+   Debug_Time(3):    2.780 # [msec]
+   Debug_Time(4):    2.272 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 500000
+   average_time :   19.932 # [msec]
+   throughput   :   25.085 # [mwords/sec]
+   Debug_Time(0):   19.098 # [msec]
+   Debug_Time(1):    8.222 # [msec]
+   Debug_Time(2):    5.807 # [msec]
+   Debug_Time(3):    2.811 # [msec]
+   Debug_Time(4):    2.259 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 505000
+   average_time :   20.118 # [msec]
+   throughput   :   25.102 # [mwords/sec]
+   Debug_Time(0):   19.548 # [msec]
+   Debug_Time(1):    8.437 # [msec]
+   Debug_Time(2):    5.862 # [msec]
+   Debug_Time(3):    2.842 # [msec]
+   Debug_Time(4):    2.407 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 510000
+   average_time :   20.357 # [msec]
+   throughput   :   25.053 # [mwords/sec]
+   Debug_Time(0):   19.724 # [msec]
+   Debug_Time(1):    8.564 # [msec]
+   Debug_Time(2):    5.925 # [msec]
+   Debug_Time(3):    2.881 # [msec]
+   Debug_Time(4):    2.356 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 515000
+   average_time :   20.489 # [msec]
+   throughput   :   25.136 # [mwords/sec]
+   Debug_Time(0):   19.882 # [msec]
+   Debug_Time(1):    8.639 # [msec]
+   Debug_Time(2):    5.974 # [msec]
+   Debug_Time(3):    2.895 # [msec]
+   Debug_Time(4):    2.374 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 520000
+   average_time :   20.660 # [msec]
+   throughput   :   25.169 # [mwords/sec]
+   Debug_Time(0):   20.074 # [msec]
+   Debug_Time(1):    8.751 # [msec]
+   Debug_Time(2):    6.040 # [msec]
+   Debug_Time(3):    2.908 # [msec]
+   Debug_Time(4):    2.375 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 525000
+   average_time :   20.906 # [msec]
+   throughput   :   25.113 # [mwords/sec]
+   Debug_Time(0):   20.270 # [msec]
+   Debug_Time(1):    8.799 # [msec]
+   Debug_Time(2):    6.094 # [msec]
+   Debug_Time(3):    2.953 # [msec]
+   Debug_Time(4):    2.424 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 530000
+   average_time :   21.110 # [msec]
+   throughput   :   25.106 # [mwords/sec]
+   Debug_Time(0):   20.501 # [msec]
+   Debug_Time(1):    8.901 # [msec]
+   Debug_Time(2):    6.157 # [msec]
+   Debug_Time(3):    2.986 # [msec]
+   Debug_Time(4):    2.457 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 535000
+   average_time :   21.226 # [msec]
+   throughput   :   25.206 # [mwords/sec]
+   Debug_Time(0):   20.645 # [msec]
+   Debug_Time(1):    9.012 # [msec]
+   Debug_Time(2):    6.213 # [msec]
+   Debug_Time(3):    2.987 # [msec]
+   Debug_Time(4):    2.434 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 540000
+   average_time :   21.428 # [msec]
+   throughput   :   25.201 # [mwords/sec]
+   Debug_Time(0):   20.784 # [msec]
+   Debug_Time(1):    9.042 # [msec]
+   Debug_Time(2):    6.244 # [msec]
+   Debug_Time(3):    3.032 # [msec]
+   Debug_Time(4):    2.466 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 545000
+   average_time :   21.933 # [msec]
+   throughput   :   24.848 # [mwords/sec]
+   Debug_Time(0):   22.302 # [msec]
+   Debug_Time(1):    9.590 # [msec]
+   Debug_Time(2):    6.691 # [msec]
+   Debug_Time(3):    3.129 # [msec]
+   Debug_Time(4):    2.891 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 550000
+   average_time :   21.830 # [msec]
+   throughput   :   25.195 # [mwords/sec]
+   Debug_Time(0):   21.251 # [msec]
+   Debug_Time(1):    9.243 # [msec]
+   Debug_Time(2):    6.388 # [msec]
+   Debug_Time(3):    3.098 # [msec]
+   Debug_Time(4):    2.523 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 555000
+   average_time :   21.962 # [msec]
+   throughput   :   25.271 # [mwords/sec]
+   Debug_Time(0):   21.405 # [msec]
+   Debug_Time(1):    9.304 # [msec]
+   Debug_Time(2):    6.438 # [msec]
+   Debug_Time(3):    3.120 # [msec]
+   Debug_Time(4):    2.543 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 560000
+   average_time :   22.190 # [msec]
+   throughput   :   25.236 # [mwords/sec]
+   Debug_Time(0):   21.580 # [msec]
+   Debug_Time(1):    9.421 # [msec]
+   Debug_Time(2):    6.483 # [msec]
+   Debug_Time(3):    3.137 # [msec]
+   Debug_Time(4):    2.539 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 565000
+   average_time :   22.327 # [msec]
+   throughput   :   25.306 # [mwords/sec]
+   Debug_Time(0):   21.806 # [msec]
+   Debug_Time(1):    9.498 # [msec]
+   Debug_Time(2):    6.561 # [msec]
+   Debug_Time(3):    3.152 # [msec]
+   Debug_Time(4):    2.595 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 570000
+   average_time :   22.619 # [msec]
+   throughput   :   25.200 # [mwords/sec]
+   Debug_Time(0):   22.232 # [msec]
+   Debug_Time(1):    9.570 # [msec]
+   Debug_Time(2):    6.613 # [msec]
+   Debug_Time(3):    3.210 # [msec]
+   Debug_Time(4):    2.839 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 575000
+   average_time :   22.759 # [msec]
+   throughput   :   25.265 # [mwords/sec]
+   Debug_Time(0):   22.211 # [msec]
+   Debug_Time(1):    9.488 # [msec]
+   Debug_Time(2):    6.670 # [msec]
+   Debug_Time(3):    3.238 # [msec]
+   Debug_Time(4):    2.815 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 580000
+   average_time :   22.956 # [msec]
+   throughput   :   25.266 # [mwords/sec]
+   Debug_Time(0):   22.547 # [msec]
+   Debug_Time(1):    9.731 # [msec]
+   Debug_Time(2):    6.748 # [msec]
+   Debug_Time(3):    3.272 # [msec]
+   Debug_Time(4):    2.797 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 585000
+   average_time :   23.140 # [msec]
+   throughput   :   25.281 # [mwords/sec]
+   Debug_Time(0):   22.730 # [msec]
+   Debug_Time(1):    9.757 # [msec]
+   Debug_Time(2):    6.829 # [msec]
+   Debug_Time(3):    3.293 # [msec]
+   Debug_Time(4):    2.852 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 590000
+   average_time :   23.332 # [msec]
+   throughput   :   25.287 # [mwords/sec]
+   Debug_Time(0):   22.966 # [msec]
+   Debug_Time(1):    9.822 # [msec]
+   Debug_Time(2):    6.960 # [msec]
+   Debug_Time(3):    3.309 # [msec]
+   Debug_Time(4):    2.875 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 595000
+   average_time :   23.511 # [msec]
+   throughput   :   25.307 # [mwords/sec]
+   Debug_Time(0):   23.003 # [msec]
+   Debug_Time(1):    9.895 # [msec]
+   Debug_Time(2):    6.963 # [msec]
+   Debug_Time(3):    3.331 # [msec]
+   Debug_Time(4):    2.814 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 600000
+   average_time :   23.757 # [msec]
+   throughput   :   25.256 # [mwords/sec]
+   Debug_Time(0):   23.371 # [msec]
+   Debug_Time(1):   10.029 # [msec]
+   Debug_Time(2):    7.080 # [msec]
+   Debug_Time(3):    3.322 # [msec]
+   Debug_Time(4):    2.940 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 605000
+   average_time :   23.895 # [msec]
+   throughput   :   25.320 # [mwords/sec]
+   Debug_Time(0):   23.549 # [msec]
+   Debug_Time(1):   10.212 # [msec]
+   Debug_Time(2):    7.024 # [msec]
+   Debug_Time(3):    3.400 # [msec]
+   Debug_Time(4):    2.914 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 610000
+   average_time :   24.188 # [msec]
+   throughput   :   25.219 # [mwords/sec]
+   Debug_Time(0):   23.823 # [msec]
+   Debug_Time(1):   10.187 # [msec]
+   Debug_Time(2):    7.201 # [msec]
+   Debug_Time(3):    3.418 # [msec]
+   Debug_Time(4):    3.017 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 615000
+   average_time :   24.296 # [msec]
+   throughput   :   25.313 # [mwords/sec]
+   Debug_Time(0):   23.938 # [msec]
+   Debug_Time(1):   10.278 # [msec]
+   Debug_Time(2):    7.263 # [msec]
+   Debug_Time(3):    3.441 # [msec]
+   Debug_Time(4):    2.957 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 620000
+   average_time :   24.598 # [msec]
+   throughput   :   25.205 # [mwords/sec]
+   Debug_Time(0):   24.317 # [msec]
+   Debug_Time(1):   10.489 # [msec]
+   Debug_Time(2):    7.212 # [msec]
+   Debug_Time(3):    3.482 # [msec]
+   Debug_Time(4):    3.134 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 625000
+   average_time :   24.675 # [msec]
+   throughput   :   25.329 # [mwords/sec]
+   Debug_Time(0):   24.467 # [msec]
+   Debug_Time(1):   10.625 # [msec]
+   Debug_Time(2):    7.276 # [msec]
+   Debug_Time(3):    3.478 # [msec]
+   Debug_Time(4):    3.088 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 630000
+   average_time :   24.834 # [msec]
+   throughput   :   25.368 # [mwords/sec]
+   Debug_Time(0):   24.343 # [msec]
+   Debug_Time(1):   10.433 # [msec]
+   Debug_Time(2):    7.324 # [msec]
+   Debug_Time(3):    3.539 # [msec]
+   Debug_Time(4):    3.047 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 635000
+   average_time :   25.104 # [msec]
+   throughput   :   25.295 # [mwords/sec]
+   Debug_Time(0):   24.637 # [msec]
+   Debug_Time(1):   10.535 # [msec]
+   Debug_Time(2):    7.416 # [msec]
+   Debug_Time(3):    3.549 # [msec]
+   Debug_Time(4):    3.136 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 640000
+   average_time :   25.273 # [msec]
+   throughput   :   25.324 # [mwords/sec]
+   Debug_Time(0):   24.853 # [msec]
+   Debug_Time(1):   10.693 # [msec]
+   Debug_Time(2):    7.459 # [msec]
+   Debug_Time(3):    3.572 # [msec]
+   Debug_Time(4):    3.129 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 645000
+   average_time :   25.539 # [msec]
+   throughput   :   25.255 # [mwords/sec]
+   Debug_Time(0):   25.198 # [msec]
+   Debug_Time(1):   10.864 # [msec]
+   Debug_Time(2):    7.512 # [msec]
+   Debug_Time(3):    3.603 # [msec]
+   Debug_Time(4):    3.220 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 650000
+   average_time :   25.634 # [msec]
+   throughput   :   25.357 # [mwords/sec]
+   Debug_Time(0):   25.208 # [msec]
+   Debug_Time(1):   10.851 # [msec]
+   Debug_Time(2):    7.544 # [msec]
+   Debug_Time(3):    3.631 # [msec]
+   Debug_Time(4):    3.181 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 655000
+   average_time :   25.869 # [msec]
+   throughput   :   25.320 # [mwords/sec]
+   Debug_Time(0):   25.465 # [msec]
+   Debug_Time(1):   10.931 # [msec]
+   Debug_Time(2):    7.616 # [msec]
+   Debug_Time(3):    3.645 # [msec]
+   Debug_Time(4):    3.274 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 660000
+   average_time :   26.074 # [msec]
+   throughput   :   25.313 # [mwords/sec]
+   Debug_Time(0):   25.728 # [msec]
+   Debug_Time(1):   10.899 # [msec]
+   Debug_Time(2):    7.685 # [msec]
+   Debug_Time(3):    3.702 # [msec]
+   Debug_Time(4):    3.442 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 665000
+   average_time :   26.318 # [msec]
+   throughput   :   25.268 # [mwords/sec]
+   Debug_Time(0):   26.002 # [msec]
+   Debug_Time(1):   11.030 # [msec]
+   Debug_Time(2):    7.732 # [msec]
+   Debug_Time(3):    3.738 # [msec]
+   Debug_Time(4):    3.501 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 670000
+   average_time :   26.505 # [msec]
+   throughput   :   25.278 # [mwords/sec]
+   Debug_Time(0):   26.299 # [msec]
+   Debug_Time(1):   11.125 # [msec]
+   Debug_Time(2):    7.837 # [msec]
+   Debug_Time(3):    3.894 # [msec]
+   Debug_Time(4):    3.444 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 675000
+   average_time :   26.750 # [msec]
+   throughput   :   25.234 # [mwords/sec]
+   Debug_Time(0):   26.629 # [msec]
+   Debug_Time(1):   11.200 # [msec]
+   Debug_Time(2):    8.160 # [msec]
+   Debug_Time(3):    3.805 # [msec]
+   Debug_Time(4):    3.464 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 680000
+   average_time :   26.950 # [msec]
+   throughput   :   25.232 # [mwords/sec]
+   Debug_Time(0):   26.731 # [msec]
+   Debug_Time(1):   11.273 # [msec]
+   Debug_Time(2):    8.243 # [msec]
+   Debug_Time(3):    3.834 # [msec]
+   Debug_Time(4):    3.382 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 685000
+   average_time :   27.078 # [msec]
+   throughput   :   25.297 # [mwords/sec]
+   Debug_Time(0):   26.820 # [msec]
+   Debug_Time(1):   11.649 # [msec]
+   Debug_Time(2):    8.026 # [msec]
+   Debug_Time(3):    3.854 # [msec]
+   Debug_Time(4):    3.292 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 690000
+   average_time :   27.283 # [msec]
+   throughput   :   25.290 # [mwords/sec]
+   Debug_Time(0):   27.172 # [msec]
+   Debug_Time(1):   11.649 # [msec]
+   Debug_Time(2):    8.231 # [msec]
+   Debug_Time(3):    3.881 # [msec]
+   Debug_Time(4):    3.411 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 695000
+   average_time :   27.400 # [msec]
+   throughput   :   25.365 # [mwords/sec]
+   Debug_Time(0):   27.259 # [msec]
+   Debug_Time(1):   11.672 # [msec]
+   Debug_Time(2):    8.351 # [msec]
+   Debug_Time(3):    3.910 # [msec]
+   Debug_Time(4):    3.326 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 700000
+   average_time :   27.717 # [msec]
+   throughput   :   25.255 # [mwords/sec]
+   Debug_Time(0):   27.610 # [msec]
+   Debug_Time(1):   11.934 # [msec]
+   Debug_Time(2):    8.221 # [msec]
+   Debug_Time(3):    3.932 # [msec]
+   Debug_Time(4):    3.523 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 705000
+   average_time :   27.886 # [msec]
+   throughput   :   25.281 # [mwords/sec]
+   Debug_Time(0):   27.697 # [msec]
+   Debug_Time(1):   11.974 # [msec]
+   Debug_Time(2):    8.287 # [msec]
+   Debug_Time(3):    3.948 # [msec]
+   Debug_Time(4):    3.488 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 710000
+   average_time :   28.163 # [msec]
+   throughput   :   25.211 # [mwords/sec]
+   Debug_Time(0):   27.984 # [msec]
+   Debug_Time(1):   12.121 # [msec]
+   Debug_Time(2):    8.269 # [msec]
+   Debug_Time(3):    3.992 # [msec]
+   Debug_Time(4):    3.603 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 715000
+   average_time :   28.269 # [msec]
+   throughput   :   25.292 # [mwords/sec]
+   Debug_Time(0):   28.097 # [msec]
+   Debug_Time(1):   12.248 # [msec]
+   Debug_Time(2):    8.273 # [msec]
+   Debug_Time(3):    4.024 # [msec]
+   Debug_Time(4):    3.552 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 720000
+   average_time :   28.458 # [msec]
+   throughput   :   25.300 # [mwords/sec]
+   Debug_Time(0):   28.287 # [msec]
+   Debug_Time(1):   12.359 # [msec]
+   Debug_Time(2):    8.347 # [msec]
+   Debug_Time(3):    4.047 # [msec]
+   Debug_Time(4):    3.533 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 725000
+   average_time :   28.636 # [msec]
+   throughput   :   25.318 # [mwords/sec]
+   Debug_Time(0):   28.422 # [msec]
+   Debug_Time(1):   12.422 # [msec]
+   Debug_Time(2):    8.412 # [msec]
+   Debug_Time(3):    4.093 # [msec]
+   Debug_Time(4):    3.495 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 730000
+   average_time :   28.754 # [msec]
+   throughput   :   25.388 # [mwords/sec]
+   Debug_Time(0):   28.154 # [msec]
+   Debug_Time(1):   12.127 # [msec]
+   Debug_Time(2):    8.465 # [msec]
+   Debug_Time(3):    4.114 # [msec]
+   Debug_Time(4):    3.449 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 735000
+   average_time :   28.999 # [msec]
+   throughput   :   25.345 # [mwords/sec]
+   Debug_Time(0):   28.361 # [msec]
+   Debug_Time(1):   12.218 # [msec]
+   Debug_Time(2):    8.521 # [msec]
+   Debug_Time(3):    4.138 # [msec]
+   Debug_Time(4):    3.484 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 740000
+   average_time :   29.125 # [msec]
+   throughput   :   25.407 # [mwords/sec]
+   Debug_Time(0):   28.525 # [msec]
+   Debug_Time(1):   12.290 # [msec]
+   Debug_Time(2):    8.587 # [msec]
+   Debug_Time(3):    4.157 # [msec]
+   Debug_Time(4):    3.491 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 745000
+   average_time :   29.276 # [msec]
+   throughput   :   25.447 # [mwords/sec]
+   Debug_Time(0):   28.588 # [msec]
+   Debug_Time(1):   12.329 # [msec]
+   Debug_Time(2):    8.632 # [msec]
+   Debug_Time(3):    4.203 # [msec]
+   Debug_Time(4):    3.423 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 750000
+   average_time :   29.558 # [msec]
+   throughput   :   25.374 # [mwords/sec]
+   Debug_Time(0):   28.852 # [msec]
+   Debug_Time(1):   12.400 # [msec]
+   Debug_Time(2):    8.682 # [msec]
+   Debug_Time(3):    4.231 # [msec]
+   Debug_Time(4):    3.540 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 755000
+   average_time :   29.815 # [msec]
+   throughput   :   25.323 # [mwords/sec]
+   Debug_Time(0):   29.060 # [msec]
+   Debug_Time(1):   12.480 # [msec]
+   Debug_Time(2):    8.739 # [msec]
+   Debug_Time(3):    4.248 # [msec]
+   Debug_Time(4):    3.593 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 760000
+   average_time :   30.007 # [msec]
+   throughput   :   25.328 # [mwords/sec]
+   Debug_Time(0):   29.284 # [msec]
+   Debug_Time(1):   12.562 # [msec]
+   Debug_Time(2):    8.806 # [msec]
+   Debug_Time(3):    4.278 # [msec]
+   Debug_Time(4):    3.638 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 765000
+   average_time :   30.637 # [msec]
+   throughput   :   24.970 # [mwords/sec]
+   Debug_Time(0):   30.627 # [msec]
+   Debug_Time(1):   13.055 # [msec]
+   Debug_Time(2):    9.212 # [msec]
+   Debug_Time(3):    4.348 # [msec]
+   Debug_Time(4):    4.011 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 770000
+   average_time :   30.338 # [msec]
+   throughput   :   25.381 # [mwords/sec]
+   Debug_Time(0):   29.599 # [msec]
+   Debug_Time(1):   12.740 # [msec]
+   Debug_Time(2):    8.942 # [msec]
+   Debug_Time(3):    4.300 # [msec]
+   Debug_Time(4):    3.616 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 775000
+   average_time :   30.569 # [msec]
+   throughput   :   25.352 # [mwords/sec]
+   Debug_Time(0):   29.813 # [msec]
+   Debug_Time(1):   12.807 # [msec]
+   Debug_Time(2):    8.979 # [msec]
+   Debug_Time(3):    4.373 # [msec]
+   Debug_Time(4):    3.654 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 780000
+   average_time :   30.756 # [msec]
+   throughput   :   25.361 # [mwords/sec]
+   Debug_Time(0):   30.089 # [msec]
+   Debug_Time(1):   12.919 # [msec]
+   Debug_Time(2):    9.031 # [msec]
+   Debug_Time(3):    4.403 # [msec]
+   Debug_Time(4):    3.736 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 785000
+   average_time :   30.916 # [msec]
+   throughput   :   25.392 # [mwords/sec]
+   Debug_Time(0):   30.231 # [msec]
+   Debug_Time(1):   12.999 # [msec]
+   Debug_Time(2):    9.112 # [msec]
+   Debug_Time(3):    4.391 # [msec]
+   Debug_Time(4):    3.729 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 790000
+   average_time :   31.142 # [msec]
+   throughput   :   25.368 # [mwords/sec]
+   Debug_Time(0):   30.391 # [msec]
+   Debug_Time(1):   12.997 # [msec]
+   Debug_Time(2):    9.149 # [msec]
+   Debug_Time(3):    4.447 # [msec]
+   Debug_Time(4):    3.798 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 795000
+   average_time :   31.289 # [msec]
+   throughput   :   25.409 # [mwords/sec]
+   Debug_Time(0):   30.900 # [msec]
+   Debug_Time(1):   13.167 # [msec]
+   Debug_Time(2):    9.207 # [msec]
+   Debug_Time(3):    4.468 # [msec]
+   Debug_Time(4):    4.059 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 800000
+   average_time :   31.517 # [msec]
+   throughput   :   25.383 # [mwords/sec]
+   Debug_Time(0):   30.989 # [msec]
+   Debug_Time(1):   13.217 # [msec]
+   Debug_Time(2):    9.260 # [msec]
+   Debug_Time(3):    4.503 # [msec]
+   Debug_Time(4):    4.009 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 805000
+   average_time :   31.700 # [msec]
+   throughput   :   25.394 # [mwords/sec]
+   Debug_Time(0):   31.197 # [msec]
+   Debug_Time(1):   13.314 # [msec]
+   Debug_Time(2):    9.358 # [msec]
+   Debug_Time(3):    4.529 # [msec]
+   Debug_Time(4):    3.997 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 810000
+   average_time :   31.904 # [msec]
+   throughput   :   25.388 # [mwords/sec]
+   Debug_Time(0):   31.454 # [msec]
+   Debug_Time(1):   13.358 # [msec]
+   Debug_Time(2):    9.474 # [msec]
+   Debug_Time(3):    4.539 # [msec]
+   Debug_Time(4):    4.083 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 815000
+   average_time :   32.147 # [msec]
+   throughput   :   25.353 # [mwords/sec]
+   Debug_Time(0):   31.749 # [msec]
+   Debug_Time(1):   13.472 # [msec]
+   Debug_Time(2):    9.546 # [msec]
+   Debug_Time(3):    4.558 # [msec]
+   Debug_Time(4):    4.173 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 820000
+   average_time :   32.404 # [msec]
+   throughput   :   25.306 # [mwords/sec]
+   Debug_Time(0):   32.008 # [msec]
+   Debug_Time(1):   13.549 # [msec]
+   Debug_Time(2):    9.649 # [msec]
+   Debug_Time(3):    4.568 # [msec]
+   Debug_Time(4):    4.242 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 825000
+   average_time :   32.548 # [msec]
+   throughput   :   25.347 # [mwords/sec]
+   Debug_Time(0):   32.117 # [msec]
+   Debug_Time(1):   13.611 # [msec]
+   Debug_Time(2):    9.703 # [msec]
+   Debug_Time(3):    4.622 # [msec]
+   Debug_Time(4):    4.181 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 830000
+   average_time :   32.686 # [msec]
+   throughput   :   25.393 # [mwords/sec]
+   Debug_Time(0):   32.255 # [msec]
+   Debug_Time(1):   13.753 # [msec]
+   Debug_Time(2):    9.741 # [msec]
+   Debug_Time(3):    4.662 # [msec]
+   Debug_Time(4):    4.100 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 835000
+   average_time :   32.876 # [msec]
+   throughput   :   25.398 # [mwords/sec]
+   Debug_Time(0):   32.404 # [msec]
+   Debug_Time(1):   13.709 # [msec]
+   Debug_Time(2):    9.809 # [msec]
+   Debug_Time(3):    4.666 # [msec]
+   Debug_Time(4):    4.221 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 840000
+   average_time :   33.121 # [msec]
+   throughput   :   25.362 # [mwords/sec]
+   Debug_Time(0):   32.734 # [msec]
+   Debug_Time(1):   13.936 # [msec]
+   Debug_Time(2):    9.823 # [msec]
+   Debug_Time(3):    4.718 # [msec]
+   Debug_Time(4):    4.257 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 845000
+   average_time :   33.252 # [msec]
+   throughput   :   25.412 # [mwords/sec]
+   Debug_Time(0):   32.878 # [msec]
+   Debug_Time(1):   14.063 # [msec]
+   Debug_Time(2):    9.820 # [msec]
+   Debug_Time(3):    4.738 # [msec]
+   Debug_Time(4):    4.258 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 850000
+   average_time :   33.546 # [msec]
+   throughput   :   25.338 # [mwords/sec]
+   Debug_Time(0):   33.398 # [msec]
+   Debug_Time(1):   14.176 # [msec]
+   Debug_Time(2):    9.881 # [msec]
+   Debug_Time(3):    4.773 # [msec]
+   Debug_Time(4):    4.567 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 855000
+   average_time :   33.688 # [msec]
+   throughput   :   25.380 # [mwords/sec]
+   Debug_Time(0):   33.601 # [msec]
+   Debug_Time(1):   14.286 # [msec]
+   Debug_Time(2):    9.959 # [msec]
+   Debug_Time(3):    4.796 # [msec]
+   Debug_Time(4):    4.560 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 860000
+   average_time :   33.877 # [msec]
+   throughput   :   25.386 # [mwords/sec]
+   Debug_Time(0):   33.761 # [msec]
+   Debug_Time(1):   14.333 # [msec]
+   Debug_Time(2):   10.005 # [msec]
+   Debug_Time(3):    4.833 # [msec]
+   Debug_Time(4):    4.590 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 865000
+   average_time :   34.085 # [msec]
+   throughput   :   25.378 # [mwords/sec]
+   Debug_Time(0):   33.966 # [msec]
+   Debug_Time(1):   14.374 # [msec]
+   Debug_Time(2):   10.070 # [msec]
+   Debug_Time(3):    4.892 # [msec]
+   Debug_Time(4):    4.630 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 870000
+   average_time :   34.307 # [msec]
+   throughput   :   25.359 # [mwords/sec]
+   Debug_Time(0):   34.162 # [msec]
+   Debug_Time(1):   14.391 # [msec]
+   Debug_Time(2):   10.134 # [msec]
+   Debug_Time(3):    5.026 # [msec]
+   Debug_Time(4):    4.611 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 875000
+   average_time :   34.452 # [msec]
+   throughput   :   25.398 # [mwords/sec]
+   Debug_Time(0):   34.246 # [msec]
+   Debug_Time(1):   14.397 # [msec]
+   Debug_Time(2):   10.208 # [msec]
+   Debug_Time(3):    5.090 # [msec]
+   Debug_Time(4):    4.551 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 880000
+   average_time :   34.608 # [msec]
+   throughput   :   25.427 # [mwords/sec]
+   Debug_Time(0):   34.350 # [msec]
+   Debug_Time(1):   14.454 # [msec]
+   Debug_Time(2):   10.267 # [msec]
+   Debug_Time(3):    5.111 # [msec]
+   Debug_Time(4):    4.517 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 885000
+   average_time :   34.857 # [msec]
+   throughput   :   25.389 # [mwords/sec]
+   Debug_Time(0):   34.638 # [msec]
+   Debug_Time(1):   14.460 # [msec]
+   Debug_Time(2):   10.405 # [msec]
+   Debug_Time(3):    5.157 # [msec]
+   Debug_Time(4):    4.615 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 890000
+   average_time :   35.080 # [msec]
+   throughput   :   25.371 # [mwords/sec]
+   Debug_Time(0):   34.820 # [msec]
+   Debug_Time(1):   14.547 # [msec]
+   Debug_Time(2):   10.473 # [msec]
+   Debug_Time(3):    5.161 # [msec]
+   Debug_Time(4):    4.640 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 895000
+   average_time :   35.308 # [msec]
+   throughput   :   25.348 # [mwords/sec]
+   Debug_Time(0):   35.101 # [msec]
+   Debug_Time(1):   15.052 # [msec]
+   Debug_Time(2):   10.503 # [msec]
+   Debug_Time(3):    5.011 # [msec]
+   Debug_Time(4):    4.536 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 900000
+   average_time :   35.564 # [msec]
+   throughput   :   25.307 # [mwords/sec]
+   Debug_Time(0):   35.526 # [msec]
+   Debug_Time(1):   14.811 # [msec]
+   Debug_Time(2):   10.753 # [msec]
+   Debug_Time(3):    5.096 # [msec]
+   Debug_Time(4):    4.866 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 905000
+   average_time :   35.628 # [msec]
+   throughput   :   25.401 # [mwords/sec]
+   Debug_Time(0):   35.406 # [msec]
+   Debug_Time(1):   14.934 # [msec]
+   Debug_Time(2):   10.840 # [msec]
+   Debug_Time(3):    5.117 # [msec]
+   Debug_Time(4):    4.516 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 910000
+   average_time :   35.912 # [msec]
+   throughput   :   25.340 # [mwords/sec]
+   Debug_Time(0):   35.792 # [msec]
+   Debug_Time(1):   15.042 # [msec]
+   Debug_Time(2):   10.939 # [msec]
+   Debug_Time(3):    5.133 # [msec]
+   Debug_Time(4):    4.678 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 915000
+   average_time :   36.045 # [msec]
+   throughput   :   25.385 # [mwords/sec]
+   Debug_Time(0):   35.891 # [msec]
+   Debug_Time(1):   15.112 # [msec]
+   Debug_Time(2):   10.993 # [msec]
+   Debug_Time(3):    5.139 # [msec]
+   Debug_Time(4):    4.647 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 920000
+   average_time :   36.274 # [msec]
+   throughput   :   25.362 # [mwords/sec]
+   Debug_Time(0):   35.327 # [msec]
+   Debug_Time(1):   15.097 # [msec]
+   Debug_Time(2):   10.673 # [msec]
+   Debug_Time(3):    5.143 # [msec]
+   Debug_Time(4):    4.413 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 925000
+   average_time :   36.512 # [msec]
+   throughput   :   25.334 # [mwords/sec]
+   Debug_Time(0):   36.297 # [msec]
+   Debug_Time(1):   15.193 # [msec]
+   Debug_Time(2):   11.148 # [msec]
+   Debug_Time(3):    5.184 # [msec]
+   Debug_Time(4):    4.772 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 930000
+   average_time :   36.653 # [msec]
+   throughput   :   25.373 # [mwords/sec]
+   Debug_Time(0):   36.429 # [msec]
+   Debug_Time(1):   15.649 # [msec]
+   Debug_Time(2):   10.881 # [msec]
+   Debug_Time(3):    5.211 # [msec]
+   Debug_Time(4):    4.687 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 935000
+   average_time :   36.795 # [msec]
+   throughput   :   25.411 # [mwords/sec]
+   Debug_Time(0):   36.488 # [msec]
+   Debug_Time(1):   15.760 # [msec]
+   Debug_Time(2):   10.876 # [msec]
+   Debug_Time(3):    5.271 # [msec]
+   Debug_Time(4):    4.580 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 940000
+   average_time :   36.979 # [msec]
+   throughput   :   25.420 # [mwords/sec]
+   Debug_Time(0):   36.736 # [msec]
+   Debug_Time(1):   15.890 # [msec]
+   Debug_Time(2):   10.894 # [msec]
+   Debug_Time(3):    5.294 # [msec]
+   Debug_Time(4):    4.658 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 945000
+   average_time :   37.107 # [msec]
+   throughput   :   25.467 # [mwords/sec]
+   Debug_Time(0):   36.074 # [msec]
+   Debug_Time(1):   15.450 # [msec]
+   Debug_Time(2):   10.953 # [msec]
+   Debug_Time(3):    5.309 # [msec]
+   Debug_Time(4):    4.363 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 950000
+   average_time :   37.341 # [msec]
+   throughput   :   25.441 # [mwords/sec]
+   Debug_Time(0):   37.061 # [msec]
+   Debug_Time(1):   16.068 # [msec]
+   Debug_Time(2):   11.012 # [msec]
+   Debug_Time(3):    5.351 # [msec]
+   Debug_Time(4):    4.630 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 955000
+   average_time :   37.594 # [msec]
+   throughput   :   25.403 # [mwords/sec]
+   Debug_Time(0):   37.273 # [msec]
+   Debug_Time(1):   16.182 # [msec]
+   Debug_Time(2):   11.062 # [msec]
+   Debug_Time(3):    5.380 # [msec]
+   Debug_Time(4):    4.649 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 960000
+   average_time :   37.804 # [msec]
+   throughput   :   25.394 # [mwords/sec]
+   Debug_Time(0):   37.843 # [msec]
+   Debug_Time(1):   16.222 # [msec]
+   Debug_Time(2):   11.146 # [msec]
+   Debug_Time(3):    5.372 # [msec]
+   Debug_Time(4):    5.103 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 965000
+   average_time :   38.056 # [msec]
+   throughput   :   25.357 # [mwords/sec]
+   Debug_Time(0):   37.740 # [msec]
+   Debug_Time(1):   16.327 # [msec]
+   Debug_Time(2):   11.200 # [msec]
+   Debug_Time(3):    5.431 # [msec]
+   Debug_Time(4):    4.781 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 970000
+   average_time :   39.389 # [msec]
+   throughput   :   24.626 # [mwords/sec]
+   Debug_Time(0):   37.667 # [msec]
+   Debug_Time(1):   15.956 # [msec]
+   Debug_Time(2):   11.264 # [msec]
+   Debug_Time(3):    5.424 # [msec]
+   Debug_Time(4):    5.023 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 975000
+   average_time :   38.329 # [msec]
+   throughput   :   25.438 # [mwords/sec]
+   Debug_Time(0):   37.369 # [msec]
+   Debug_Time(1):   15.904 # [msec]
+   Debug_Time(2):   11.296 # [msec]
+   Debug_Time(3):    5.494 # [msec]
+   Debug_Time(4):    4.675 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 980000
+   average_time :   38.440 # [msec]
+   throughput   :   25.495 # [mwords/sec]
+   Debug_Time(0):   37.435 # [msec]
+   Debug_Time(1):   15.963 # [msec]
+   Debug_Time(2):   11.353 # [msec]
+   Debug_Time(3):    5.513 # [msec]
+   Debug_Time(4):    4.607 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 985000
+   average_time :   38.697 # [msec]
+   throughput   :   25.454 # [mwords/sec]
+   Debug_Time(0):   37.817 # [msec]
+   Debug_Time(1):   16.161 # [msec]
+   Debug_Time(2):   11.436 # [msec]
+   Debug_Time(3):    5.505 # [msec]
+   Debug_Time(4):    4.715 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 990000
+   average_time :   38.899 # [msec]
+   throughput   :   25.451 # [mwords/sec]
+   Debug_Time(0):   38.023 # [msec]
+   Debug_Time(1):   16.228 # [msec]
+   Debug_Time(2):   11.462 # [msec]
+   Debug_Time(3):    5.574 # [msec]
+   Debug_Time(4):    4.758 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 995000
+   average_time :   39.109 # [msec]
+   throughput   :   25.441 # [mwords/sec]
+   Debug_Time(0):   38.700 # [msec]
+   Debug_Time(1):   16.333 # [msec]
+   Debug_Time(2):   11.660 # [msec]
+   Debug_Time(3):    5.595 # [msec]
+   Debug_Time(4):    5.111 # [msec]
+-
+   Version      : 1.2
+   Ways         : 32
+   Words        : 1
+   Feedback     : 0
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 1000000
+   average_time :   39.313 # [msec]
+   throughput   :   25.437 # [mwords/sec]
+   Debug_Time(0):   38.414 # [msec]
+   Debug_Time(1):   16.396 # [msec]
+   Debug_Time(2):   11.581 # [msec]
+   Debug_Time(3):    5.635 # [msec]
+   Debug_Time(4):    4.801 # [msec]
