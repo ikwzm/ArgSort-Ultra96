@@ -41,10 +41,10 @@ class ArgSort_AXI:
     
     def __init__(self, regs):
         self.regs    = regs
-        self.rd_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_CACHE | ArgSort_AXI.RW_MODE_AXI_PROT
-        self.wr_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_CACHE | ArgSort_AXI.RW_MODE_AXI_PROT
-        self.t0_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_ID_0
-        self.t1_mode = 0x0000 | ArgSort_AXI.RW_MODE_AXI_ID_1
+        self.rd_mode = ArgSort_AXI.RW_MODE_SPECULATIVE | ArgSort_AXI.RW_MODE_AXI_CACHE | ArgSort_AXI.RW_MODE_AXI_PROT
+        self.wr_mode = ArgSort_AXI.RW_MODE_SPECULATIVE | ArgSort_AXI.RW_MODE_AXI_CACHE | ArgSort_AXI.RW_MODE_AXI_PROT
+        self.t0_mode = ArgSort_AXI.RW_MODE_SPECULATIVE | ArgSort_AXI.RW_MODE_AXI_ID_0
+        self.t1_mode = ArgSort_AXI.RW_MODE_SPECULATIVE | ArgSort_AXI.RW_MODE_AXI_ID_1
         self.read_info()
         self.read_frequency()
 
