@@ -11,8 +11,8 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 5000
-   average_time :    0.251 # [msec]
-   throughput   :   19.952 # [mwords/sec]
+   average_time :    0.255 # [msec]
+   throughput   :   19.581 # [mwords/sec]
    Debug_Time(0):    0.052 # [msec]
    Debug_Time(1):    0.052 # [msec]
 -
@@ -27,11 +27,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 10000
-   average_time :    0.327 # [msec]
-   throughput   :   30.569 # [mwords/sec]
-   Debug_Time(0):    0.133 # [msec]
-   Debug_Time(1):    0.105 # [msec]
-   Debug_Time(2):    0.028 # [msec]
+   average_time :    0.328 # [msec]
+   throughput   :   30.442 # [mwords/sec]
+   Debug_Time(0):    0.135 # [msec]
+   Debug_Time(1):    0.107 # [msec]
+   Debug_Time(2):    0.029 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -44,10 +44,10 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 15000
-   average_time :    0.345 # [msec]
-   throughput   :   43.494 # [mwords/sec]
-   Debug_Time(0):    0.150 # [msec]
-   Debug_Time(1):    0.107 # [msec]
+   average_time :    0.353 # [msec]
+   throughput   :   42.490 # [mwords/sec]
+   Debug_Time(0):    0.151 # [msec]
+   Debug_Time(1):    0.108 # [msec]
    Debug_Time(2):    0.043 # [msec]
 -
    Version      : 1.2
@@ -61,11 +61,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 20000
-   average_time :    0.420 # [msec]
-   throughput   :   47.641 # [mwords/sec]
-   Debug_Time(0):    0.211 # [msec]
-   Debug_Time(1):    0.158 # [msec]
-   Debug_Time(2):    0.053 # [msec]
+   average_time :    0.414 # [msec]
+   throughput   :   48.255 # [mwords/sec]
+   Debug_Time(0):    0.214 # [msec]
+   Debug_Time(1):    0.159 # [msec]
+   Debug_Time(2):    0.055 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -78,11 +78,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 25000
-   average_time :    0.437 # [msec]
-   throughput   :   57.246 # [mwords/sec]
-   Debug_Time(0):    0.231 # [msec]
-   Debug_Time(1):    0.165 # [msec]
-   Debug_Time(2):    0.067 # [msec]
+   average_time :    0.432 # [msec]
+   throughput   :   57.814 # [mwords/sec]
+   Debug_Time(0):    0.232 # [msec]
+   Debug_Time(1):    0.163 # [msec]
+   Debug_Time(2):    0.069 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -95,11 +95,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 30000
-   average_time :    0.506 # [msec]
-   throughput   :   59.261 # [mwords/sec]
-   Debug_Time(0):    0.291 # [msec]
-   Debug_Time(1):    0.214 # [msec]
-   Debug_Time(2):    0.078 # [msec]
+   average_time :    0.502 # [msec]
+   throughput   :   59.808 # [mwords/sec]
+   Debug_Time(0):    0.295 # [msec]
+   Debug_Time(1):    0.213 # [msec]
+   Debug_Time(2):    0.081 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -112,11 +112,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 35000
-   average_time :    0.575 # [msec]
-   throughput   :   60.878 # [mwords/sec]
-   Debug_Time(0):    0.358 # [msec]
-   Debug_Time(1):    0.264 # [msec]
-   Debug_Time(2):    0.094 # [msec]
+   average_time :    0.571 # [msec]
+   throughput   :   61.292 # [mwords/sec]
+   Debug_Time(0):    0.363 # [msec]
+   Debug_Time(1):    0.265 # [msec]
+   Debug_Time(2):    0.097 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -129,11 +129,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 40000
-   average_time :    0.595 # [msec]
-   throughput   :   67.214 # [mwords/sec]
-   Debug_Time(0):    0.373 # [msec]
-   Debug_Time(1):    0.264 # [msec]
-   Debug_Time(2):    0.109 # [msec]
+   average_time :    0.588 # [msec]
+   throughput   :   68.062 # [mwords/sec]
+   Debug_Time(0):    0.378 # [msec]
+   Debug_Time(1):    0.266 # [msec]
+   Debug_Time(2):    0.112 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -146,11 +146,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 45000
-   average_time :    0.687 # [msec]
-   throughput   :   65.527 # [mwords/sec]
-   Debug_Time(0):    0.448 # [msec]
-   Debug_Time(1):    0.319 # [msec]
-   Debug_Time(2):    0.130 # [msec]
+   average_time :    0.667 # [msec]
+   throughput   :   67.433 # [mwords/sec]
+   Debug_Time(0):    0.441 # [msec]
+   Debug_Time(1):    0.320 # [msec]
+   Debug_Time(2):    0.121 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -163,11 +163,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 50000
-   average_time :    0.771 # [msec]
-   throughput   :   64.887 # [mwords/sec]
-   Debug_Time(0):    0.513 # [msec]
-   Debug_Time(1):    0.376 # [msec]
-   Debug_Time(2):    0.137 # [msec]
+   average_time :    0.738 # [msec]
+   throughput   :   67.722 # [mwords/sec]
+   Debug_Time(0):    0.505 # [msec]
+   Debug_Time(1):    0.371 # [msec]
+   Debug_Time(2):    0.134 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -180,11 +180,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 55000
-   average_time :    0.778 # [msec]
-   throughput   :   70.709 # [mwords/sec]
-   Debug_Time(0):    0.533 # [msec]
-   Debug_Time(1):    0.378 # [msec]
-   Debug_Time(2):    0.155 # [msec]
+   average_time :    0.772 # [msec]
+   throughput   :   71.255 # [mwords/sec]
+   Debug_Time(0):    0.506 # [msec]
+   Debug_Time(1):    0.366 # [msec]
+   Debug_Time(2):    0.140 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -197,11 +197,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 60000
-   average_time :    0.870 # [msec]
-   throughput   :   68.932 # [mwords/sec]
-   Debug_Time(0):    0.641 # [msec]
-   Debug_Time(1):    0.463 # [msec]
-   Debug_Time(2):    0.178 # [msec]
+   average_time :    0.848 # [msec]
+   throughput   :   70.768 # [mwords/sec]
+   Debug_Time(0):    0.574 # [msec]
+   Debug_Time(1):    0.416 # [msec]
+   Debug_Time(2):    0.158 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -214,44 +214,10 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 65000
-   average_time :    0.966 # [msec]
-   throughput   :   67.260 # [mwords/sec]
-   Debug_Time(0):    0.579 # [msec]
-   Debug_Time(1):    0.416 # [msec]
-   Debug_Time(2):    0.163 # [msec]
--
-   Version      : 1.2
-   Ways         : 16
-   Words        : 2
-   Feedback     : 2
-   WordBits     : 32
-   IndexBits    : 32
-   Sort Order   : 0
-   Sign Compare : 0
-   Max Size     : 268435455
-   Debug Enable : 1
-   size         : 70000
-   average_time :    1.103 # [msec]
-   throughput   :   63.468 # [mwords/sec]
-   Debug_Time(0):    0.654 # [msec]
-   Debug_Time(1):    0.469 # [msec]
-   Debug_Time(2):    0.185 # [msec]
--
-   Version      : 1.2
-   Ways         : 16
-   Words        : 2
-   Feedback     : 2
-   WordBits     : 32
-   IndexBits    : 32
-   Sort Order   : 0
-   Sign Compare : 0
-   Max Size     : 268435455
-   Debug Enable : 1
-   size         : 75000
-   average_time :    1.195 # [msec]
-   throughput   :   62.739 # [mwords/sec]
-   Debug_Time(0):    0.720 # [msec]
-   Debug_Time(1):    0.519 # [msec]
+   average_time :    0.922 # [msec]
+   throughput   :   70.527 # [mwords/sec]
+   Debug_Time(0):    0.716 # [msec]
+   Debug_Time(1):    0.515 # [msec]
    Debug_Time(2):    0.201 # [msec]
 -
    Version      : 1.2
@@ -264,12 +230,46 @@
    Sign Compare : 0
    Max Size     : 268435455
    Debug Enable : 1
+   size         : 70000
+   average_time :    1.131 # [msec]
+   throughput   :   61.912 # [mwords/sec]
+   Debug_Time(0):    0.898 # [msec]
+   Debug_Time(1):    0.687 # [msec]
+   Debug_Time(2):    0.211 # [msec]
+-
+   Version      : 1.2
+   Ways         : 16
+   Words        : 2
+   Feedback     : 2
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
+   size         : 75000
+   average_time :    1.256 # [msec]
+   throughput   :   59.705 # [mwords/sec]
+   Debug_Time(0):    0.961 # [msec]
+   Debug_Time(1):    0.735 # [msec]
+   Debug_Time(2):    0.226 # [msec]
+-
+   Version      : 1.2
+   Ways         : 16
+   Words        : 2
+   Feedback     : 2
+   WordBits     : 32
+   IndexBits    : 32
+   Sort Order   : 0
+   Sign Compare : 0
+   Max Size     : 268435455
+   Debug Enable : 1
    size         : 80000
-   average_time :    1.320 # [msec]
-   throughput   :   60.622 # [mwords/sec]
-   Debug_Time(0):    0.736 # [msec]
-   Debug_Time(1):    0.522 # [msec]
-   Debug_Time(2):    0.213 # [msec]
+   average_time :    1.403 # [msec]
+   throughput   :   57.019 # [mwords/sec]
+   Debug_Time(0):    0.751 # [msec]
+   Debug_Time(1):    0.521 # [msec]
+   Debug_Time(2):    0.230 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -282,11 +282,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 85000
-   average_time :    1.400 # [msec]
-   throughput   :   60.715 # [mwords/sec]
-   Debug_Time(0):    0.801 # [msec]
-   Debug_Time(1):    0.573 # [msec]
-   Debug_Time(2):    0.228 # [msec]
+   average_time :    1.529 # [msec]
+   throughput   :   55.581 # [mwords/sec]
+   Debug_Time(0):    0.800 # [msec]
+   Debug_Time(1):    0.579 # [msec]
+   Debug_Time(2):    0.221 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -299,11 +299,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 90000
-   average_time :    1.443 # [msec]
-   throughput   :   62.349 # [mwords/sec]
-   Debug_Time(0):    0.814 # [msec]
-   Debug_Time(1):    0.576 # [msec]
-   Debug_Time(2):    0.237 # [msec]
+   average_time :    1.614 # [msec]
+   throughput   :   55.770 # [mwords/sec]
+   Debug_Time(0):    0.853 # [msec]
+   Debug_Time(1):    0.611 # [msec]
+   Debug_Time(2):    0.241 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -316,11 +316,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 95000
-   average_time :    1.584 # [msec]
-   throughput   :   59.983 # [mwords/sec]
-   Debug_Time(0):    0.891 # [msec]
+   average_time :    1.677 # [msec]
+   throughput   :   56.660 # [mwords/sec]
+   Debug_Time(0):    0.896 # [msec]
    Debug_Time(1):    0.639 # [msec]
-   Debug_Time(2):    0.252 # [msec]
+   Debug_Time(2):    0.256 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -333,11 +333,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 100000
-   average_time :    1.705 # [msec]
-   throughput   :   58.635 # [mwords/sec]
-   Debug_Time(0):    0.987 # [msec]
-   Debug_Time(1):    0.704 # [msec]
-   Debug_Time(2):    0.283 # [msec]
+   average_time :    1.802 # [msec]
+   throughput   :   55.493 # [mwords/sec]
+   Debug_Time(0):    0.993 # [msec]
+   Debug_Time(1):    0.711 # [msec]
+   Debug_Time(2):    0.281 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -350,11 +350,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 105000
-   average_time :    1.753 # [msec]
-   throughput   :   59.880 # [mwords/sec]
-   Debug_Time(0):    1.088 # [msec]
-   Debug_Time(1):    0.784 # [msec]
-   Debug_Time(2):    0.304 # [msec]
+   average_time :    1.891 # [msec]
+   throughput   :   55.526 # [mwords/sec]
+   Debug_Time(0):    1.069 # [msec]
+   Debug_Time(1):    0.768 # [msec]
+   Debug_Time(2):    0.302 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -367,11 +367,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 110000
-   average_time :    1.886 # [msec]
-   throughput   :   58.327 # [mwords/sec]
-   Debug_Time(0):    1.208 # [msec]
-   Debug_Time(1):    0.878 # [msec]
-   Debug_Time(2):    0.330 # [msec]
+   average_time :    2.017 # [msec]
+   throughput   :   54.547 # [mwords/sec]
+   Debug_Time(0):    1.180 # [msec]
+   Debug_Time(1):    0.856 # [msec]
+   Debug_Time(2):    0.324 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -384,10 +384,10 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 115000
-   average_time :    1.970 # [msec]
-   throughput   :   58.364 # [mwords/sec]
-   Debug_Time(0):    1.272 # [msec]
-   Debug_Time(1):    0.938 # [msec]
+   average_time :    2.101 # [msec]
+   throughput   :   54.730 # [mwords/sec]
+   Debug_Time(0):    1.292 # [msec]
+   Debug_Time(1):    0.957 # [msec]
    Debug_Time(2):    0.334 # [msec]
 -
    Version      : 1.2
@@ -401,11 +401,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 120000
-   average_time :    2.160 # [msec]
-   throughput   :   55.560 # [mwords/sec]
-   Debug_Time(0):    1.435 # [msec]
-   Debug_Time(1):    1.083 # [msec]
-   Debug_Time(2):    0.351 # [msec]
+   average_time :    2.321 # [msec]
+   throughput   :   51.699 # [mwords/sec]
+   Debug_Time(0):    1.480 # [msec]
+   Debug_Time(1):    1.127 # [msec]
+   Debug_Time(2):    0.353 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -418,11 +418,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 125000
-   average_time :    2.261 # [msec]
-   throughput   :   55.277 # [mwords/sec]
-   Debug_Time(0):    1.575 # [msec]
-   Debug_Time(1):    1.200 # [msec]
-   Debug_Time(2):    0.374 # [msec]
+   average_time :    2.422 # [msec]
+   throughput   :   51.614 # [mwords/sec]
+   Debug_Time(0):    1.596 # [msec]
+   Debug_Time(1):    1.224 # [msec]
+   Debug_Time(2):    0.372 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -435,11 +435,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 130000
-   average_time :    2.427 # [msec]
-   throughput   :   53.567 # [mwords/sec]
-   Debug_Time(0):    1.749 # [msec]
-   Debug_Time(1):    1.345 # [msec]
-   Debug_Time(2):    0.404 # [msec]
+   average_time :    2.472 # [msec]
+   throughput   :   52.584 # [mwords/sec]
+   Debug_Time(0):    1.737 # [msec]
+   Debug_Time(1):    1.348 # [msec]
+   Debug_Time(2):    0.389 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -452,12 +452,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 135000
-   average_time :    3.227 # [msec]
-   throughput   :   41.830 # [mwords/sec]
-   Debug_Time(0):    2.565 # [msec]
-   Debug_Time(1):    1.523 # [msec]
-   Debug_Time(2):    0.653 # [msec]
-   Debug_Time(3):    0.389 # [msec]
+   average_time :    3.308 # [msec]
+   throughput   :   40.808 # [mwords/sec]
+   Debug_Time(0):    2.591 # [msec]
+   Debug_Time(1):    1.534 # [msec]
+   Debug_Time(2):    0.665 # [msec]
+   Debug_Time(3):    0.391 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -470,12 +470,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 140000
-   average_time :    3.427 # [msec]
-   throughput   :   40.852 # [mwords/sec]
-   Debug_Time(0):    2.765 # [msec]
-   Debug_Time(1):    1.683 # [msec]
-   Debug_Time(2):    0.677 # [msec]
-   Debug_Time(3):    0.405 # [msec]
+   average_time :    3.472 # [msec]
+   throughput   :   40.318 # [mwords/sec]
+   Debug_Time(0):    2.793 # [msec]
+   Debug_Time(1):    1.698 # [msec]
+   Debug_Time(2):    0.691 # [msec]
+   Debug_Time(3):    0.404 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -488,12 +488,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 145000
-   average_time :    3.518 # [msec]
-   throughput   :   41.213 # [mwords/sec]
-   Debug_Time(0):    2.925 # [msec]
-   Debug_Time(1):    1.794 # [msec]
-   Debug_Time(2):    0.703 # [msec]
-   Debug_Time(3):    0.428 # [msec]
+   average_time :    3.561 # [msec]
+   throughput   :   40.713 # [mwords/sec]
+   Debug_Time(0):    2.924 # [msec]
+   Debug_Time(1):    1.792 # [msec]
+   Debug_Time(2):    0.707 # [msec]
+   Debug_Time(3):    0.425 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -506,12 +506,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 150000
-   average_time :    3.682 # [msec]
-   throughput   :   40.735 # [mwords/sec]
-   Debug_Time(0):    3.121 # [msec]
-   Debug_Time(1):    1.959 # [msec]
-   Debug_Time(2):    0.725 # [msec]
-   Debug_Time(3):    0.438 # [msec]
+   average_time :    3.735 # [msec]
+   throughput   :   40.165 # [mwords/sec]
+   Debug_Time(0):    3.126 # [msec]
+   Debug_Time(1):    1.955 # [msec]
+   Debug_Time(2):    0.728 # [msec]
+   Debug_Time(3):    0.443 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -524,12 +524,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 155000
-   average_time :    3.810 # [msec]
-   throughput   :   40.679 # [mwords/sec]
-   Debug_Time(0):    3.249 # [msec]
-   Debug_Time(1):    2.032 # [msec]
-   Debug_Time(2):    0.766 # [msec]
-   Debug_Time(3):    0.451 # [msec]
+   average_time :    3.888 # [msec]
+   throughput   :   39.864 # [mwords/sec]
+   Debug_Time(0):    3.293 # [msec]
+   Debug_Time(1):    2.088 # [msec]
+   Debug_Time(2):    0.750 # [msec]
+   Debug_Time(3):    0.455 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -542,12 +542,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 160000
-   average_time :    3.901 # [msec]
-   throughput   :   41.017 # [mwords/sec]
-   Debug_Time(0):    3.349 # [msec]
-   Debug_Time(1):    2.099 # [msec]
-   Debug_Time(2):    0.775 # [msec]
-   Debug_Time(3):    0.475 # [msec]
+   average_time :    4.048 # [msec]
+   throughput   :   39.521 # [mwords/sec]
+   Debug_Time(0):    3.468 # [msec]
+   Debug_Time(1):    2.205 # [msec]
+   Debug_Time(2):    0.785 # [msec]
+   Debug_Time(3):    0.477 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -560,12 +560,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 165000
-   average_time :    4.213 # [msec]
-   throughput   :   39.161 # [mwords/sec]
-   Debug_Time(0):    3.668 # [msec]
-   Debug_Time(1):    2.401 # [msec]
-   Debug_Time(2):    0.796 # [msec]
-   Debug_Time(3):    0.471 # [msec]
+   average_time :    4.239 # [msec]
+   throughput   :   38.922 # [mwords/sec]
+   Debug_Time(0):    3.674 # [msec]
+   Debug_Time(1):    2.415 # [msec]
+   Debug_Time(2):    0.773 # [msec]
+   Debug_Time(3):    0.487 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -578,12 +578,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 170000
-   average_time :    4.330 # [msec]
-   throughput   :   39.258 # [mwords/sec]
-   Debug_Time(0):    3.812 # [msec]
-   Debug_Time(1):    2.482 # [msec]
-   Debug_Time(2):    0.823 # [msec]
-   Debug_Time(3):    0.507 # [msec]
+   average_time :    4.374 # [msec]
+   throughput   :   38.867 # [mwords/sec]
+   Debug_Time(0):    3.889 # [msec]
+   Debug_Time(1):    2.555 # [msec]
+   Debug_Time(2):    0.825 # [msec]
+   Debug_Time(3):    0.509 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -596,12 +596,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 175000
-   average_time :    4.501 # [msec]
-   throughput   :   38.876 # [mwords/sec]
-   Debug_Time(0):    3.982 # [msec]
-   Debug_Time(1):    2.627 # [msec]
-   Debug_Time(2):    0.832 # [msec]
-   Debug_Time(3):    0.524 # [msec]
+   average_time :    4.562 # [msec]
+   throughput   :   38.358 # [mwords/sec]
+   Debug_Time(0):    4.038 # [msec]
+   Debug_Time(1):    2.671 # [msec]
+   Debug_Time(2):    0.848 # [msec]
+   Debug_Time(3):    0.519 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -614,12 +614,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 180000
-   average_time :    4.673 # [msec]
-   throughput   :   38.521 # [mwords/sec]
-   Debug_Time(0):    4.184 # [msec]
-   Debug_Time(1):    2.769 # [msec]
-   Debug_Time(2):    0.875 # [msec]
-   Debug_Time(3):    0.541 # [msec]
+   average_time :    4.703 # [msec]
+   throughput   :   38.276 # [mwords/sec]
+   Debug_Time(0):    4.216 # [msec]
+   Debug_Time(1):    2.799 # [msec]
+   Debug_Time(2):    0.880 # [msec]
+   Debug_Time(3):    0.537 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -632,12 +632,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 185000
-   average_time :    4.841 # [msec]
-   throughput   :   38.216 # [mwords/sec]
-   Debug_Time(0):    4.361 # [msec]
-   Debug_Time(1):    2.908 # [msec]
-   Debug_Time(2):    0.897 # [msec]
-   Debug_Time(3):    0.556 # [msec]
+   average_time :    4.879 # [msec]
+   throughput   :   37.919 # [mwords/sec]
+   Debug_Time(0):    4.398 # [msec]
+   Debug_Time(1):    2.940 # [msec]
+   Debug_Time(2):    0.896 # [msec]
+   Debug_Time(3):    0.562 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -650,12 +650,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 190000
-   average_time :    5.008 # [msec]
-   throughput   :   37.936 # [mwords/sec]
-   Debug_Time(0):    4.610 # [msec]
-   Debug_Time(1):    3.091 # [msec]
-   Debug_Time(2):    0.946 # [msec]
-   Debug_Time(3):    0.573 # [msec]
+   average_time :    5.013 # [msec]
+   throughput   :   37.899 # [mwords/sec]
+   Debug_Time(0):    4.577 # [msec]
+   Debug_Time(1):    3.079 # [msec]
+   Debug_Time(2):    0.929 # [msec]
+   Debug_Time(3):    0.569 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -668,12 +668,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 195000
-   average_time :    5.161 # [msec]
-   throughput   :   37.787 # [mwords/sec]
-   Debug_Time(0):    4.706 # [msec]
-   Debug_Time(1):    3.170 # [msec]
-   Debug_Time(2):    0.945 # [msec]
-   Debug_Time(3):    0.591 # [msec]
+   average_time :    5.170 # [msec]
+   throughput   :   37.715 # [mwords/sec]
+   Debug_Time(0):    4.732 # [msec]
+   Debug_Time(1):    3.186 # [msec]
+   Debug_Time(2):    0.947 # [msec]
+   Debug_Time(3):    0.598 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -686,12 +686,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 200000
-   average_time :    5.294 # [msec]
-   throughput   :   37.780 # [mwords/sec]
-   Debug_Time(0):    4.821 # [msec]
-   Debug_Time(1):    3.268 # [msec]
-   Debug_Time(2):    0.959 # [msec]
-   Debug_Time(3):    0.594 # [msec]
+   average_time :    5.329 # [msec]
+   throughput   :   37.532 # [mwords/sec]
+   Debug_Time(0):    4.934 # [msec]
+   Debug_Time(1):    3.369 # [msec]
+   Debug_Time(2):    0.967 # [msec]
+   Debug_Time(3):    0.598 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -704,12 +704,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 205000
-   average_time :    5.431 # [msec]
-   throughput   :   37.743 # [mwords/sec]
-   Debug_Time(0):    5.030 # [msec]
-   Debug_Time(1):    3.422 # [msec]
-   Debug_Time(2):    0.996 # [msec]
-   Debug_Time(3):    0.612 # [msec]
+   average_time :    5.472 # [msec]
+   throughput   :   37.463 # [mwords/sec]
+   Debug_Time(0):    5.097 # [msec]
+   Debug_Time(1):    3.489 # [msec]
+   Debug_Time(2):    0.994 # [msec]
+   Debug_Time(3):    0.613 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -722,12 +722,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 210000
-   average_time :    5.605 # [msec]
-   throughput   :   37.464 # [mwords/sec]
-   Debug_Time(0):    5.281 # [msec]
-   Debug_Time(1):    3.578 # [msec]
-   Debug_Time(2):    1.033 # [msec]
-   Debug_Time(3):    0.670 # [msec]
+   average_time :    5.546 # [msec]
+   throughput   :   37.863 # [mwords/sec]
+   Debug_Time(0):    5.167 # [msec]
+   Debug_Time(1):    3.536 # [msec]
+   Debug_Time(2):    0.996 # [msec]
+   Debug_Time(3):    0.636 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -740,12 +740,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 215000
-   average_time :    5.722 # [msec]
-   throughput   :   37.572 # [mwords/sec]
-   Debug_Time(0):    5.446 # [msec]
-   Debug_Time(1):    3.644 # [msec]
-   Debug_Time(2):    1.119 # [msec]
-   Debug_Time(3):    0.683 # [msec]
+   average_time :    5.784 # [msec]
+   throughput   :   37.171 # [mwords/sec]
+   Debug_Time(0):    5.463 # [msec]
+   Debug_Time(1):    3.706 # [msec]
+   Debug_Time(2):    1.075 # [msec]
+   Debug_Time(3):    0.682 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -758,12 +758,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 220000
-   average_time :    5.894 # [msec]
-   throughput   :   37.327 # [mwords/sec]
-   Debug_Time(0):    5.719 # [msec]
-   Debug_Time(1):    3.887 # [msec]
-   Debug_Time(2):    1.120 # [msec]
-   Debug_Time(3):    0.712 # [msec]
+   average_time :    5.937 # [msec]
+   throughput   :   37.055 # [mwords/sec]
+   Debug_Time(0):    5.730 # [msec]
+   Debug_Time(1):    3.885 # [msec]
+   Debug_Time(2):    1.119 # [msec]
+   Debug_Time(3):    0.725 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -776,12 +776,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 225000
-   average_time :    6.040 # [msec]
-   throughput   :   37.252 # [mwords/sec]
-   Debug_Time(0):    5.812 # [msec]
-   Debug_Time(1):    3.926 # [msec]
-   Debug_Time(2):    1.136 # [msec]
-   Debug_Time(3):    0.751 # [msec]
+   average_time :    6.043 # [msec]
+   throughput   :   37.233 # [mwords/sec]
+   Debug_Time(0):    5.851 # [msec]
+   Debug_Time(1):    3.973 # [msec]
+   Debug_Time(2):    1.144 # [msec]
+   Debug_Time(3):    0.734 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -794,12 +794,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 230000
-   average_time :    6.248 # [msec]
-   throughput   :   36.814 # [mwords/sec]
-   Debug_Time(0):    5.971 # [msec]
-   Debug_Time(1):    4.133 # [msec]
-   Debug_Time(2):    1.118 # [msec]
-   Debug_Time(3):    0.719 # [msec]
+   average_time :    6.236 # [msec]
+   throughput   :   36.882 # [mwords/sec]
+   Debug_Time(0):    6.017 # [msec]
+   Debug_Time(1):    4.157 # [msec]
+   Debug_Time(2):    1.138 # [msec]
+   Debug_Time(3):    0.722 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -812,12 +812,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 235000
-   average_time :    6.300 # [msec]
-   throughput   :   37.304 # [mwords/sec]
-   Debug_Time(0):    6.003 # [msec]
-   Debug_Time(1):    4.116 # [msec]
-   Debug_Time(2):    1.154 # [msec]
-   Debug_Time(3):    0.733 # [msec]
+   average_time :    6.340 # [msec]
+   throughput   :   37.064 # [mwords/sec]
+   Debug_Time(0):    6.079 # [msec]
+   Debug_Time(1):    4.191 # [msec]
+   Debug_Time(2):    1.144 # [msec]
+   Debug_Time(3):    0.744 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -830,12 +830,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 240000
-   average_time :    6.507 # [msec]
-   throughput   :   36.881 # [mwords/sec]
-   Debug_Time(0):    6.122 # [msec]
-   Debug_Time(1):    4.232 # [msec]
-   Debug_Time(2):    1.138 # [msec]
-   Debug_Time(3):    0.751 # [msec]
+   average_time :    6.514 # [msec]
+   throughput   :   36.842 # [mwords/sec]
+   Debug_Time(0):    6.166 # [msec]
+   Debug_Time(1):    4.244 # [msec]
+   Debug_Time(2):    1.164 # [msec]
+   Debug_Time(3):    0.757 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -848,12 +848,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 245000
-   average_time :    6.603 # [msec]
-   throughput   :   37.104 # [mwords/sec]
-   Debug_Time(0):    6.219 # [msec]
-   Debug_Time(1):    4.252 # [msec]
-   Debug_Time(2):    1.193 # [msec]
-   Debug_Time(3):    0.773 # [msec]
+   average_time :    6.622 # [msec]
+   throughput   :   36.997 # [mwords/sec]
+   Debug_Time(0):    6.235 # [msec]
+   Debug_Time(1):    4.260 # [msec]
+   Debug_Time(2):    1.190 # [msec]
+   Debug_Time(3):    0.785 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -866,12 +866,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 250000
-   average_time :    6.732 # [msec]
-   throughput   :   37.135 # [mwords/sec]
-   Debug_Time(0):    6.366 # [msec]
-   Debug_Time(1):    4.383 # [msec]
-   Debug_Time(2):    1.212 # [msec]
-   Debug_Time(3):    0.771 # [msec]
+   average_time :    6.777 # [msec]
+   throughput   :   36.890 # [mwords/sec]
+   Debug_Time(0):    6.359 # [msec]
+   Debug_Time(1):    4.364 # [msec]
+   Debug_Time(2):    1.213 # [msec]
+   Debug_Time(3):    0.782 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -884,12 +884,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 255000
-   average_time :    6.916 # [msec]
-   throughput   :   36.873 # [mwords/sec]
-   Debug_Time(0):    6.537 # [msec]
-   Debug_Time(1):    4.502 # [msec]
-   Debug_Time(2):    1.236 # [msec]
-   Debug_Time(3):    0.799 # [msec]
+   average_time :    6.918 # [msec]
+   throughput   :   36.858 # [mwords/sec]
+   Debug_Time(0):    6.553 # [msec]
+   Debug_Time(1):    4.492 # [msec]
+   Debug_Time(2):    1.237 # [msec]
+   Debug_Time(3):    0.824 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -902,12 +902,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 260000
-   average_time :    7.000 # [msec]
-   throughput   :   37.144 # [mwords/sec]
+   average_time :    7.010 # [msec]
+   throughput   :   37.088 # [mwords/sec]
    Debug_Time(0):    6.614 # [msec]
-   Debug_Time(1):    4.551 # [msec]
+   Debug_Time(1):    4.560 # [msec]
    Debug_Time(2):    1.261 # [msec]
-   Debug_Time(3):    0.802 # [msec]
+   Debug_Time(3):    0.793 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -920,12 +920,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 265000
-   average_time :    7.181 # [msec]
-   throughput   :   36.902 # [mwords/sec]
-   Debug_Time(0):    6.896 # [msec]
-   Debug_Time(1):    4.675 # [msec]
-   Debug_Time(2):    1.353 # [msec]
-   Debug_Time(3):    0.868 # [msec]
+   average_time :    7.159 # [msec]
+   throughput   :   37.015 # [mwords/sec]
+   Debug_Time(0):    6.773 # [msec]
+   Debug_Time(1):    4.642 # [msec]
+   Debug_Time(2):    1.282 # [msec]
+   Debug_Time(3):    0.849 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -938,12 +938,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 270000
-   average_time :    7.296 # [msec]
-   throughput   :   37.008 # [mwords/sec]
-   Debug_Time(0):    6.935 # [msec]
-   Debug_Time(1):    4.776 # [msec]
-   Debug_Time(2):    1.313 # [msec]
-   Debug_Time(3):    0.846 # [msec]
+   average_time :    7.313 # [msec]
+   throughput   :   36.921 # [mwords/sec]
+   Debug_Time(0):    6.982 # [msec]
+   Debug_Time(1):    4.726 # [msec]
+   Debug_Time(2):    1.356 # [msec]
+   Debug_Time(3):    0.900 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -956,12 +956,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 275000
-   average_time :    7.420 # [msec]
-   throughput   :   37.061 # [mwords/sec]
-   Debug_Time(0):    7.096 # [msec]
-   Debug_Time(1):    4.868 # [msec]
-   Debug_Time(2):    1.348 # [msec]
-   Debug_Time(3):    0.880 # [msec]
+   average_time :    7.429 # [msec]
+   throughput   :   37.015 # [mwords/sec]
+   Debug_Time(0):    7.102 # [msec]
+   Debug_Time(1):    4.805 # [msec]
+   Debug_Time(2):    1.394 # [msec]
+   Debug_Time(3):    0.903 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -974,12 +974,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 280000
-   average_time :    7.565 # [msec]
-   throughput   :   37.013 # [mwords/sec]
-   Debug_Time(0):    7.166 # [msec]
-   Debug_Time(1):    4.868 # [msec]
-   Debug_Time(2):    1.395 # [msec]
-   Debug_Time(3):    0.904 # [msec]
+   average_time :    7.591 # [msec]
+   throughput   :   36.886 # [mwords/sec]
+   Debug_Time(0):    7.210 # [msec]
+   Debug_Time(1):    4.941 # [msec]
+   Debug_Time(2):    1.361 # [msec]
+   Debug_Time(3):    0.907 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -992,12 +992,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 285000
-   average_time :    7.665 # [msec]
-   throughput   :   37.182 # [mwords/sec]
-   Debug_Time(0):    7.310 # [msec]
-   Debug_Time(1):    4.992 # [msec]
-   Debug_Time(2):    1.405 # [msec]
-   Debug_Time(3):    0.914 # [msec]
+   average_time :    7.659 # [msec]
+   throughput   :   37.210 # [mwords/sec]
+   Debug_Time(0):    7.300 # [msec]
+   Debug_Time(1):    4.983 # [msec]
+   Debug_Time(2):    1.408 # [msec]
+   Debug_Time(3):    0.909 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1010,12 +1010,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 290000
-   average_time :    7.819 # [msec]
-   throughput   :   37.091 # [mwords/sec]
-   Debug_Time(0):    7.487 # [msec]
-   Debug_Time(1):    5.111 # [msec]
-   Debug_Time(2):    1.422 # [msec]
-   Debug_Time(3):    0.954 # [msec]
+   average_time :    7.815 # [msec]
+   throughput   :   37.107 # [mwords/sec]
+   Debug_Time(0):    7.426 # [msec]
+   Debug_Time(1):    5.086 # [msec]
+   Debug_Time(2):    1.402 # [msec]
+   Debug_Time(3):    0.938 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1028,12 +1028,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 295000
-   average_time :    7.921 # [msec]
-   throughput   :   37.241 # [mwords/sec]
-   Debug_Time(0):    7.606 # [msec]
-   Debug_Time(1):    5.194 # [msec]
-   Debug_Time(2):    1.458 # [msec]
-   Debug_Time(3):    0.955 # [msec]
+   average_time :    7.953 # [msec]
+   throughput   :   37.093 # [mwords/sec]
+   Debug_Time(0):    7.568 # [msec]
+   Debug_Time(1):    5.160 # [msec]
+   Debug_Time(2):    1.452 # [msec]
+   Debug_Time(3):    0.956 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1046,12 +1046,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 300000
-   average_time :    8.071 # [msec]
-   throughput   :   37.172 # [mwords/sec]
-   Debug_Time(0):    7.702 # [msec]
-   Debug_Time(1):    5.278 # [msec]
-   Debug_Time(2):    1.453 # [msec]
-   Debug_Time(3):    0.971 # [msec]
+   average_time :    8.102 # [msec]
+   throughput   :   37.028 # [mwords/sec]
+   Debug_Time(0):    7.714 # [msec]
+   Debug_Time(1):    5.257 # [msec]
+   Debug_Time(2):    1.466 # [msec]
+   Debug_Time(3):    0.991 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1064,12 +1064,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 305000
-   average_time :    8.224 # [msec]
-   throughput   :   37.086 # [mwords/sec]
-   Debug_Time(0):    7.832 # [msec]
-   Debug_Time(1):    5.361 # [msec]
-   Debug_Time(2):    1.484 # [msec]
-   Debug_Time(3):    0.987 # [msec]
+   average_time :    8.250 # [msec]
+   throughput   :   36.970 # [mwords/sec]
+   Debug_Time(0):    7.896 # [msec]
+   Debug_Time(1):    5.389 # [msec]
+   Debug_Time(2):    1.508 # [msec]
+   Debug_Time(3):    1.000 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1082,12 +1082,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 310000
-   average_time :    8.346 # [msec]
-   throughput   :   37.145 # [mwords/sec]
-   Debug_Time(0):    8.068 # [msec]
-   Debug_Time(1):    5.431 # [msec]
-   Debug_Time(2):    1.563 # [msec]
-   Debug_Time(3):    1.074 # [msec]
+   average_time :    8.371 # [msec]
+   throughput   :   37.035 # [mwords/sec]
+   Debug_Time(0):    7.951 # [msec]
+   Debug_Time(1):    5.440 # [msec]
+   Debug_Time(2):    1.500 # [msec]
+   Debug_Time(3):    1.011 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1100,12 +1100,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 315000
-   average_time :    8.534 # [msec]
-   throughput   :   36.912 # [mwords/sec]
-   Debug_Time(0):    8.388 # [msec]
-   Debug_Time(1):    5.556 # [msec]
-   Debug_Time(2):    1.608 # [msec]
-   Debug_Time(3):    1.224 # [msec]
+   average_time :    8.495 # [msec]
+   throughput   :   37.080 # [mwords/sec]
+   Debug_Time(0):    8.097 # [msec]
+   Debug_Time(1):    5.530 # [msec]
+   Debug_Time(2):    1.528 # [msec]
+   Debug_Time(3):    1.039 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1118,12 +1118,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 320000
-   average_time :    8.609 # [msec]
-   throughput   :   37.172 # [mwords/sec]
-   Debug_Time(0):    8.483 # [msec]
-   Debug_Time(1):    5.687 # [msec]
-   Debug_Time(2):    1.624 # [msec]
-   Debug_Time(3):    1.172 # [msec]
+   average_time :    8.597 # [msec]
+   throughput   :   37.224 # [mwords/sec]
+   Debug_Time(0):    8.219 # [msec]
+   Debug_Time(1):    5.589 # [msec]
+   Debug_Time(2):    1.537 # [msec]
+   Debug_Time(3):    1.093 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1136,12 +1136,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 325000
-   average_time :    8.752 # [msec]
-   throughput   :   37.132 # [mwords/sec]
-   Debug_Time(0):    8.594 # [msec]
-   Debug_Time(1):    5.858 # [msec]
-   Debug_Time(2):    1.659 # [msec]
-   Debug_Time(3):    1.077 # [msec]
+   average_time :    8.784 # [msec]
+   throughput   :   36.999 # [mwords/sec]
+   Debug_Time(0):    8.656 # [msec]
+   Debug_Time(1):    5.720 # [msec]
+   Debug_Time(2):    1.645 # [msec]
+   Debug_Time(3):    1.291 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1154,12 +1154,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 330000
-   average_time :    8.907 # [msec]
-   throughput   :   37.049 # [mwords/sec]
-   Debug_Time(0):    8.756 # [msec]
-   Debug_Time(1):    5.762 # [msec]
-   Debug_Time(2):    1.669 # [msec]
-   Debug_Time(3):    1.325 # [msec]
+   average_time :    8.904 # [msec]
+   throughput   :   37.062 # [mwords/sec]
+   Debug_Time(0):    8.743 # [msec]
+   Debug_Time(1):    5.831 # [msec]
+   Debug_Time(2):    1.670 # [msec]
+   Debug_Time(3):    1.242 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1172,12 +1172,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 335000
-   average_time :    9.015 # [msec]
-   throughput   :   37.161 # [mwords/sec]
-   Debug_Time(0):    8.652 # [msec]
-   Debug_Time(1):    5.851 # [msec]
-   Debug_Time(2):    1.620 # [msec]
-   Debug_Time(3):    1.181 # [msec]
+   average_time :    8.997 # [msec]
+   throughput   :   37.236 # [mwords/sec]
+   Debug_Time(0):    8.642 # [msec]
+   Debug_Time(1):    5.847 # [msec]
+   Debug_Time(2):    1.623 # [msec]
+   Debug_Time(3):    1.171 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1190,12 +1190,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 340000
-   average_time :    9.157 # [msec]
-   throughput   :   37.131 # [mwords/sec]
-   Debug_Time(0):    9.027 # [msec]
-   Debug_Time(1):    6.017 # [msec]
-   Debug_Time(2):    1.726 # [msec]
-   Debug_Time(3):    1.285 # [msec]
+   average_time :    9.155 # [msec]
+   throughput   :   37.139 # [mwords/sec]
+   Debug_Time(0):    8.811 # [msec]
+   Debug_Time(1):    5.929 # [msec]
+   Debug_Time(2):    1.654 # [msec]
+   Debug_Time(3):    1.227 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1208,12 +1208,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 345000
-   average_time :    9.333 # [msec]
-   throughput   :   36.965 # [mwords/sec]
-   Debug_Time(0):    9.197 # [msec]
-   Debug_Time(1):    6.144 # [msec]
-   Debug_Time(2):    1.752 # [msec]
-   Debug_Time(3):    1.301 # [msec]
+   average_time :    9.326 # [msec]
+   throughput   :   36.992 # [mwords/sec]
+   Debug_Time(0):    9.064 # [msec]
+   Debug_Time(1):    6.068 # [msec]
+   Debug_Time(2):    1.746 # [msec]
+   Debug_Time(3):    1.250 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1226,12 +1226,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 350000
-   average_time :    9.458 # [msec]
-   throughput   :   37.006 # [mwords/sec]
-   Debug_Time(0):    9.450 # [msec]
-   Debug_Time(1):    6.369 # [msec]
-   Debug_Time(2):    1.774 # [msec]
-   Debug_Time(3):    1.307 # [msec]
+   average_time :    9.432 # [msec]
+   throughput   :   37.108 # [mwords/sec]
+   Debug_Time(0):    9.280 # [msec]
+   Debug_Time(1):    6.136 # [msec]
+   Debug_Time(2):    1.779 # [msec]
+   Debug_Time(3):    1.365 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1244,12 +1244,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 355000
-   average_time :    9.589 # [msec]
-   throughput   :   37.020 # [mwords/sec]
-   Debug_Time(0):    9.425 # [msec]
-   Debug_Time(1):    6.333 # [msec]
-   Debug_Time(2):    1.783 # [msec]
-   Debug_Time(3):    1.309 # [msec]
+   average_time :    9.593 # [msec]
+   throughput   :   37.008 # [mwords/sec]
+   Debug_Time(0):    9.439 # [msec]
+   Debug_Time(1):    6.289 # [msec]
+   Debug_Time(2):    1.791 # [msec]
+   Debug_Time(3):    1.359 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1262,12 +1262,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 360000
-   average_time :    9.648 # [msec]
-   throughput   :   37.314 # [mwords/sec]
-   Debug_Time(0):    9.271 # [msec]
-   Debug_Time(1):    6.184 # [msec]
-   Debug_Time(2):    1.775 # [msec]
-   Debug_Time(3):    1.312 # [msec]
+   average_time :    9.688 # [msec]
+   throughput   :   37.161 # [mwords/sec]
+   Debug_Time(0):    9.486 # [msec]
+   Debug_Time(1):    6.382 # [msec]
+   Debug_Time(2):    1.820 # [msec]
+   Debug_Time(3):    1.284 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1280,12 +1280,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 365000
-   average_time :    9.811 # [msec]
-   throughput   :   37.204 # [mwords/sec]
-   Debug_Time(0):    9.379 # [msec]
-   Debug_Time(1):    6.270 # [msec]
-   Debug_Time(2):    1.775 # [msec]
-   Debug_Time(3):    1.334 # [msec]
+   average_time :    9.832 # [msec]
+   throughput   :   37.124 # [mwords/sec]
+   Debug_Time(0):    9.719 # [msec]
+   Debug_Time(1):    6.500 # [msec]
+   Debug_Time(2):    1.841 # [msec]
+   Debug_Time(3):    1.378 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1298,12 +1298,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 370000
-   average_time :    9.965 # [msec]
-   throughput   :   37.130 # [mwords/sec]
-   Debug_Time(0):    9.494 # [msec]
-   Debug_Time(1):    6.359 # [msec]
-   Debug_Time(2):    1.795 # [msec]
-   Debug_Time(3):    1.339 # [msec]
+   average_time :   10.000 # [msec]
+   throughput   :   36.998 # [mwords/sec]
+   Debug_Time(0):   10.052 # [msec]
+   Debug_Time(1):    6.733 # [msec]
+   Debug_Time(2):    1.871 # [msec]
+   Debug_Time(3):    1.448 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1316,12 +1316,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 375000
-   average_time :   10.072 # [msec]
-   throughput   :   37.231 # [mwords/sec]
-   Debug_Time(0):    9.590 # [msec]
-   Debug_Time(1):    6.403 # [msec]
-   Debug_Time(2):    1.823 # [msec]
-   Debug_Time(3):    1.364 # [msec]
+   average_time :   10.119 # [msec]
+   throughput   :   37.059 # [mwords/sec]
+   Debug_Time(0):    9.812 # [msec]
+   Debug_Time(1):    6.456 # [msec]
+   Debug_Time(2):    1.865 # [msec]
+   Debug_Time(3):    1.491 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1334,12 +1334,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 380000
-   average_time :   10.186 # [msec]
-   throughput   :   37.306 # [mwords/sec]
-   Debug_Time(0):    9.732 # [msec]
-   Debug_Time(1):    6.447 # [msec]
-   Debug_Time(2):    1.936 # [msec]
-   Debug_Time(3):    1.348 # [msec]
+   average_time :   10.275 # [msec]
+   throughput   :   36.981 # [mwords/sec]
+   Debug_Time(0):    9.943 # [msec]
+   Debug_Time(1):    6.571 # [msec]
+   Debug_Time(2):    1.910 # [msec]
+   Debug_Time(3):    1.462 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1352,12 +1352,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 385000
-   average_time :   10.301 # [msec]
-   throughput   :   37.375 # [mwords/sec]
-   Debug_Time(0):    9.760 # [msec]
-   Debug_Time(1):    6.601 # [msec]
-   Debug_Time(2):    1.871 # [msec]
-   Debug_Time(3):    1.289 # [msec]
+   average_time :   10.371 # [msec]
+   throughput   :   37.124 # [mwords/sec]
+   Debug_Time(0):   10.020 # [msec]
+   Debug_Time(1):    6.576 # [msec]
+   Debug_Time(2):    1.930 # [msec]
+   Debug_Time(3):    1.514 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1370,12 +1370,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 390000
-   average_time :   10.452 # [msec]
-   throughput   :   37.312 # [mwords/sec]
-   Debug_Time(0):    9.908 # [msec]
-   Debug_Time(1):    6.723 # [msec]
-   Debug_Time(2):    1.895 # [msec]
-   Debug_Time(3):    1.290 # [msec]
+   average_time :   10.491 # [msec]
+   throughput   :   37.176 # [mwords/sec]
+   Debug_Time(0):   10.104 # [msec]
+   Debug_Time(1):    6.685 # [msec]
+   Debug_Time(2):    1.960 # [msec]
+   Debug_Time(3):    1.460 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1388,12 +1388,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 395000
-   average_time :   10.563 # [msec]
-   throughput   :   37.394 # [mwords/sec]
-   Debug_Time(0):   10.059 # [msec]
-   Debug_Time(1):    6.762 # [msec]
-   Debug_Time(2):    1.917 # [msec]
-   Debug_Time(3):    1.381 # [msec]
+   average_time :   10.608 # [msec]
+   throughput   :   37.237 # [mwords/sec]
+   Debug_Time(0):   10.209 # [msec]
+   Debug_Time(1):    6.744 # [msec]
+   Debug_Time(2):    1.973 # [msec]
+   Debug_Time(3):    1.492 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1406,12 +1406,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 400000
-   average_time :   10.722 # [msec]
-   throughput   :   37.305 # [mwords/sec]
-   Debug_Time(0):   10.145 # [msec]
-   Debug_Time(1):    6.866 # [msec]
-   Debug_Time(2):    1.943 # [msec]
-   Debug_Time(3):    1.336 # [msec]
+   average_time :   10.753 # [msec]
+   throughput   :   37.200 # [mwords/sec]
+   Debug_Time(0):   10.188 # [msec]
+   Debug_Time(1):    6.835 # [msec]
+   Debug_Time(2):    1.940 # [msec]
+   Debug_Time(3):    1.413 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1424,12 +1424,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 405000
-   average_time :   10.864 # [msec]
-   throughput   :   37.280 # [mwords/sec]
-   Debug_Time(0):   10.289 # [msec]
-   Debug_Time(1):    6.946 # [msec]
-   Debug_Time(2):    1.965 # [msec]
-   Debug_Time(3):    1.377 # [msec]
+   average_time :   10.882 # [msec]
+   throughput   :   37.218 # [mwords/sec]
+   Debug_Time(0):   10.362 # [msec]
+   Debug_Time(1):    6.977 # [msec]
+   Debug_Time(2):    1.964 # [msec]
+   Debug_Time(3):    1.420 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1442,12 +1442,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 410000
-   average_time :   10.960 # [msec]
-   throughput   :   37.410 # [mwords/sec]
-   Debug_Time(0):   10.391 # [msec]
-   Debug_Time(1):    6.988 # [msec]
-   Debug_Time(2):    1.961 # [msec]
-   Debug_Time(3):    1.441 # [msec]
+   average_time :   10.966 # [msec]
+   throughput   :   37.388 # [mwords/sec]
+   Debug_Time(0):   10.276 # [msec]
+   Debug_Time(1):    6.895 # [msec]
+   Debug_Time(2):    1.986 # [msec]
+   Debug_Time(3):    1.394 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1460,12 +1460,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 415000
-   average_time :   11.115 # [msec]
-   throughput   :   37.337 # [mwords/sec]
-   Debug_Time(0):   10.567 # [msec]
-   Debug_Time(1):    7.187 # [msec]
-   Debug_Time(2):    2.012 # [msec]
-   Debug_Time(3):    1.368 # [msec]
+   average_time :   11.128 # [msec]
+   throughput   :   37.295 # [mwords/sec]
+   Debug_Time(0):   10.568 # [msec]
+   Debug_Time(1):    7.052 # [msec]
+   Debug_Time(2):    2.014 # [msec]
+   Debug_Time(3):    1.503 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1478,12 +1478,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 420000
-   average_time :   11.248 # [msec]
-   throughput   :   37.338 # [mwords/sec]
-   Debug_Time(0):   10.765 # [msec]
-   Debug_Time(1):    7.298 # [msec]
-   Debug_Time(2):    2.044 # [msec]
-   Debug_Time(3):    1.423 # [msec]
+   average_time :   11.262 # [msec]
+   throughput   :   37.295 # [mwords/sec]
+   Debug_Time(0):   10.617 # [msec]
+   Debug_Time(1):    7.151 # [msec]
+   Debug_Time(2):    2.010 # [msec]
+   Debug_Time(3):    1.456 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1496,12 +1496,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 425000
-   average_time :   11.340 # [msec]
-   throughput   :   37.479 # [mwords/sec]
-   Debug_Time(0):   10.885 # [msec]
-   Debug_Time(1):    7.383 # [msec]
-   Debug_Time(2):    2.063 # [msec]
-   Debug_Time(3):    1.439 # [msec]
+   average_time :   11.383 # [msec]
+   throughput   :   37.335 # [mwords/sec]
+   Debug_Time(0):   10.772 # [msec]
+   Debug_Time(1):    7.216 # [msec]
+   Debug_Time(2):    2.076 # [msec]
+   Debug_Time(3):    1.480 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1514,12 +1514,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 430000
-   average_time :   11.523 # [msec]
-   throughput   :   37.316 # [mwords/sec]
-   Debug_Time(0):   10.937 # [msec]
-   Debug_Time(1):    7.372 # [msec]
-   Debug_Time(2):    2.087 # [msec]
-   Debug_Time(3):    1.477 # [msec]
+   average_time :   11.559 # [msec]
+   throughput   :   37.201 # [mwords/sec]
+   Debug_Time(0):   11.019 # [msec]
+   Debug_Time(1):    7.343 # [msec]
+   Debug_Time(2):    2.085 # [msec]
+   Debug_Time(3):    1.591 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1532,12 +1532,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 435000
-   average_time :   11.641 # [msec]
-   throughput   :   37.369 # [mwords/sec]
-   Debug_Time(0):   11.030 # [msec]
-   Debug_Time(1):    7.452 # [msec]
+   average_time :   11.680 # [msec]
+   throughput   :   37.243 # [mwords/sec]
+   Debug_Time(0):   11.072 # [msec]
+   Debug_Time(1):    7.466 # [msec]
    Debug_Time(2):    2.112 # [msec]
-   Debug_Time(3):    1.466 # [msec]
+   Debug_Time(3):    1.493 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1550,12 +1550,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 440000
-   average_time :   11.712 # [msec]
-   throughput   :   37.567 # [mwords/sec]
-   Debug_Time(0):   11.240 # [msec]
-   Debug_Time(1):    7.530 # [msec]
-   Debug_Time(2):    2.137 # [msec]
-   Debug_Time(3):    1.573 # [msec]
+   average_time :   11.788 # [msec]
+   throughput   :   37.328 # [mwords/sec]
+   Debug_Time(0):   11.310 # [msec]
+   Debug_Time(1):    7.608 # [msec]
+   Debug_Time(2):    2.133 # [msec]
+   Debug_Time(3):    1.569 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1568,12 +1568,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 445000
-   average_time :   11.868 # [msec]
-   throughput   :   37.496 # [mwords/sec]
-   Debug_Time(0):   11.382 # [msec]
-   Debug_Time(1):    7.711 # [msec]
-   Debug_Time(2):    2.161 # [msec]
-   Debug_Time(3):    1.511 # [msec]
+   average_time :   11.943 # [msec]
+   throughput   :   37.261 # [mwords/sec]
+   Debug_Time(0):   11.380 # [msec]
+   Debug_Time(1):    7.709 # [msec]
+   Debug_Time(2):    2.160 # [msec]
+   Debug_Time(3):    1.512 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1586,12 +1586,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 450000
-   average_time :   11.989 # [msec]
-   throughput   :   37.535 # [mwords/sec]
-   Debug_Time(0):   11.533 # [msec]
-   Debug_Time(1):    7.691 # [msec]
-   Debug_Time(2):    2.185 # [msec]
-   Debug_Time(3):    1.657 # [msec]
+   average_time :   12.061 # [msec]
+   throughput   :   37.311 # [mwords/sec]
+   Debug_Time(0):   11.459 # [msec]
+   Debug_Time(1):    7.720 # [msec]
+   Debug_Time(2):    2.184 # [msec]
+   Debug_Time(3):    1.554 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1604,12 +1604,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 455000
-   average_time :   12.133 # [msec]
-   throughput   :   37.500 # [mwords/sec]
-   Debug_Time(0):   11.578 # [msec]
-   Debug_Time(1):    7.806 # [msec]
-   Debug_Time(2):    2.206 # [msec]
-   Debug_Time(3):    1.566 # [msec]
+   average_time :   12.170 # [msec]
+   throughput   :   37.387 # [mwords/sec]
+   Debug_Time(0):   11.633 # [msec]
+   Debug_Time(1):    7.894 # [msec]
+   Debug_Time(2):    2.188 # [msec]
+   Debug_Time(3):    1.552 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1622,12 +1622,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 460000
-   average_time :   12.260 # [msec]
-   throughput   :   37.521 # [mwords/sec]
-   Debug_Time(0):   11.782 # [msec]
-   Debug_Time(1):    7.914 # [msec]
-   Debug_Time(2):    2.236 # [msec]
-   Debug_Time(3):    1.633 # [msec]
+   average_time :   12.313 # [msec]
+   throughput   :   37.359 # [mwords/sec]
+   Debug_Time(0):   11.764 # [msec]
+   Debug_Time(1):    7.947 # [msec]
+   Debug_Time(2):    2.232 # [msec]
+   Debug_Time(3):    1.585 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1640,12 +1640,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 465000
-   average_time :   12.389 # [msec]
-   throughput   :   37.533 # [mwords/sec]
-   Debug_Time(0):   11.983 # [msec]
-   Debug_Time(1):    8.016 # [msec]
-   Debug_Time(2):    2.285 # [msec]
-   Debug_Time(3):    1.682 # [msec]
+   average_time :   12.416 # [msec]
+   throughput   :   37.452 # [mwords/sec]
+   Debug_Time(0):   11.892 # [msec]
+   Debug_Time(1):    8.044 # [msec]
+   Debug_Time(2):    2.229 # [msec]
+   Debug_Time(3):    1.620 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1658,12 +1658,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 470000
-   average_time :   12.533 # [msec]
-   throughput   :   37.501 # [mwords/sec]
-   Debug_Time(0):   12.035 # [msec]
-   Debug_Time(1):    8.116 # [msec]
-   Debug_Time(2):    2.282 # [msec]
-   Debug_Time(3):    1.636 # [msec]
+   average_time :   12.559 # [msec]
+   throughput   :   37.425 # [mwords/sec]
+   Debug_Time(0):   11.994 # [msec]
+   Debug_Time(1):    8.105 # [msec]
+   Debug_Time(2):    2.283 # [msec]
+   Debug_Time(3):    1.606 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1676,12 +1676,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 475000
-   average_time :   12.630 # [msec]
-   throughput   :   37.610 # [mwords/sec]
-   Debug_Time(0):   12.112 # [msec]
-   Debug_Time(1):    8.174 # [msec]
-   Debug_Time(2):    2.308 # [msec]
-   Debug_Time(3):    1.630 # [msec]
+   average_time :   12.633 # [msec]
+   throughput   :   37.599 # [mwords/sec]
+   Debug_Time(0):   12.179 # [msec]
+   Debug_Time(1):    8.147 # [msec]
+   Debug_Time(2):    2.280 # [msec]
+   Debug_Time(3):    1.751 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1694,12 +1694,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 480000
-   average_time :   12.783 # [msec]
-   throughput   :   37.549 # [mwords/sec]
-   Debug_Time(0):   12.331 # [msec]
-   Debug_Time(1):    8.290 # [msec]
-   Debug_Time(2):    2.328 # [msec]
-   Debug_Time(3):    1.712 # [msec]
+   average_time :   12.754 # [msec]
+   throughput   :   37.634 # [mwords/sec]
+   Debug_Time(0):   12.271 # [msec]
+   Debug_Time(1):    8.257 # [msec]
+   Debug_Time(2):    2.326 # [msec]
+   Debug_Time(3):    1.689 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1712,12 +1712,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 485000
-   average_time :   12.922 # [msec]
-   throughput   :   37.533 # [mwords/sec]
-   Debug_Time(0):   12.372 # [msec]
+   average_time :   12.896 # [msec]
+   throughput   :   37.609 # [mwords/sec]
+   Debug_Time(0):   12.350 # [msec]
    Debug_Time(1):    8.336 # [msec]
-   Debug_Time(2):    2.355 # [msec]
-   Debug_Time(3):    1.682 # [msec]
+   Debug_Time(2):    2.325 # [msec]
+   Debug_Time(3):    1.689 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1730,12 +1730,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 490000
-   average_time :   13.030 # [msec]
-   throughput   :   37.605 # [mwords/sec]
-   Debug_Time(0):   12.611 # [msec]
-   Debug_Time(1):    8.441 # [msec]
-   Debug_Time(2):    2.383 # [msec]
-   Debug_Time(3):    1.786 # [msec]
+   average_time :   13.025 # [msec]
+   throughput   :   37.621 # [mwords/sec]
+   Debug_Time(0):   12.532 # [msec]
+   Debug_Time(1):    8.457 # [msec]
+   Debug_Time(2):    2.379 # [msec]
+   Debug_Time(3):    1.697 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1748,12 +1748,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 495000
-   average_time :   13.179 # [msec]
-   throughput   :   37.559 # [mwords/sec]
-   Debug_Time(0):   12.703 # [msec]
-   Debug_Time(1):    8.543 # [msec]
-   Debug_Time(2):    2.402 # [msec]
-   Debug_Time(3):    1.758 # [msec]
+   average_time :   13.191 # [msec]
+   throughput   :   37.525 # [mwords/sec]
+   Debug_Time(0):   12.654 # [msec]
+   Debug_Time(1):    8.542 # [msec]
+   Debug_Time(2):    2.404 # [msec]
+   Debug_Time(3):    1.709 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1766,12 +1766,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 500000
-   average_time :   13.288 # [msec]
-   throughput   :   37.629 # [mwords/sec]
-   Debug_Time(0):   12.912 # [msec]
-   Debug_Time(1):    8.609 # [msec]
-   Debug_Time(2):    2.444 # [msec]
-   Debug_Time(3):    1.859 # [msec]
+   average_time :   13.245 # [msec]
+   throughput   :   37.751 # [mwords/sec]
+   Debug_Time(0):   12.587 # [msec]
+   Debug_Time(1):    8.423 # [msec]
+   Debug_Time(2):    2.415 # [msec]
+   Debug_Time(3):    1.749 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1784,12 +1784,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 505000
-   average_time :   13.420 # [msec]
-   throughput   :   37.631 # [mwords/sec]
-   Debug_Time(0):   12.785 # [msec]
-   Debug_Time(1):    8.546 # [msec]
-   Debug_Time(2):    2.450 # [msec]
-   Debug_Time(3):    1.789 # [msec]
+   average_time :   13.418 # [msec]
+   throughput   :   37.635 # [mwords/sec]
+   Debug_Time(0):   12.864 # [msec]
+   Debug_Time(1):    8.636 # [msec]
+   Debug_Time(2):    2.420 # [msec]
+   Debug_Time(3):    1.808 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1802,12 +1802,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 510000
-   average_time :   13.581 # [msec]
-   throughput   :   37.554 # [mwords/sec]
-   Debug_Time(0):   13.009 # [msec]
-   Debug_Time(1):    8.769 # [msec]
-   Debug_Time(2):    2.475 # [msec]
-   Debug_Time(3):    1.764 # [msec]
+   average_time :   13.558 # [msec]
+   throughput   :   37.617 # [mwords/sec]
+   Debug_Time(0):   13.024 # [msec]
+   Debug_Time(1):    8.771 # [msec]
+   Debug_Time(2):    2.469 # [msec]
+   Debug_Time(3):    1.784 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1820,12 +1820,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 515000
-   average_time :   13.688 # [msec]
-   throughput   :   37.625 # [mwords/sec]
-   Debug_Time(0):   13.163 # [msec]
-   Debug_Time(1):    8.858 # [msec]
-   Debug_Time(2):    2.504 # [msec]
-   Debug_Time(3):    1.802 # [msec]
+   average_time :   13.696 # [msec]
+   throughput   :   37.602 # [mwords/sec]
+   Debug_Time(0):   13.105 # [msec]
+   Debug_Time(1):    8.807 # [msec]
+   Debug_Time(2):    2.498 # [msec]
+   Debug_Time(3):    1.800 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1838,12 +1838,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 520000
-   average_time :   13.814 # [msec]
-   throughput   :   37.642 # [mwords/sec]
-   Debug_Time(0):   13.325 # [msec]
-   Debug_Time(1):    8.923 # [msec]
-   Debug_Time(2):    2.533 # [msec]
-   Debug_Time(3):    1.868 # [msec]
+   average_time :   13.809 # [msec]
+   throughput   :   37.657 # [mwords/sec]
+   Debug_Time(0):   13.324 # [msec]
+   Debug_Time(1):    8.959 # [msec]
+   Debug_Time(2):    2.503 # [msec]
+   Debug_Time(3):    1.862 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1856,12 +1856,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 525000
-   average_time :   13.967 # [msec]
-   throughput   :   37.589 # [mwords/sec]
-   Debug_Time(0):   13.483 # [msec]
-   Debug_Time(1):    9.040 # [msec]
-   Debug_Time(2):    2.548 # [msec]
-   Debug_Time(3):    1.894 # [msec]
+   average_time :   13.958 # [msec]
+   throughput   :   37.613 # [mwords/sec]
+   Debug_Time(0):   13.302 # [msec]
+   Debug_Time(1):    8.929 # [msec]
+   Debug_Time(2):    2.546 # [msec]
+   Debug_Time(3):    1.826 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1874,12 +1874,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 530000
-   average_time :   14.103 # [msec]
-   throughput   :   37.581 # [mwords/sec]
-   Debug_Time(0):   13.788 # [msec]
-   Debug_Time(1):    9.091 # [msec]
-   Debug_Time(2):    2.574 # [msec]
-   Debug_Time(3):    2.123 # [msec]
+   average_time :   14.038 # [msec]
+   throughput   :   37.755 # [mwords/sec]
+   Debug_Time(0):   13.517 # [msec]
+   Debug_Time(1):    9.095 # [msec]
+   Debug_Time(2):    2.537 # [msec]
+   Debug_Time(3):    1.885 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1892,12 +1892,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 535000
-   average_time :   14.217 # [msec]
-   throughput   :   37.630 # [mwords/sec]
-   Debug_Time(0):   13.870 # [msec]
-   Debug_Time(1):    9.079 # [msec]
-   Debug_Time(2):    2.634 # [msec]
-   Debug_Time(3):    2.157 # [msec]
+   average_time :   14.210 # [msec]
+   throughput   :   37.651 # [mwords/sec]
+   Debug_Time(0):   13.685 # [msec]
+   Debug_Time(1):    9.199 # [msec]
+   Debug_Time(2):    2.559 # [msec]
+   Debug_Time(3):    1.927 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1910,12 +1910,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 540000
-   average_time :   14.338 # [msec]
-   throughput   :   37.661 # [mwords/sec]
-   Debug_Time(0):   14.112 # [msec]
-   Debug_Time(1):    9.249 # [msec]
-   Debug_Time(2):    2.687 # [msec]
-   Debug_Time(3):    2.176 # [msec]
+   average_time :   14.334 # [msec]
+   throughput   :   37.672 # [mwords/sec]
+   Debug_Time(0):   13.782 # [msec]
+   Debug_Time(1):    9.257 # [msec]
+   Debug_Time(2):    2.587 # [msec]
+   Debug_Time(3):    1.938 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1928,12 +1928,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 545000
-   average_time :   14.492 # [msec]
-   throughput   :   37.607 # [mwords/sec]
-   Debug_Time(0):   14.278 # [msec]
-   Debug_Time(1):    9.336 # [msec]
-   Debug_Time(2):    2.725 # [msec]
-   Debug_Time(3):    2.217 # [msec]
+   average_time :   14.483 # [msec]
+   throughput   :   37.631 # [mwords/sec]
+   Debug_Time(0):   14.197 # [msec]
+   Debug_Time(1):    9.356 # [msec]
+   Debug_Time(2):    2.646 # [msec]
+   Debug_Time(3):    2.195 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1946,12 +1946,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 550000
-   average_time :   14.636 # [msec]
-   throughput   :   37.578 # [mwords/sec]
-   Debug_Time(0):   14.430 # [msec]
-   Debug_Time(1):    9.434 # [msec]
-   Debug_Time(2):    2.774 # [msec]
-   Debug_Time(3):    2.222 # [msec]
+   average_time :   14.628 # [msec]
+   throughput   :   37.598 # [mwords/sec]
+   Debug_Time(0):   14.338 # [msec]
+   Debug_Time(1):    9.430 # [msec]
+   Debug_Time(2):    2.670 # [msec]
+   Debug_Time(3):    2.238 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1964,12 +1964,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 555000
-   average_time :   14.730 # [msec]
-   throughput   :   37.678 # [mwords/sec]
-   Debug_Time(0):   14.359 # [msec]
-   Debug_Time(1):    9.460 # [msec]
-   Debug_Time(2):    2.695 # [msec]
-   Debug_Time(3):    2.204 # [msec]
+   average_time :   14.766 # [msec]
+   throughput   :   37.586 # [mwords/sec]
+   Debug_Time(0):   14.528 # [msec]
+   Debug_Time(1):    9.501 # [msec]
+   Debug_Time(2):    2.779 # [msec]
+   Debug_Time(3):    2.248 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -1982,12 +1982,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 560000
-   average_time :   14.873 # [msec]
-   throughput   :   37.652 # [mwords/sec]
-   Debug_Time(0):   14.610 # [msec]
-   Debug_Time(1):    9.692 # [msec]
-   Debug_Time(2):    2.698 # [msec]
-   Debug_Time(3):    2.220 # [msec]
+   average_time :   14.890 # [msec]
+   throughput   :   37.609 # [mwords/sec]
+   Debug_Time(0):   14.667 # [msec]
+   Debug_Time(1):    9.547 # [msec]
+   Debug_Time(2):    2.833 # [msec]
+   Debug_Time(3):    2.288 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2000,12 +2000,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 565000
-   average_time :   14.981 # [msec]
-   throughput   :   37.716 # [mwords/sec]
-   Debug_Time(0):   14.708 # [msec]
-   Debug_Time(1):    9.740 # [msec]
-   Debug_Time(2):    2.760 # [msec]
-   Debug_Time(3):    2.207 # [msec]
+   average_time :   14.993 # [msec]
+   throughput   :   37.683 # [mwords/sec]
+   Debug_Time(0):   14.748 # [msec]
+   Debug_Time(1):    9.734 # [msec]
+   Debug_Time(2):    2.803 # [msec]
+   Debug_Time(3):    2.211 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2018,12 +2018,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 570000
-   average_time :   15.141 # [msec]
-   throughput   :   37.647 # [mwords/sec]
-   Debug_Time(0):   14.858 # [msec]
-   Debug_Time(1):    9.805 # [msec]
-   Debug_Time(2):    2.784 # [msec]
-   Debug_Time(3):    2.269 # [msec]
+   average_time :   15.099 # [msec]
+   throughput   :   37.751 # [mwords/sec]
+   Debug_Time(0):   14.812 # [msec]
+   Debug_Time(1):    9.756 # [msec]
+   Debug_Time(2):    2.774 # [msec]
+   Debug_Time(3):    2.282 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2036,12 +2036,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 575000
-   average_time :   15.216 # [msec]
-   throughput   :   37.790 # [mwords/sec]
-   Debug_Time(0):   14.954 # [msec]
-   Debug_Time(1):    9.887 # [msec]
-   Debug_Time(2):    2.823 # [msec]
-   Debug_Time(3):    2.243 # [msec]
+   average_time :   15.307 # [msec]
+   throughput   :   37.565 # [mwords/sec]
+   Debug_Time(0):   15.010 # [msec]
+   Debug_Time(1):    9.949 # [msec]
+   Debug_Time(2):    2.790 # [msec]
+   Debug_Time(3):    2.271 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2054,12 +2054,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 580000
-   average_time :   15.341 # [msec]
-   throughput   :   37.807 # [mwords/sec]
-   Debug_Time(0):   14.963 # [msec]
-   Debug_Time(1):    9.832 # [msec]
-   Debug_Time(2):    2.883 # [msec]
-   Debug_Time(3):    2.249 # [msec]
+   average_time :   15.353 # [msec]
+   throughput   :   37.778 # [mwords/sec]
+   Debug_Time(0):   15.112 # [msec]
+   Debug_Time(1):   10.009 # [msec]
+   Debug_Time(2):    2.839 # [msec]
+   Debug_Time(3):    2.264 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2072,12 +2072,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 585000
-   average_time :   15.542 # [msec]
-   throughput   :   37.640 # [mwords/sec]
-   Debug_Time(0):   15.061 # [msec]
-   Debug_Time(1):    9.835 # [msec]
-   Debug_Time(2):    2.867 # [msec]
-   Debug_Time(3):    2.359 # [msec]
+   average_time :   15.510 # [msec]
+   throughput   :   37.716 # [mwords/sec]
+   Debug_Time(0):   15.283 # [msec]
+   Debug_Time(1):   10.103 # [msec]
+   Debug_Time(2):    2.881 # [msec]
+   Debug_Time(3):    2.300 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2090,12 +2090,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 590000
-   average_time :   15.609 # [msec]
-   throughput   :   37.798 # [mwords/sec]
-   Debug_Time(0):   15.121 # [msec]
-   Debug_Time(1):    9.901 # [msec]
-   Debug_Time(2):    2.864 # [msec]
-   Debug_Time(3):    2.356 # [msec]
+   average_time :   15.622 # [msec]
+   throughput   :   37.767 # [mwords/sec]
+   Debug_Time(0):   15.460 # [msec]
+   Debug_Time(1):   10.168 # [msec]
+   Debug_Time(2):    2.870 # [msec]
+   Debug_Time(3):    2.422 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2108,12 +2108,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 595000
-   average_time :   15.723 # [msec]
-   throughput   :   37.842 # [mwords/sec]
-   Debug_Time(0):   15.233 # [msec]
-   Debug_Time(1):    9.992 # [msec]
-   Debug_Time(2):    2.891 # [msec]
-   Debug_Time(3):    2.350 # [msec]
+   average_time :   15.750 # [msec]
+   throughput   :   37.777 # [mwords/sec]
+   Debug_Time(0):   15.529 # [msec]
+   Debug_Time(1):   10.236 # [msec]
+   Debug_Time(2):    2.897 # [msec]
+   Debug_Time(3):    2.396 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2126,12 +2126,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 600000
-   average_time :   15.896 # [msec]
-   throughput   :   37.746 # [mwords/sec]
-   Debug_Time(0):   15.514 # [msec]
-   Debug_Time(1):   10.156 # [msec]
-   Debug_Time(2):    2.959 # [msec]
-   Debug_Time(3):    2.399 # [msec]
+   average_time :   15.916 # [msec]
+   throughput   :   37.698 # [mwords/sec]
+   Debug_Time(0):   15.627 # [msec]
+   Debug_Time(1):   10.297 # [msec]
+   Debug_Time(2):    2.971 # [msec]
+   Debug_Time(3):    2.359 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2144,12 +2144,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 605000
-   average_time :   16.030 # [msec]
-   throughput   :   37.742 # [mwords/sec]
-   Debug_Time(0):   15.625 # [msec]
-   Debug_Time(1):   10.175 # [msec]
-   Debug_Time(2):    2.935 # [msec]
-   Debug_Time(3):    2.514 # [msec]
+   average_time :   15.997 # [msec]
+   throughput   :   37.820 # [mwords/sec]
+   Debug_Time(0):   15.491 # [msec]
+   Debug_Time(1):   10.159 # [msec]
+   Debug_Time(2):    2.912 # [msec]
+   Debug_Time(3):    2.420 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2162,12 +2162,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 610000
-   average_time :   16.136 # [msec]
-   throughput   :   37.804 # [mwords/sec]
-   Debug_Time(0):   15.736 # [msec]
-   Debug_Time(1):   10.320 # [msec]
-   Debug_Time(2):    2.993 # [msec]
-   Debug_Time(3):    2.423 # [msec]
+   average_time :   16.122 # [msec]
+   throughput   :   37.836 # [mwords/sec]
+   Debug_Time(0):   15.645 # [msec]
+   Debug_Time(1):   10.239 # [msec]
+   Debug_Time(2):    2.964 # [msec]
+   Debug_Time(3):    2.442 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2180,12 +2180,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 615000
-   average_time :   16.273 # [msec]
-   throughput   :   37.793 # [mwords/sec]
-   Debug_Time(0):   15.890 # [msec]
-   Debug_Time(1):   10.448 # [msec]
-   Debug_Time(2):    3.005 # [msec]
-   Debug_Time(3):    2.438 # [msec]
+   average_time :   16.316 # [msec]
+   throughput   :   37.693 # [mwords/sec]
+   Debug_Time(0):   15.799 # [msec]
+   Debug_Time(1):   10.378 # [msec]
+   Debug_Time(2):    2.985 # [msec]
+   Debug_Time(3):    2.436 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2198,12 +2198,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 620000
-   average_time :   16.410 # [msec]
-   throughput   :   37.781 # [mwords/sec]
-   Debug_Time(0):   15.998 # [msec]
-   Debug_Time(1):   10.503 # [msec]
-   Debug_Time(2):    3.035 # [msec]
-   Debug_Time(3):    2.460 # [msec]
+   average_time :   16.428 # [msec]
+   throughput   :   37.741 # [mwords/sec]
+   Debug_Time(0):   16.025 # [msec]
+   Debug_Time(1):   10.476 # [msec]
+   Debug_Time(2):    3.062 # [msec]
+   Debug_Time(3):    2.487 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2216,12 +2216,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 625000
-   average_time :   16.613 # [msec]
-   throughput   :   37.622 # [mwords/sec]
-   Debug_Time(0):   16.216 # [msec]
-   Debug_Time(1):   10.560 # [msec]
-   Debug_Time(2):    3.047 # [msec]
-   Debug_Time(3):    2.608 # [msec]
+   average_time :   16.533 # [msec]
+   throughput   :   37.803 # [mwords/sec]
+   Debug_Time(0):   16.143 # [msec]
+   Debug_Time(1):   10.576 # [msec]
+   Debug_Time(2):    3.056 # [msec]
+   Debug_Time(3):    2.511 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2234,12 +2234,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 630000
-   average_time :   16.655 # [msec]
-   throughput   :   37.827 # [mwords/sec]
-   Debug_Time(0):   16.303 # [msec]
-   Debug_Time(1):   10.627 # [msec]
-   Debug_Time(2):    3.075 # [msec]
-   Debug_Time(3):    2.601 # [msec]
+   average_time :   16.622 # [msec]
+   throughput   :   37.901 # [mwords/sec]
+   Debug_Time(0):   16.208 # [msec]
+   Debug_Time(1):   10.623 # [msec]
+   Debug_Time(2):    3.085 # [msec]
+   Debug_Time(3):    2.500 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2252,12 +2252,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 635000
-   average_time :   16.860 # [msec]
-   throughput   :   37.662 # [mwords/sec]
-   Debug_Time(0):   16.585 # [msec]
-   Debug_Time(1):   10.710 # [msec]
-   Debug_Time(2):    3.095 # [msec]
-   Debug_Time(3):    2.780 # [msec]
+   average_time :   16.772 # [msec]
+   throughput   :   37.861 # [mwords/sec]
+   Debug_Time(0):   16.392 # [msec]
+   Debug_Time(1):   10.718 # [msec]
+   Debug_Time(2):    3.112 # [msec]
+   Debug_Time(3):    2.561 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2270,12 +2270,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 640000
-   average_time :   16.992 # [msec]
-   throughput   :   37.664 # [mwords/sec]
-   Debug_Time(0):   16.868 # [msec]
-   Debug_Time(1):   10.822 # [msec]
-   Debug_Time(2):    3.128 # [msec]
-   Debug_Time(3):    2.917 # [msec]
+   average_time :   16.953 # [msec]
+   throughput   :   37.751 # [mwords/sec]
+   Debug_Time(0):   16.600 # [msec]
+   Debug_Time(1):   10.786 # [msec]
+   Debug_Time(2):    3.107 # [msec]
+   Debug_Time(3):    2.708 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2288,12 +2288,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 645000
-   average_time :   17.117 # [msec]
-   throughput   :   37.683 # [mwords/sec]
-   Debug_Time(0):   16.992 # [msec]
-   Debug_Time(1):   10.910 # [msec]
-   Debug_Time(2):    3.167 # [msec]
-   Debug_Time(3):    2.914 # [msec]
+   average_time :   17.110 # [msec]
+   throughput   :   37.697 # [mwords/sec]
+   Debug_Time(0):   16.819 # [msec]
+   Debug_Time(1):   10.849 # [msec]
+   Debug_Time(2):    3.127 # [msec]
+   Debug_Time(3):    2.844 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2306,12 +2306,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 650000
-   average_time :   17.279 # [msec]
-   throughput   :   37.618 # [mwords/sec]
-   Debug_Time(0):   17.171 # [msec]
-   Debug_Time(1):   11.005 # [msec]
-   Debug_Time(2):    3.238 # [msec]
-   Debug_Time(3):    2.927 # [msec]
+   average_time :   17.245 # [msec]
+   throughput   :   37.693 # [mwords/sec]
+   Debug_Time(0):   16.972 # [msec]
+   Debug_Time(1):   10.951 # [msec]
+   Debug_Time(2):    3.144 # [msec]
+   Debug_Time(3):    2.877 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2324,12 +2324,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 655000
-   average_time :   17.389 # [msec]
-   throughput   :   37.667 # [mwords/sec]
-   Debug_Time(0):   17.337 # [msec]
-   Debug_Time(1):   11.085 # [msec]
-   Debug_Time(2):    3.285 # [msec]
-   Debug_Time(3):    2.968 # [msec]
+   average_time :   17.397 # [msec]
+   throughput   :   37.651 # [mwords/sec]
+   Debug_Time(0):   17.236 # [msec]
+   Debug_Time(1):   11.051 # [msec]
+   Debug_Time(2):    3.211 # [msec]
+   Debug_Time(3):    2.974 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2342,12 +2342,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 660000
-   average_time :   17.503 # [msec]
-   throughput   :   37.707 # [mwords/sec]
-   Debug_Time(0):   17.431 # [msec]
-   Debug_Time(1):   11.156 # [msec]
-   Debug_Time(2):    3.300 # [msec]
-   Debug_Time(3):    2.976 # [msec]
+   average_time :   17.491 # [msec]
+   throughput   :   37.733 # [mwords/sec]
+   Debug_Time(0):   17.359 # [msec]
+   Debug_Time(1):   11.154 # [msec]
+   Debug_Time(2):    3.241 # [msec]
+   Debug_Time(3):    2.965 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2360,12 +2360,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 665000
-   average_time :   17.672 # [msec]
-   throughput   :   37.631 # [mwords/sec]
-   Debug_Time(0):   17.606 # [msec]
-   Debug_Time(1):   11.278 # [msec]
-   Debug_Time(2):    3.321 # [msec]
-   Debug_Time(3):    3.007 # [msec]
+   average_time :   17.676 # [msec]
+   throughput   :   37.621 # [mwords/sec]
+   Debug_Time(0):   17.585 # [msec]
+   Debug_Time(1):   11.268 # [msec]
+   Debug_Time(2):    3.326 # [msec]
+   Debug_Time(3):    2.992 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2378,12 +2378,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 670000
-   average_time :   17.805 # [msec]
-   throughput   :   37.629 # [mwords/sec]
-   Debug_Time(0):   17.748 # [msec]
-   Debug_Time(1):   11.354 # [msec]
-   Debug_Time(2):    3.387 # [msec]
-   Debug_Time(3):    3.007 # [msec]
+   average_time :   17.798 # [msec]
+   throughput   :   37.644 # [mwords/sec]
+   Debug_Time(0):   17.728 # [msec]
+   Debug_Time(1):   11.332 # [msec]
+   Debug_Time(2):    3.372 # [msec]
+   Debug_Time(3):    3.024 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2396,12 +2396,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 675000
-   average_time :   17.891 # [msec]
-   throughput   :   37.729 # [mwords/sec]
-   Debug_Time(0):   17.883 # [msec]
-   Debug_Time(1):   11.562 # [msec]
-   Debug_Time(2):    3.434 # [msec]
-   Debug_Time(3):    2.887 # [msec]
+   average_time :   17.963 # [msec]
+   throughput   :   37.578 # [mwords/sec]
+   Debug_Time(0):   17.863 # [msec]
+   Debug_Time(1):   11.412 # [msec]
+   Debug_Time(2):    3.397 # [msec]
+   Debug_Time(3):    3.053 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2414,12 +2414,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 680000
-   average_time :   18.043 # [msec]
-   throughput   :   37.688 # [mwords/sec]
-   Debug_Time(0):   18.157 # [msec]
-   Debug_Time(1):   11.686 # [msec]
-   Debug_Time(2):    3.434 # [msec]
-   Debug_Time(3):    3.036 # [msec]
+   average_time :   18.086 # [msec]
+   throughput   :   37.598 # [mwords/sec]
+   Debug_Time(0):   18.092 # [msec]
+   Debug_Time(1):   11.516 # [msec]
+   Debug_Time(2):    3.447 # [msec]
+   Debug_Time(3):    3.129 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2432,12 +2432,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 685000
-   average_time :   18.152 # [msec]
-   throughput   :   37.736 # [mwords/sec]
-   Debug_Time(0):   18.258 # [msec]
-   Debug_Time(1):   11.796 # [msec]
-   Debug_Time(2):    3.459 # [msec]
-   Debug_Time(3):    3.003 # [msec]
+   average_time :   18.202 # [msec]
+   throughput   :   37.633 # [mwords/sec]
+   Debug_Time(0):   18.221 # [msec]
+   Debug_Time(1):   11.627 # [msec]
+   Debug_Time(2):    3.488 # [msec]
+   Debug_Time(3):    3.107 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2450,12 +2450,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 690000
-   average_time :   18.317 # [msec]
-   throughput   :   37.670 # [mwords/sec]
-   Debug_Time(0):   18.325 # [msec]
-   Debug_Time(1):   11.842 # [msec]
-   Debug_Time(2):    3.489 # [msec]
-   Debug_Time(3):    2.994 # [msec]
+   average_time :   18.323 # [msec]
+   throughput   :   37.657 # [mwords/sec]
+   Debug_Time(0):   18.314 # [msec]
+   Debug_Time(1):   11.680 # [msec]
+   Debug_Time(2):    3.499 # [msec]
+   Debug_Time(3):    3.135 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2468,12 +2468,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 695000
-   average_time :   18.421 # [msec]
-   throughput   :   37.728 # [mwords/sec]
-   Debug_Time(0):   18.517 # [msec]
-   Debug_Time(1):   11.947 # [msec]
-   Debug_Time(2):    3.507 # [msec]
-   Debug_Time(3):    3.063 # [msec]
+   average_time :   18.403 # [msec]
+   throughput   :   37.765 # [mwords/sec]
+   Debug_Time(0):   18.394 # [msec]
+   Debug_Time(1):   11.871 # [msec]
+   Debug_Time(2):    3.539 # [msec]
+   Debug_Time(3):    2.984 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2486,12 +2486,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 700000
-   average_time :   18.589 # [msec]
-   throughput   :   37.656 # [mwords/sec]
-   Debug_Time(0):   17.980 # [msec]
-   Debug_Time(1):   11.852 # [msec]
-   Debug_Time(2):    3.373 # [msec]
-   Debug_Time(3):    2.755 # [msec]
+   average_time :   18.529 # [msec]
+   throughput   :   37.779 # [mwords/sec]
+   Debug_Time(0):   18.681 # [msec]
+   Debug_Time(1):   12.064 # [msec]
+   Debug_Time(2):    3.538 # [msec]
+   Debug_Time(3):    3.079 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2504,12 +2504,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 705000
-   average_time :   18.695 # [msec]
-   throughput   :   37.710 # [mwords/sec]
-   Debug_Time(0):   18.595 # [msec]
-   Debug_Time(1):   12.133 # [msec]
-   Debug_Time(2):    3.572 # [msec]
-   Debug_Time(3):    2.890 # [msec]
+   average_time :   18.642 # [msec]
+   throughput   :   37.818 # [mwords/sec]
+   Debug_Time(0):   18.767 # [msec]
+   Debug_Time(1):   12.122 # [msec]
+   Debug_Time(2):    3.564 # [msec]
+   Debug_Time(3):    3.081 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2522,12 +2522,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 710000
-   average_time :   18.787 # [msec]
-   throughput   :   37.792 # [mwords/sec]
-   Debug_Time(0):   18.746 # [msec]
-   Debug_Time(1):   12.215 # [msec]
-   Debug_Time(2):    3.601 # [msec]
-   Debug_Time(3):    2.930 # [msec]
+   average_time :   18.865 # [msec]
+   throughput   :   37.635 # [mwords/sec]
+   Debug_Time(0):   18.960 # [msec]
+   Debug_Time(1):   12.218 # [msec]
+   Debug_Time(2):    3.579 # [msec]
+   Debug_Time(3):    3.163 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2540,12 +2540,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 715000
-   average_time :   18.977 # [msec]
-   throughput   :   37.676 # [mwords/sec]
-   Debug_Time(0):   18.820 # [msec]
-   Debug_Time(1):   12.326 # [msec]
-   Debug_Time(2):    3.560 # [msec]
-   Debug_Time(3):    2.933 # [msec]
+   average_time :   18.988 # [msec]
+   throughput   :   37.655 # [mwords/sec]
+   Debug_Time(0):   19.180 # [msec]
+   Debug_Time(1):   12.339 # [msec]
+   Debug_Time(2):    3.614 # [msec]
+   Debug_Time(3):    3.227 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2558,12 +2558,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 720000
-   average_time :   19.044 # [msec]
-   throughput   :   37.806 # [mwords/sec]
-   Debug_Time(0):   18.262 # [msec]
-   Debug_Time(1):   12.042 # [msec]
-   Debug_Time(2):    3.501 # [msec]
-   Debug_Time(3):    2.719 # [msec]
+   average_time :   19.092 # [msec]
+   throughput   :   37.713 # [mwords/sec]
+   Debug_Time(0):   19.256 # [msec]
+   Debug_Time(1):   12.407 # [msec]
+   Debug_Time(2):    3.628 # [msec]
+   Debug_Time(3):    3.221 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2576,12 +2576,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 725000
-   average_time :   19.172 # [msec]
-   throughput   :   37.816 # [mwords/sec]
-   Debug_Time(0):   18.447 # [msec]
-   Debug_Time(1):   12.169 # [msec]
-   Debug_Time(2):    3.494 # [msec]
-   Debug_Time(3):    2.785 # [msec]
+   average_time :   19.226 # [msec]
+   throughput   :   37.709 # [mwords/sec]
+   Debug_Time(0):   19.161 # [msec]
+   Debug_Time(1):   12.441 # [msec]
+   Debug_Time(2):    3.668 # [msec]
+   Debug_Time(3):    3.052 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2594,12 +2594,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 730000
-   average_time :   19.305 # [msec]
-   throughput   :   37.814 # [mwords/sec]
-   Debug_Time(0):   18.688 # [msec]
-   Debug_Time(1):   12.384 # [msec]
-   Debug_Time(2):    3.551 # [msec]
-   Debug_Time(3):    2.753 # [msec]
+   average_time :   19.377 # [msec]
+   throughput   :   37.674 # [mwords/sec]
+   Debug_Time(0):   19.333 # [msec]
+   Debug_Time(1):   12.575 # [msec]
+   Debug_Time(2):    3.694 # [msec]
+   Debug_Time(3):    3.064 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2612,12 +2612,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 735000
-   average_time :   19.428 # [msec]
-   throughput   :   37.832 # [mwords/sec]
-   Debug_Time(0):   18.664 # [msec]
-   Debug_Time(1):   12.332 # [msec]
-   Debug_Time(2):    3.573 # [msec]
-   Debug_Time(3):    2.759 # [msec]
+   average_time :   19.484 # [msec]
+   throughput   :   37.724 # [mwords/sec]
+   Debug_Time(0):   19.393 # [msec]
+   Debug_Time(1):   12.667 # [msec]
+   Debug_Time(2):    3.702 # [msec]
+   Debug_Time(3):    3.024 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2630,12 +2630,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 740000
-   average_time :   19.571 # [msec]
-   throughput   :   37.811 # [mwords/sec]
-   Debug_Time(0):   18.854 # [msec]
-   Debug_Time(1):   12.456 # [msec]
-   Debug_Time(2):    3.598 # [msec]
-   Debug_Time(3):    2.800 # [msec]
+   average_time :   19.667 # [msec]
+   throughput   :   37.626 # [mwords/sec]
+   Debug_Time(0):   19.544 # [msec]
+   Debug_Time(1):   12.780 # [msec]
+   Debug_Time(2):    3.695 # [msec]
+   Debug_Time(3):    3.069 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2648,12 +2648,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 745000
-   average_time :   19.617 # [msec]
-   throughput   :   37.977 # [mwords/sec]
-   Debug_Time(0):   19.004 # [msec]
-   Debug_Time(1):   12.538 # [msec]
-   Debug_Time(2):    3.621 # [msec]
-   Debug_Time(3):    2.845 # [msec]
+   average_time :   19.713 # [msec]
+   throughput   :   37.792 # [mwords/sec]
+   Debug_Time(0):   19.011 # [msec]
+   Debug_Time(1):   12.512 # [msec]
+   Debug_Time(2):    3.592 # [msec]
+   Debug_Time(3):    2.908 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2666,12 +2666,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 750000
-   average_time :   19.739 # [msec]
-   throughput   :   37.995 # [mwords/sec]
-   Debug_Time(0):   19.066 # [msec]
-   Debug_Time(1):   12.657 # [msec]
-   Debug_Time(2):    3.647 # [msec]
-   Debug_Time(3):    2.762 # [msec]
+   average_time :   19.867 # [msec]
+   throughput   :   37.750 # [mwords/sec]
+   Debug_Time(0):   19.132 # [msec]
+   Debug_Time(1):   12.621 # [msec]
+   Debug_Time(2):    3.635 # [msec]
+   Debug_Time(3):    2.876 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2684,12 +2684,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 755000
-   average_time :   19.933 # [msec]
-   throughput   :   37.876 # [mwords/sec]
-   Debug_Time(0):   19.284 # [msec]
-   Debug_Time(1):   12.769 # [msec]
-   Debug_Time(2):    3.649 # [msec]
-   Debug_Time(3):    2.866 # [msec]
+   average_time :   20.005 # [msec]
+   throughput   :   37.740 # [mwords/sec]
+   Debug_Time(0):   19.149 # [msec]
+   Debug_Time(1):   12.666 # [msec]
+   Debug_Time(2):    3.630 # [msec]
+   Debug_Time(3):    2.853 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2702,12 +2702,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 760000
-   average_time :   20.016 # [msec]
-   throughput   :   37.969 # [mwords/sec]
-   Debug_Time(0):   19.291 # [msec]
-   Debug_Time(1):   12.818 # [msec]
-   Debug_Time(2):    3.680 # [msec]
-   Debug_Time(3):    2.794 # [msec]
+   average_time :   20.128 # [msec]
+   throughput   :   37.758 # [mwords/sec]
+   Debug_Time(0):   19.341 # [msec]
+   Debug_Time(1):   12.821 # [msec]
+   Debug_Time(2):    3.684 # [msec]
+   Debug_Time(3):    2.836 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2720,12 +2720,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 765000
-   average_time :   20.188 # [msec]
-   throughput   :   37.894 # [mwords/sec]
-   Debug_Time(0):   19.491 # [msec]
-   Debug_Time(1):   12.860 # [msec]
-   Debug_Time(2):    3.722 # [msec]
-   Debug_Time(3):    2.910 # [msec]
+   average_time :   20.231 # [msec]
+   throughput   :   37.814 # [mwords/sec]
+   Debug_Time(0):   19.351 # [msec]
+   Debug_Time(1):   12.792 # [msec]
+   Debug_Time(2):    3.699 # [msec]
+   Debug_Time(3):    2.860 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2738,12 +2738,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 770000
-   average_time :   20.294 # [msec]
-   throughput   :   37.943 # [mwords/sec]
-   Debug_Time(0):   19.602 # [msec]
-   Debug_Time(1):   12.966 # [msec]
+   average_time :   20.348 # [msec]
+   throughput   :   37.841 # [mwords/sec]
+   Debug_Time(0):   19.448 # [msec]
+   Debug_Time(1):   12.845 # [msec]
    Debug_Time(2):    3.735 # [msec]
-   Debug_Time(3):    2.902 # [msec]
+   Debug_Time(3):    2.868 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2756,12 +2756,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 775000
-   average_time :   20.448 # [msec]
-   throughput   :   37.901 # [mwords/sec]
-   Debug_Time(0):   19.742 # [msec]
-   Debug_Time(1):   13.059 # [msec]
-   Debug_Time(2):    3.767 # [msec]
-   Debug_Time(3):    2.916 # [msec]
+   average_time :   20.407 # [msec]
+   throughput   :   37.977 # [mwords/sec]
+   Debug_Time(0):   19.697 # [msec]
+   Debug_Time(1):   13.063 # [msec]
+   Debug_Time(2):    3.755 # [msec]
+   Debug_Time(3):    2.879 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2774,12 +2774,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 780000
-   average_time :   20.605 # [msec]
-   throughput   :   37.854 # [mwords/sec]
-   Debug_Time(0):   19.950 # [msec]
-   Debug_Time(1):   13.168 # [msec]
-   Debug_Time(2):    3.795 # [msec]
-   Debug_Time(3):    2.988 # [msec]
+   average_time :   20.562 # [msec]
+   throughput   :   37.935 # [mwords/sec]
+   Debug_Time(0):   19.833 # [msec]
+   Debug_Time(1):   13.138 # [msec]
+   Debug_Time(2):    3.781 # [msec]
+   Debug_Time(3):    2.914 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2792,12 +2792,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 785000
-   average_time :   20.702 # [msec]
-   throughput   :   37.919 # [mwords/sec]
-   Debug_Time(0):   20.058 # [msec]
-   Debug_Time(1):   13.227 # [msec]
-   Debug_Time(2):    3.813 # [msec]
-   Debug_Time(3):    3.017 # [msec]
+   average_time :   20.934 # [msec]
+   throughput   :   37.500 # [mwords/sec]
+   Debug_Time(0):   21.365 # [msec]
+   Debug_Time(1):   13.720 # [msec]
+   Debug_Time(2):    4.018 # [msec]
+   Debug_Time(3):    3.627 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2810,12 +2810,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 790000
-   average_time :   20.828 # [msec]
-   throughput   :   37.930 # [mwords/sec]
-   Debug_Time(0):   20.080 # [msec]
-   Debug_Time(1):   13.323 # [msec]
-   Debug_Time(2):    3.840 # [msec]
-   Debug_Time(3):    2.917 # [msec]
+   average_time :   20.852 # [msec]
+   throughput   :   37.885 # [mwords/sec]
+   Debug_Time(0):   20.182 # [msec]
+   Debug_Time(1):   13.307 # [msec]
+   Debug_Time(2):    3.836 # [msec]
+   Debug_Time(3):    3.038 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2828,12 +2828,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 795000
-   average_time :   20.919 # [msec]
-   throughput   :   38.004 # [mwords/sec]
-   Debug_Time(0):   20.189 # [msec]
-   Debug_Time(1):   13.354 # [msec]
-   Debug_Time(2):    3.863 # [msec]
-   Debug_Time(3):    2.972 # [msec]
+   average_time :   20.960 # [msec]
+   throughput   :   37.930 # [mwords/sec]
+   Debug_Time(0):   20.237 # [msec]
+   Debug_Time(1):   13.385 # [msec]
+   Debug_Time(2):    3.875 # [msec]
+   Debug_Time(3):    2.977 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2846,12 +2846,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 800000
-   average_time :   21.057 # [msec]
-   throughput   :   37.992 # [mwords/sec]
-   Debug_Time(0):   20.329 # [msec]
-   Debug_Time(1):   13.479 # [msec]
-   Debug_Time(2):    3.889 # [msec]
-   Debug_Time(3):    2.962 # [msec]
+   average_time :   21.047 # [msec]
+   throughput   :   38.010 # [mwords/sec]
+   Debug_Time(0):   20.332 # [msec]
+   Debug_Time(1):   13.448 # [msec]
+   Debug_Time(2):    3.886 # [msec]
+   Debug_Time(3):    2.998 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2864,12 +2864,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 805000
-   average_time :   21.234 # [msec]
-   throughput   :   37.911 # [mwords/sec]
-   Debug_Time(0):   20.432 # [msec]
-   Debug_Time(1):   13.553 # [msec]
-   Debug_Time(2):    3.908 # [msec]
-   Debug_Time(3):    2.971 # [msec]
+   average_time :   21.213 # [msec]
+   throughput   :   37.949 # [mwords/sec]
+   Debug_Time(0):   20.534 # [msec]
+   Debug_Time(1):   13.563 # [msec]
+   Debug_Time(2):    3.913 # [msec]
+   Debug_Time(3):    3.058 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2882,12 +2882,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 810000
-   average_time :   21.398 # [msec]
-   throughput   :   37.854 # [mwords/sec]
-   Debug_Time(0):   20.575 # [msec]
-   Debug_Time(1):   13.609 # [msec]
-   Debug_Time(2):    3.939 # [msec]
-   Debug_Time(3):    3.027 # [msec]
+   average_time :   21.324 # [msec]
+   throughput   :   37.985 # [mwords/sec]
+   Debug_Time(0):   20.659 # [msec]
+   Debug_Time(1):   13.634 # [msec]
+   Debug_Time(2):    3.929 # [msec]
+   Debug_Time(3):    3.095 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2900,12 +2900,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 815000
-   average_time :   21.517 # [msec]
-   throughput   :   37.878 # [mwords/sec]
-   Debug_Time(0):   20.761 # [msec]
-   Debug_Time(1):   13.709 # [msec]
-   Debug_Time(2):    3.945 # [msec]
-   Debug_Time(3):    3.106 # [msec]
+   average_time :   21.510 # [msec]
+   throughput   :   37.889 # [mwords/sec]
+   Debug_Time(0):   20.703 # [msec]
+   Debug_Time(1):   13.674 # [msec]
+   Debug_Time(2):    3.958 # [msec]
+   Debug_Time(3):    3.071 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2918,12 +2918,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 820000
-   average_time :   21.702 # [msec]
-   throughput   :   37.785 # [mwords/sec]
-   Debug_Time(0):   20.864 # [msec]
-   Debug_Time(1):   13.803 # [msec]
-   Debug_Time(2):    3.956 # [msec]
-   Debug_Time(3):    3.104 # [msec]
+   average_time :   21.658 # [msec]
+   throughput   :   37.861 # [mwords/sec]
+   Debug_Time(0):   20.970 # [msec]
+   Debug_Time(1):   13.802 # [msec]
+   Debug_Time(2):    3.978 # [msec]
+   Debug_Time(3):    3.191 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2936,12 +2936,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 825000
-   average_time :   21.753 # [msec]
-   throughput   :   37.925 # [mwords/sec]
-   Debug_Time(0):   20.981 # [msec]
-   Debug_Time(1):   13.888 # [msec]
-   Debug_Time(2):    3.980 # [msec]
-   Debug_Time(3):    3.112 # [msec]
+   average_time :   21.749 # [msec]
+   throughput   :   37.932 # [mwords/sec]
+   Debug_Time(0):   20.958 # [msec]
+   Debug_Time(1):   13.889 # [msec]
+   Debug_Time(2):    3.976 # [msec]
+   Debug_Time(3):    3.093 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2954,12 +2954,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 830000
-   average_time :   21.877 # [msec]
-   throughput   :   37.940 # [mwords/sec]
-   Debug_Time(0):   21.183 # [msec]
-   Debug_Time(1):   13.982 # [msec]
-   Debug_Time(2):    4.014 # [msec]
-   Debug_Time(3):    3.187 # [msec]
+   average_time :   21.914 # [msec]
+   throughput   :   37.876 # [mwords/sec]
+   Debug_Time(0):   21.224 # [msec]
+   Debug_Time(1):   13.970 # [msec]
+   Debug_Time(2):    4.029 # [msec]
+   Debug_Time(3):    3.226 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2972,12 +2972,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 835000
-   average_time :   21.972 # [msec]
-   throughput   :   38.003 # [mwords/sec]
-   Debug_Time(0):   21.204 # [msec]
-   Debug_Time(1):   14.038 # [msec]
-   Debug_Time(2):    4.038 # [msec]
-   Debug_Time(3):    3.127 # [msec]
+   average_time :   21.967 # [msec]
+   throughput   :   38.012 # [mwords/sec]
+   Debug_Time(0):   21.268 # [msec]
+   Debug_Time(1):   14.033 # [msec]
+   Debug_Time(2):    4.028 # [msec]
+   Debug_Time(3):    3.206 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -2990,12 +2990,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 840000
-   average_time :   22.133 # [msec]
-   throughput   :   37.953 # [mwords/sec]
-   Debug_Time(0):   21.380 # [msec]
-   Debug_Time(1):   14.116 # [msec]
-   Debug_Time(2):    4.052 # [msec]
-   Debug_Time(3):    3.212 # [msec]
+   average_time :   22.125 # [msec]
+   throughput   :   37.966 # [mwords/sec]
+   Debug_Time(0):   21.303 # [msec]
+   Debug_Time(1):   14.055 # [msec]
+   Debug_Time(2):    4.050 # [msec]
+   Debug_Time(3):    3.199 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3008,12 +3008,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 845000
-   average_time :   22.280 # [msec]
-   throughput   :   37.926 # [mwords/sec]
-   Debug_Time(0):   21.713 # [msec]
-   Debug_Time(1):   14.101 # [msec]
-   Debug_Time(2):    4.109 # [msec]
-   Debug_Time(3):    3.503 # [msec]
+   average_time :   22.265 # [msec]
+   throughput   :   37.952 # [mwords/sec]
+   Debug_Time(0):   21.471 # [msec]
+   Debug_Time(1):   14.234 # [msec]
+   Debug_Time(2):    4.100 # [msec]
+   Debug_Time(3):    3.136 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3026,12 +3026,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 850000
-   average_time :   22.334 # [msec]
-   throughput   :   38.058 # [mwords/sec]
-   Debug_Time(0):   22.218 # [msec]
-   Debug_Time(1):   14.276 # [msec]
-   Debug_Time(2):    4.165 # [msec]
-   Debug_Time(3):    3.776 # [msec]
+   average_time :   22.341 # [msec]
+   throughput   :   38.047 # [mwords/sec]
+   Debug_Time(0):   21.467 # [msec]
+   Debug_Time(1):   14.200 # [msec]
+   Debug_Time(2):    4.123 # [msec]
+   Debug_Time(3):    3.144 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3044,12 +3044,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 855000
-   average_time :   22.528 # [msec]
-   throughput   :   37.953 # [mwords/sec]
-   Debug_Time(0):   22.319 # [msec]
-   Debug_Time(1):   14.371 # [msec]
-   Debug_Time(2):    4.165 # [msec]
-   Debug_Time(3):    3.784 # [msec]
+   average_time :   22.464 # [msec]
+   throughput   :   38.060 # [mwords/sec]
+   Debug_Time(0):   21.788 # [msec]
+   Debug_Time(1):   14.391 # [msec]
+   Debug_Time(2):    4.155 # [msec]
+   Debug_Time(3):    3.242 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3062,12 +3062,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 860000
-   average_time :   22.570 # [msec]
-   throughput   :   38.104 # [mwords/sec]
-   Debug_Time(0):   22.183 # [msec]
-   Debug_Time(1):   14.439 # [msec]
-   Debug_Time(2):    4.153 # [msec]
-   Debug_Time(3):    3.591 # [msec]
+   average_time :   22.576 # [msec]
+   throughput   :   38.094 # [mwords/sec]
+   Debug_Time(0):   21.845 # [msec]
+   Debug_Time(1):   14.409 # [msec]
+   Debug_Time(2):    4.177 # [msec]
+   Debug_Time(3):    3.259 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3080,12 +3080,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 865000
-   average_time :   22.785 # [msec]
-   throughput   :   37.963 # [mwords/sec]
-   Debug_Time(0):   22.589 # [msec]
-   Debug_Time(1):   14.446 # [msec]
-   Debug_Time(2):    4.277 # [msec]
-   Debug_Time(3):    3.866 # [msec]
+   average_time :   22.750 # [msec]
+   throughput   :   38.022 # [mwords/sec]
+   Debug_Time(0):   21.997 # [msec]
+   Debug_Time(1):   14.538 # [msec]
+   Debug_Time(2):    4.203 # [msec]
+   Debug_Time(3):    3.256 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3098,12 +3098,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 870000
-   average_time :   22.882 # [msec]
-   throughput   :   38.022 # [mwords/sec]
-   Debug_Time(0):   22.756 # [msec]
-   Debug_Time(1):   14.613 # [msec]
-   Debug_Time(2):    4.246 # [msec]
-   Debug_Time(3):    3.897 # [msec]
+   average_time :   22.912 # [msec]
+   throughput   :   37.972 # [mwords/sec]
+   Debug_Time(0):   22.690 # [msec]
+   Debug_Time(1):   14.541 # [msec]
+   Debug_Time(2):    4.280 # [msec]
+   Debug_Time(3):    3.870 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3116,12 +3116,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 875000
-   average_time :   23.043 # [msec]
-   throughput   :   37.973 # [mwords/sec]
-   Debug_Time(0):   22.599 # [msec]
-   Debug_Time(1):   14.678 # [msec]
-   Debug_Time(2):    4.250 # [msec]
-   Debug_Time(3):    3.671 # [msec]
+   average_time :   23.030 # [msec]
+   throughput   :   37.994 # [mwords/sec]
+   Debug_Time(0):   22.892 # [msec]
+   Debug_Time(1):   14.680 # [msec]
+   Debug_Time(2):    4.291 # [msec]
+   Debug_Time(3):    3.921 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3134,12 +3134,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 880000
-   average_time :   23.263 # [msec]
-   throughput   :   37.828 # [mwords/sec]
-   Debug_Time(0):   23.126 # [msec]
-   Debug_Time(1):   14.766 # [msec]
-   Debug_Time(2):    4.384 # [msec]
-   Debug_Time(3):    3.977 # [msec]
+   average_time :   23.149 # [msec]
+   throughput   :   38.014 # [mwords/sec]
+   Debug_Time(0):   23.068 # [msec]
+   Debug_Time(1):   14.777 # [msec]
+   Debug_Time(2):    4.351 # [msec]
+   Debug_Time(3):    3.939 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3152,12 +3152,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 885000
-   average_time :   23.250 # [msec]
-   throughput   :   38.065 # [mwords/sec]
-   Debug_Time(0):   23.099 # [msec]
-   Debug_Time(1):   14.728 # [msec]
-   Debug_Time(2):    4.426 # [msec]
-   Debug_Time(3):    3.945 # [msec]
+   average_time :   23.332 # [msec]
+   throughput   :   37.931 # [mwords/sec]
+   Debug_Time(0):   23.177 # [msec]
+   Debug_Time(1):   14.828 # [msec]
+   Debug_Time(2):    4.380 # [msec]
+   Debug_Time(3):    3.969 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3170,12 +3170,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 890000
-   average_time :   23.424 # [msec]
-   throughput   :   37.995 # [mwords/sec]
-   Debug_Time(0):   23.443 # [msec]
-   Debug_Time(1):   14.932 # [msec]
-   Debug_Time(2):    4.504 # [msec]
-   Debug_Time(3):    4.008 # [msec]
+   average_time :   23.394 # [msec]
+   throughput   :   38.044 # [mwords/sec]
+   Debug_Time(0):   23.305 # [msec]
+   Debug_Time(1):   14.944 # [msec]
+   Debug_Time(2):    4.380 # [msec]
+   Debug_Time(3):    3.982 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3188,11 +3188,11 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 895000
-   average_time :   23.606 # [msec]
-   throughput   :   37.914 # [mwords/sec]
-   Debug_Time(0):   23.566 # [msec]
-   Debug_Time(1):   15.019 # [msec]
-   Debug_Time(2):    4.543 # [msec]
+   average_time :   23.535 # [msec]
+   throughput   :   38.028 # [mwords/sec]
+   Debug_Time(0):   23.483 # [msec]
+   Debug_Time(1):   15.029 # [msec]
+   Debug_Time(2):    4.450 # [msec]
    Debug_Time(3):    4.004 # [msec]
 -
    Version      : 1.2
@@ -3206,12 +3206,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 900000
-   average_time :   23.715 # [msec]
-   throughput   :   37.951 # [mwords/sec]
-   Debug_Time(0):   23.708 # [msec]
-   Debug_Time(1):   15.093 # [msec]
+   average_time :   23.641 # [msec]
+   throughput   :   38.069 # [mwords/sec]
+   Debug_Time(0):   23.576 # [msec]
+   Debug_Time(1):   15.134 # [msec]
    Debug_Time(2):    4.559 # [msec]
-   Debug_Time(3):    4.055 # [msec]
+   Debug_Time(3):    3.883 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3224,12 +3224,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 905000
-   average_time :   23.846 # [msec]
-   throughput   :   37.953 # [mwords/sec]
-   Debug_Time(0):   23.678 # [msec]
-   Debug_Time(1):   15.239 # [msec]
-   Debug_Time(2):    4.562 # [msec]
-   Debug_Time(3):    3.877 # [msec]
+   average_time :   23.841 # [msec]
+   throughput   :   37.961 # [mwords/sec]
+   Debug_Time(0):   23.839 # [msec]
+   Debug_Time(1):   15.189 # [msec]
+   Debug_Time(2):    4.584 # [msec]
+   Debug_Time(3):    4.065 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3242,12 +3242,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 910000
-   average_time :   24.012 # [msec]
-   throughput   :   37.898 # [mwords/sec]
-   Debug_Time(0):   23.850 # [msec]
-   Debug_Time(1):   15.376 # [msec]
-   Debug_Time(2):    4.538 # [msec]
-   Debug_Time(3):    3.936 # [msec]
+   average_time :   23.923 # [msec]
+   throughput   :   38.038 # [mwords/sec]
+   Debug_Time(0):   23.853 # [msec]
+   Debug_Time(1):   15.171 # [msec]
+   Debug_Time(2):    4.608 # [msec]
+   Debug_Time(3):    4.074 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3260,12 +3260,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 915000
-   average_time :   24.133 # [msec]
-   throughput   :   37.916 # [mwords/sec]
-   Debug_Time(0):   23.909 # [msec]
-   Debug_Time(1):   15.454 # [msec]
-   Debug_Time(2):    4.432 # [msec]
-   Debug_Time(3):    4.023 # [msec]
+   average_time :   24.072 # [msec]
+   throughput   :   38.011 # [mwords/sec]
+   Debug_Time(0):   23.998 # [msec]
+   Debug_Time(1):   15.305 # [msec]
+   Debug_Time(2):    4.595 # [msec]
+   Debug_Time(3):    4.097 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3278,12 +3278,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 920000
-   average_time :   24.284 # [msec]
-   throughput   :   37.885 # [mwords/sec]
-   Debug_Time(0):   23.953 # [msec]
-   Debug_Time(1):   15.375 # [msec]
-   Debug_Time(2):    4.496 # [msec]
-   Debug_Time(3):    4.082 # [msec]
+   average_time :   24.218 # [msec]
+   throughput   :   37.989 # [mwords/sec]
+   Debug_Time(0):   24.043 # [msec]
+   Debug_Time(1):   15.515 # [msec]
+   Debug_Time(2):    4.526 # [msec]
+   Debug_Time(3):    4.003 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3296,12 +3296,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 925000
-   average_time :   24.391 # [msec]
-   throughput   :   37.924 # [mwords/sec]
-   Debug_Time(0):   24.101 # [msec]
-   Debug_Time(1):   15.605 # [msec]
-   Debug_Time(2):    4.537 # [msec]
-   Debug_Time(3):    3.959 # [msec]
+   average_time :   24.348 # [msec]
+   throughput   :   37.990 # [mwords/sec]
+   Debug_Time(0):   23.881 # [msec]
+   Debug_Time(1):   15.347 # [msec]
+   Debug_Time(2):    4.539 # [msec]
+   Debug_Time(3):    3.995 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3314,12 +3314,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 930000
-   average_time :   24.496 # [msec]
-   throughput   :   37.965 # [mwords/sec]
-   Debug_Time(0):   24.223 # [msec]
-   Debug_Time(1):   15.723 # [msec]
-   Debug_Time(2):    4.579 # [msec]
-   Debug_Time(3):    3.921 # [msec]
+   average_time :   24.517 # [msec]
+   throughput   :   37.932 # [mwords/sec]
+   Debug_Time(0):   24.265 # [msec]
+   Debug_Time(1):   15.692 # [msec]
+   Debug_Time(2):    4.532 # [msec]
+   Debug_Time(3):    4.041 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3332,12 +3332,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 935000
-   average_time :   24.644 # [msec]
-   throughput   :   37.940 # [mwords/sec]
-   Debug_Time(0):   24.419 # [msec]
-   Debug_Time(1):   15.805 # [msec]
-   Debug_Time(2):    4.592 # [msec]
-   Debug_Time(3):    4.023 # [msec]
+   average_time :   24.631 # [msec]
+   throughput   :   37.960 # [mwords/sec]
+   Debug_Time(0):   24.366 # [msec]
+   Debug_Time(1):   15.799 # [msec]
+   Debug_Time(2):    4.660 # [msec]
+   Debug_Time(3):    3.907 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3350,12 +3350,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 940000
-   average_time :   24.725 # [msec]
-   throughput   :   38.019 # [mwords/sec]
-   Debug_Time(0):   24.517 # [msec]
-   Debug_Time(1):   15.875 # [msec]
-   Debug_Time(2):    4.627 # [msec]
-   Debug_Time(3):    4.014 # [msec]
+   average_time :   24.732 # [msec]
+   throughput   :   38.007 # [mwords/sec]
+   Debug_Time(0):   24.525 # [msec]
+   Debug_Time(1):   15.866 # [msec]
+   Debug_Time(2):    4.625 # [msec]
+   Debug_Time(3):    4.034 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3368,12 +3368,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 945000
-   average_time :   24.882 # [msec]
-   throughput   :   37.979 # [mwords/sec]
-   Debug_Time(0):   24.643 # [msec]
-   Debug_Time(1):   15.956 # [msec]
-   Debug_Time(2):    4.634 # [msec]
-   Debug_Time(3):    4.054 # [msec]
+   average_time :   24.840 # [msec]
+   throughput   :   38.043 # [mwords/sec]
+   Debug_Time(0):   24.673 # [msec]
+   Debug_Time(1):   15.976 # [msec]
+   Debug_Time(2):    4.674 # [msec]
+   Debug_Time(3):    4.024 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3386,12 +3386,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 950000
-   average_time :   25.010 # [msec]
-   throughput   :   37.984 # [mwords/sec]
-   Debug_Time(0):   24.892 # [msec]
-   Debug_Time(1):   16.031 # [msec]
-   Debug_Time(2):    4.677 # [msec]
-   Debug_Time(3):    4.184 # [msec]
+   average_time :   24.987 # [msec]
+   throughput   :   38.020 # [mwords/sec]
+   Debug_Time(0):   24.731 # [msec]
+   Debug_Time(1):   16.015 # [msec]
+   Debug_Time(2):    4.635 # [msec]
+   Debug_Time(3):    4.082 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3404,12 +3404,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 955000
-   average_time :   25.110 # [msec]
-   throughput   :   38.032 # [mwords/sec]
-   Debug_Time(0):   24.835 # [msec]
-   Debug_Time(1):   16.056 # [msec]
-   Debug_Time(2):    4.701 # [msec]
-   Debug_Time(3):    4.079 # [msec]
+   average_time :   25.113 # [msec]
+   throughput   :   38.029 # [mwords/sec]
+   Debug_Time(0):   24.891 # [msec]
+   Debug_Time(1):   16.135 # [msec]
+   Debug_Time(2):    4.643 # [msec]
+   Debug_Time(3):    4.113 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3422,12 +3422,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 960000
-   average_time :   25.260 # [msec]
-   throughput   :   38.005 # [mwords/sec]
-   Debug_Time(0):   25.094 # [msec]
-   Debug_Time(1):   16.154 # [msec]
-   Debug_Time(2):    4.759 # [msec]
-   Debug_Time(3):    4.180 # [msec]
+   average_time :   25.308 # [msec]
+   throughput   :   37.933 # [mwords/sec]
+   Debug_Time(0):   25.086 # [msec]
+   Debug_Time(1):   16.236 # [msec]
+   Debug_Time(2):    4.690 # [msec]
+   Debug_Time(3):    4.160 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3440,12 +3440,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 965000
-   average_time :   25.359 # [msec]
-   throughput   :   38.054 # [mwords/sec]
-   Debug_Time(0):   25.080 # [msec]
-   Debug_Time(1):   16.199 # [msec]
-   Debug_Time(2):    4.728 # [msec]
-   Debug_Time(3):    4.152 # [msec]
+   average_time :   25.356 # [msec]
+   throughput   :   38.057 # [mwords/sec]
+   Debug_Time(0):   24.870 # [msec]
+   Debug_Time(1):   16.001 # [msec]
+   Debug_Time(2):    4.704 # [msec]
+   Debug_Time(3):    4.166 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3458,12 +3458,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 970000
-   average_time :   25.528 # [msec]
-   throughput   :   37.998 # [mwords/sec]
-   Debug_Time(0):   25.202 # [msec]
-   Debug_Time(1):   16.193 # [msec]
-   Debug_Time(2):    4.762 # [msec]
-   Debug_Time(3):    4.247 # [msec]
+   average_time :   25.506 # [msec]
+   throughput   :   38.031 # [mwords/sec]
+   Debug_Time(0):   25.308 # [msec]
+   Debug_Time(1):   16.392 # [msec]
+   Debug_Time(2):    4.746 # [msec]
+   Debug_Time(3):    4.170 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3476,12 +3476,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 975000
-   average_time :   25.629 # [msec]
-   throughput   :   38.043 # [mwords/sec]
-   Debug_Time(0):   25.330 # [msec]
-   Debug_Time(1):   16.195 # [msec]
-   Debug_Time(2):    4.777 # [msec]
-   Debug_Time(3):    4.358 # [msec]
+   average_time :   25.664 # [msec]
+   throughput   :   37.991 # [mwords/sec]
+   Debug_Time(0):   25.457 # [msec]
+   Debug_Time(1):   16.462 # [msec]
+   Debug_Time(2):    4.739 # [msec]
+   Debug_Time(3):    4.256 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3494,12 +3494,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 980000
-   average_time :   25.822 # [msec]
-   throughput   :   37.952 # [mwords/sec]
-   Debug_Time(0):   25.642 # [msec]
-   Debug_Time(1):   16.256 # [msec]
-   Debug_Time(2):    4.787 # [msec]
-   Debug_Time(3):    4.599 # [msec]
+   average_time :   25.810 # [msec]
+   throughput   :   37.971 # [mwords/sec]
+   Debug_Time(0):   25.615 # [msec]
+   Debug_Time(1):   16.545 # [msec]
+   Debug_Time(2):    4.810 # [msec]
+   Debug_Time(3):    4.260 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3512,12 +3512,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 985000
-   average_time :   25.979 # [msec]
-   throughput   :   37.915 # [mwords/sec]
-   Debug_Time(0):   25.793 # [msec]
-   Debug_Time(1):   16.342 # [msec]
-   Debug_Time(2):    4.819 # [msec]
-   Debug_Time(3):    4.633 # [msec]
+   average_time :   25.994 # [msec]
+   throughput   :   37.894 # [mwords/sec]
+   Debug_Time(0):   25.754 # [msec]
+   Debug_Time(1):   16.651 # [msec]
+   Debug_Time(2):    4.816 # [msec]
+   Debug_Time(3):    4.287 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3530,12 +3530,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 990000
-   average_time :   26.098 # [msec]
-   throughput   :   37.933 # [mwords/sec]
-   Debug_Time(0):   25.922 # [msec]
-   Debug_Time(1):   16.433 # [msec]
-   Debug_Time(2):    4.824 # [msec]
-   Debug_Time(3):    4.666 # [msec]
+   average_time :   26.045 # [msec]
+   throughput   :   38.011 # [mwords/sec]
+   Debug_Time(0):   25.905 # [msec]
+   Debug_Time(1):   16.695 # [msec]
+   Debug_Time(2):    4.858 # [msec]
+   Debug_Time(3):    4.352 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3548,12 +3548,12 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 995000
-   average_time :   26.281 # [msec]
-   throughput   :   37.860 # [mwords/sec]
-   Debug_Time(0):   26.193 # [msec]
-   Debug_Time(1):   16.541 # [msec]
-   Debug_Time(2):    4.863 # [msec]
-   Debug_Time(3):    4.789 # [msec]
+   average_time :   26.183 # [msec]
+   throughput   :   38.002 # [mwords/sec]
+   Debug_Time(0):   25.945 # [msec]
+   Debug_Time(1):   16.748 # [msec]
+   Debug_Time(2):    4.905 # [msec]
+   Debug_Time(3):    4.292 # [msec]
 -
    Version      : 1.2
    Ways         : 16
@@ -3566,9 +3566,9 @@
    Max Size     : 268435455
    Debug Enable : 1
    size         : 1000000
-   average_time :   26.403 # [msec]
-   throughput   :   37.874 # [mwords/sec]
-   Debug_Time(0):   26.459 # [msec]
-   Debug_Time(1):   16.725 # [msec]
-   Debug_Time(2):    4.958 # [msec]
-   Debug_Time(3):    4.776 # [msec]
+   average_time :   26.314 # [msec]
+   throughput   :   38.003 # [mwords/sec]
+   Debug_Time(0):   25.999 # [msec]
+   Debug_Time(1):   16.773 # [msec]
+   Debug_Time(2):    4.932 # [msec]
+   Debug_Time(3):    4.294 # [msec]
