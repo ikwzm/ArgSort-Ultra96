@@ -33,13 +33,13 @@ See https://github.com/ikwzm/ZynqMP-FPGA-Linux or https://github.com/ikwzm/ZynqM
 #### Download ArgSort-Ultra96 to Ultra96
 
 ```console
-fpga@debian-fpga:~/$ git clone --branch 0.9.0 git://github.com/ikwzm/ArgSort-Ultra96.git
+fpga@debian-fpga:~/$ git clone --branch 1.2.0 git://github.com/ikwzm/ArgSort-Ultra96.git
 fpga@debian-fpga:~/$ cd ArgSort-Ultra96
 ```
 #### Install FPGA Bitstream file and Device Tree
 
 ```console
-fpga@debian-fpga:~/ArgSort-Ultra96$ sudo rake install
+fpga@debian-fpga:~/ArgSort-Ultra96$ sudo TARGET=argsort_16_2_2 rake install
 gzip -d -f -c argsort_16_2_2.bin.gz > /lib/firmware/argsort_16_2_2.bin
 ./dtbocfg.rb --install argsort --dts argsort_16_2_2_5.4.dts
 /tmp/dtovly20201118-1281-1tf8e0q: Warning (unit_address_vs_reg): /fragment@2/__overlay__/uio_argsort: node has a reg or ranges property, but no unit name
@@ -76,62 +76,68 @@ gzip -d -f -c argsort_16_2_2.bin.gz > /lib/firmware/argsort_16_2_2.bin
 
 ### Run 
 
-#### Generate sample.npy
+#### Generate sample_0001000000.npy
 
 ```console
-fpga@debian-fpga:~/ArgSort-Ultra96$ rake sample.npy
-python3 generate_sample.py --size 8388608 --sample sample.npy
-generate_sample: sample_file : sample.npy
-generate_sample: size        : 8388608
-generate_sample: time        : 347.344 [msec]
+fpga@debian-fpga:~/ArgSort-Ultra96$ rake sample_0001000000.npy
+python3 generate_sample.py --size 1000000 --sample sample_0001000000.npy
+generate_sample: sample_file : sample_0001000000.npy
+generate_sample: size        : 1000000
+generate_sample: time        : 44.262 [msec]
 ```
 
-#### Generate expect.npy
+#### Generate expect_0001000000.npy
 
 ```console
-fpga@debian-fpga:~/ArgSort-Ultra96$ rake expect.npy
-python3 generate_expect.py --sample sample.npy --expect expect.npy
-generate_expect: sample_file : sample.npy
-generate_expect: expect_file : expect.npy
-generate_expect: size        : 8388608
-generate_expect: time        : 19599.039 [msec]
-generate_expect: throughput  : 0.428[Mwords/sec]
+fpga@debian-fpga:~/ArgSort-Ultra96$ rake expect_0001000000.npy
+python3 generate_expect.py --sample sample_0001000000.npy --expect expect_0001000000.npy --log expect.log
+generate_expect: sample_file  : sample_0001000000.npy
+generate_expect: expect_file  : expect_0001000000.npy
+generate_expect: size         : 1000000
+generate_expect: average_time : 1325.425 # [msec]
+generate_expect: throughput   :    0.754 # [mwords/sec]
 ```
 
 #### Run argsort_test
 
 ```console
-fpga@debian-fpga:~/ArgSort-Ultra96$ rake test
-python3 argsort_test.py --sample sample.npy --result result.npy -n 10
-argsort_test   : Version     : 0.9
-argsort_test   : Ways        : 16
-argsort_test   : Words       : 2
-argsort_test   : Feedback    : 2
-argsort_test   : WordBits    : 32
-argsort_test   : IndexBits   : 32
-argsort_test   : Sort Order  : 0
-argsort_test   : Sign Compare: 0
-argsort_test   : Debug Enable: 1
-argsort_test   : sample_file : sample.npy
-argsort_test   : size        : 8388608
-argsort_test   : loops       : 10
-argsort_test   : time        : 252.58 [msec]
-argsort_test   : time        : 251.791 [msec]
-argsort_test   : time        : 251.914 [msec]
-argsort_test   : time        : 251.818 [msec]
-argsort_test   : time        : 251.798 [msec]
-argsort_test   : time        : 252.294 [msec]
-argsort_test   : time        : 251.987 [msec]
-argsort_test   : time        : 252.085 [msec]
-argsort_test   : time        : 252.3 [msec]
-argsort_test   : time        : 252.09 [msec]
-argsort_test   : result_file : result.npy
-argsort_test   : average_time: 252.066 [msec]
-argsort_test   : throughput  : 33.279[Mwords/sec]
-python3 check_result.py --sample sample.npy --result result.npy --expect expect.npy
-check_result: sample file : sample.npy
-check_result: expect file : expect.npy
-check_result: result file : result.npy
+fpga@debian-fpga:~/ArgSort-Ultra96$ rake test_1000000
+python3 argsort_test.py --sample sample_0001000000.npy --result result_0001000000.npy -n 10 -d 2 --log argsort_16_2_2.log
+argsort_test   : Version      : 1.2
+argsort_test   : Ways         : 16
+argsort_test   : Words        : 2
+argsort_test   : Feedback     : 2
+argsort_test   : WordBits     : 32
+argsort_test   : IndexBits    : 32
+argsort_test   : Sort Order   : 0
+argsort_test   : Sign Compare : 0
+argsort_test   : Max Size     : 268435455
+argsort_test   : Debug Enable : 1
+argsort_test   : sample_file  : sample_0001000000.npy
+argsort_test   : size         : 1000000
+argsort_test   : debug_mode   : 2
+argsort_test   : loops        : 10
+argsort_test   : time         :   26.149 # [msec]
+argsort_test   : time         :   26.515 # [msec]
+argsort_test   : time         :   26.186 # [msec]
+argsort_test   : time         :   26.037 # [msec]
+argsort_test   : time         :   26.611 # [msec]
+argsort_test   : time         :   26.458 # [msec]
+argsort_test   : time         :   25.907 # [msec]
+argsort_test   : time         :   26.645 # [msec]
+argsort_test   : time         :   26.656 # [msec]
+argsort_test   : time         :   25.674 # [msec]
+argsort_test   : result_file  : result_0001000000.npy
+argsort_test   : average_time :   26.284 # [msec]
+argsort_test   : throughput   :   38.046 # [mwords/sec]
+argsort_test   : Debug_Time(0):   25.199 # [msec]
+argsort_test   : Debug_Time(1):   16.501 # [msec]
+argsort_test   : Debug_Time(2):    4.860 # [msec]
+argsort_test   : Debug_Time(3):    3.838 # [msec]
+python3 check_result.py --sample sample_0001000000.npy --result result_0001000000.npy --expect expect_0001000000.npy
+check_result: sample file : sample_0001000000.npy
+check_result: expect file : expect_0001000000.npy
+check_result: result file : result_0001000000.npy
 check_result: OK
 ```
 
@@ -154,11 +160,12 @@ Build Bitstream file
 ### Requirement
 
 * Xilinx Vivado 2020.1
+* Xilinx Vivado 2020.2
 
 ### Download ArgSort-Ultra96
 
 ```console
-shell$ git clone --branch 0.9.0 git://github.com/ikwzm/ArgSort-Ultra96.git
+shell$ git clone --branch 1.2.0 git://github.com/ikwzm/ArgSort-Ultra96.git
 shell$ cd ArgSort-Ultra96
 shell$ git submodule update --init --recursive
 ```
@@ -180,7 +187,9 @@ Vivado > Tools > Run Tcl Script... > argsort_16_2_2/implementation.tcl
 #### Convert from Bitstream File to Binary File
 
 ```console
-vivado% bootgen -image argsort_16_2_2.bif -arch zynqmp -w -o argsort_16_2_2.bin
+vivado% cd argsort_16_2_2
+vivado% bootgen -image design_1.bif -arch zynqmp -w -o ../argsort_16_2_2.bin
+vivado% cd ..
 ```
 
 #### Compress argsort_16_2_2.bin to argsort_16_2_2.bin.gz

@@ -26,7 +26,6 @@ EXPECT_FILE_FORMAT     = "expect_%010d.npy"
 RESULT_FILE_FORMAT     = "result_%010d.npy"
 TEST_LOG_FILE_NAME     = "#{TARGET}.log"
 EXPECT_LOG_FILE_NAME   = "expect.log"
-print(TARGET)
 PYTHON                 = "python3"
 CC                     = "g++"
 CFLAGS                 = "-I ./include -Wpointer-arith"
