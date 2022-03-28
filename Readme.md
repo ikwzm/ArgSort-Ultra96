@@ -17,6 +17,293 @@ Overvier
 
 Distributed under the BSD 2-Clause License.
 
+Design
+------------------------------------------------------------------------------------
+
+### Design Block
+
+![Fig.1 ArgSort-Ultra96 Design Block](./doc/ja/argsort-ultra96-bd.png "Fig.1 ArgSort-Ultra96 Design Block")
+
+Fig.1 ArgSort-Ultra96 Design Block
+
+
+### Utilization
+
+Table.2 Utilization
+
+<table border="2">
+  <tr>
+    <td align="center" colspan="4">Design</td>
+    <td align="center" colspan="4">Resources</td>
+    <td align="center">Freq</td>
+  </tr>
+  <tr>
+    <td align="center">Name</td>
+    <td align="center">MRG<br />WAYS</td>
+    <td align="center">MRG<br />WORDS</td>
+    <td align="center">STM<br />FB</td>
+    <td align="center">CLB<br />LUTs</td>
+    <td align="center">CLB<br />Register</td>
+    <td align="center">BLOCK<br />RAM</td>
+    <td align="center">DSPs</td>
+    <td align="center">Freq<br />[MHz]</td>
+  </tr>
+  <tr>
+    <td>argsort_16_1_0</td>
+    <td align="center">16</td>
+    <td align="center">1</td>
+    <td align="center">0</td>
+    <td align="center">42142</td>
+    <td align="center">27011</td>
+    <td align="center">38</td>
+    <td align="center">0</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_16_1_1</td>
+    <td align="center">16</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">41865</td>
+    <td align="center">27249</td>
+    <td align="center">38</td>
+    <td align="center">0</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_16_1_2</td>
+    <td align="center">16</td>
+    <td align="center">1</td>
+    <td align="center">2</td>
+    <td align="center">41799</td>
+    <td align="center">26261</td>
+    <td align="center">54</td>
+    <td align="center">0</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_16_2_0</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">0</td>
+    <td align="center">59246</td>
+    <td align="center">55456</td>
+    <td align="center">38</td>
+    <td align="center">0</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_16_2_1</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">1</td>
+    <td align="center">60828</td>
+    <td align="center">57063</td>
+    <td align="center">38</td>
+    <td align="center">0</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_16_2_2</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">2</td>
+    <td align="center">58819</td>
+    <td align="center">55210</td>
+    <td align="center">70</td>
+    <td align="center">0</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_32_1_0</td>
+    <td align="center">32</td>
+    <td align="center">1</td>
+    <td align="center">0</td>
+    <td align="center">64126</td>
+    <td align="center">45025</td>
+    <td align="center">70</td>
+    <td align="center">15</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_32_1_1</td>
+    <td align="center">32</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">66621</td>
+    <td align="center">46356</td>
+    <td align="center">70</td>
+    <td align="center">15</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_32_1_2</td>
+    <td align="center">32</td>
+    <td align="center">1</td>
+    <td align="center">2</td>
+    <td align="center">64988</td>
+    <td align="center">44866</td>
+    <td align="center">198</td>
+    <td align="center">15</td>
+    <td align="center">250</td>
+  </tr>
+  <tr>
+    <td>argsort_32_2_0</td>
+    <td align="center">32</td>
+    <td align="center">2</td>
+    <td align="center">0</td>
+    <td align="center" colspan="4">resource over</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td colspan="4">zcu3egsbva48-1 resouce available</td>
+    <td align="center">70560</td>
+    <td align="center">141120</td>
+    <td align="center">216</td>
+    <td align="center">360</td>
+    <td align="center"></td>
+  </tr>
+</table>
+
+<br />
+
+![Fig.2 Utlization(LUTs %)](./doc/ja/argsort-ultra96-resources.jpg "Fig.2 Utlization(LUTs %)")
+
+Fig.2 Utlization(LUTs %)
+
+<br />
+
+### Performance
+
+
+Table.3 Performance
+
+<table border="2">
+  <tr>
+    <td align="center" colspan="4">Design</td>
+    <td align="center" colspan="3">Sort time [msec]</td>
+    <td align="center" rowspan="2">Throughput <br />Average<br />[Mwords/sec]</td>
+  </tr>
+  <tr>
+    <td align="center">Name</td>
+    <td align="center">MRG<br />WAYS</td>
+    <td align="center">MRG<br />WORDS</td>
+    <td align="center">STM<br />FB</td>
+    <td align="center">10K<br />[words]</td>
+    <td align="center">100K<br />[words]</td>
+    <td align="center">1M<br />[words]</td>
+  <tr>
+    <td>argsort_16_1_0</td>
+    <td align="center">16</td>
+    <td align="center">1</td>
+    <td align="center">0</td>
+    <td align="right">0.569</td>
+    <td align="right">4.766</td>
+    <td align="right">54.456</td>
+    <td align="right">18.75</td>
+  </tr>
+  <tr>
+    <td>argsort_16_1_1</td>
+    <td align="center">16</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="right">0.400</td>
+    <td align="right">3.000</td>
+    <td align="right">34.355</td>
+    <td align="right">29.51</td>
+  </tr>
+  <tr>
+    <td>argsort_16_1_2</td>
+    <td align="center">16</td>
+    <td align="center">1</td>
+    <td align="center">2</td>
+    <td align="right">0.384</td>
+    <td align="right">2.674</td>
+    <td align="right">27.644</td>
+    <td align="right">36.04</td>
+  </tr>
+  <tr>
+    <td>argsort_16_2_0</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">0</td>
+    <td align="right">0.436</td>
+    <td align="right">3.219</td>
+    <td align="right">42.970</td>
+    <td align="right">24.13</td>
+  </tr>
+  <tr>
+    <td>argsort_16_2_1</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">1</td>
+    <td align="right">0.325</td>
+    <td align="right">2.047</td>
+    <td align="right">31.311</td>
+    <td align="right">33.89</td>
+  </tr>
+  <tr>
+    <td>argsort_16_2_2</td>
+    <td align="center">16</td>
+    <td align="center">2</td>
+    <td align="center">2</td>
+    <td align="right">0.328</td>
+    <td align="right">1.802</td>
+    <td align="right">26.314</td>
+    <td align="right">40.01</td>
+  </tr>
+  <tr>
+    <td>argsort_32_1_0</td>
+    <td align="center">32</td>
+    <td align="center">1</td>
+    <td align="center">0</td>
+    <td align="right">0.422</td>
+    <td align="right">3.384</td>
+    <td align="right">39.381</td>
+    <td align="right">25.69</td>
+  </tr>
+  <tr>
+    <td>argsort_32_1_1</td>
+    <td align="center">32</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="right">0.341</td>
+    <td align="right">2.494</td>
+    <td align="right">27.748</td>
+    <td align="right">36.31</td>
+  </tr>
+  <tr>
+    <td>argsort_32_1_2</td>
+    <td align="center">32</td>
+    <td align="center">1</td>
+    <td align="center">2</td>
+    <td align="right">0.595</td>
+    <td align="right">2.711</td>
+    <td align="right">27.433</td>
+    <td align="right">36.79</td>
+  </tr>
+  <tr>
+    <td colspan="4">ZynqMP(arm64) numpy.argsort()</td>
+    <td align="right">1.790</td>
+    <td align="right">32.036</td>
+    <td align="right">1320.921</td>
+    <td align="right">1.49</td>
+  </tr>
+</table>
+
+
+<br />
+
+
+![Fig.3 Throughput Average [Mwords/sec]](./doc/ja/argsort-ultra96-performance.jpg "Fig.3 Throughput Average [Mwords/sec]")
+
+Fig.3 Throughput Average [Mwords/sec]
+
+<br />
+
+
+
+
 Quick Start
 ------------------------------------------------------------------------------------
 
