@@ -622,7 +622,7 @@ fpga@debian-fpga:~/ArgSort-Ultra96$ sudo rake uninstall
 ### ビルド環境
 
 * 開発ツール: Xilinx Vivado 2020.1 or 2020.2
-* IP: [ArgSort_AXI IP 1.2]、[ZynqMP-ACP-Adapter IP 0.4]
+* IP: [ArgSort_AXI IP 1.2]、[ZynqMP-ACP-Adapter IP v0.4]
 
 
 
@@ -634,7 +634,7 @@ fpga@debian-fpga:~/ArgSort-Ultra96$ sudo rake uninstall
 
 
 ```console
-shell$ git clone --branch 1.2.1 git://github.com/ikwzm/ArgSort-Ultra96.git
+shell$ git clone --branch 1.2.1 --recursive git://github.com/ikwzm/ArgSort-Ultra96.git
 shell$ cd ArgSort-Ultra96
 ```
 
@@ -723,7 +723,7 @@ shell$ gzip argsort_16_2_2.bin
 ### バス帯域について
 
 
-ArgSort で使用しているマージソーターコアは [マルチワード マージソート ノード] で説明したように１クロックあたりに出力できるワード数を複数ワードにすることができます。[ArgSort IP 1.2] ではこのパラメータの値は MRG_WORDS で指定します。
+ArgSort で使用しているマージソーターコアは[「マルチワード マージソート ノード」]で説明したように１クロックあたりに出力できるワード数を複数ワードにすることができます。[ArgSort_AXI IP 1.2] ではこのパラメータの値は MRG_WORDS で指定します。
 
 本来ならこのパラメータを１から２に変更することで性能が倍になるはずです。しかし次の表で示すようにそれほどの差は無いように思われます。
 
@@ -825,9 +825,10 @@ Fig.4 ArgSort IP の MRG-AXI の波形
 [「ストリーム入力」]: https://github.com/ikwzm/Merge_Sorter/blob/1.3.1/doc/ja/11_merge_sort_core_2.md "「VHDL で書くマージソーター(ストリーム入力)」"
 [「ストリームフィードバック」]: https://github.com/ikwzm/Merge_Sorter/blob/1.3.1/doc/ja/12_merge_sort_core_3.md "「VHDL で書くマージソーター(ストリームフィードバック)」"
 [「ArgSort IP」]: https://github.com/ikwzm/Merge_Sorter/blob/1.3.1/doc/ja/13_argsort.md "「VHDL で書くマージソーター(ArgSort IP)」"
-[「ArgSort-Kv260」]: https://github.com/ikwzm/ArgSort-Kv260/blob/1.2.1/doc/ja/argsort-Kv260.md "「VHDL で書くマージソーター(ArgSort-Kv260)」"
+[「ArgSort-Kv260」]: https://github.com/ikwzm/ArgSort-Kv260/blob/1.2.1/doc/ja/argsort-kv260.md "「VHDL で書くマージソーター(ArgSort-Kv260)」"
 [『ZynqMP ACP と AXI をつなぐアダプタ』 @Qiita]: https://qiita.com/ikwzm/items/302c28c18af8ca51388a "『ZynqMP ACP と AXI をつなぐアダプタ』 @Qiita"
 [『UltraZed/Ultra96/Ultra96-V2/KV260 向け Debian GNU/Linux (v2021.1版) ブートイメージの提供』@Qiita]: https://qiita.com/ikwzm/items/a9adc5a7329b2eb36895 "『UltraZed/Ultra96/Ultra96-V2/KV260 向け Debian GNU/Linux (v2021.1版) ブートイメージの提供』@Qiita"
 [ArgSort_AXI IP 1.2]: https://github.com/ikwzm/ArgSort-Ultra96/tree/1.2.0/ip/argsort_axi_1.2 "ArgSort_AXI IP 1.2"
+[ZynqMP-ACP-Adapter IP v0.4]: https://github.com/ikwzm/ZynqMP-ACP-Adapter/tree/v0.4 "ZynqMP-ACP-Adapter IP v0.4"
 [ZynqMP-ACP-Adapter]: https://github.com/ikwzm/ZynqMP-ACP-Adapter "ZynqMP-ACP-Adapter"
 [ZynqMP-FPGA-Linux v2021.1.1]: https://github.com/ikwzm/ZynqMP-FPGA-Linux/tree/v2021.1.1 "ZynqMP-FPGA-Linux v2021.1.1"
