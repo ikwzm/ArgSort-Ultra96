@@ -1,0 +1,61 @@
+/dts-v1/; /plugin/;
+/ {
+	fragment@0 {
+		target-path = "/fpga-region";
+		__overlay__ {
+			firmware-name = "argsort_axi.bin";
+		};
+        };
+	fragment@1 {
+		target-path = "/amba_pl@0";
+		__overlay__ {
+			afi0 {
+				compatible    = "xlnx,afi-fpga";
+				config-afi    = <0 0>, <1 0>, <14 0x200>;
+			};
+			fclk0 {
+				compatible    = "ikwzm,fclkcfg-0.10.a";
+				clocks        = <&zynqmp_clk 0x47>;
+				insert-rate   = "250000000";
+				insert-enable = <1>;
+				remove-rate   = "1000000";
+				remove-enable = <0>;
+			};
+		};
+	};
+	fragment@2 {
+		target-path = "/amba_pl@0";
+		#address-cells = <2>;
+		#size-cells = <2>;
+
+		__overlay__ {
+			#address-cells = <2>;
+			#size-cells = <2>;
+
+			uio_argsort {
+				compatible = "generic-uio";
+				reg = <0x0 0xA0001000 0x0 0x00001000>;
+				interrupt-parent = <&gic>;
+				interrupts = <0 89 4>;
+	                };
+
+			udmabuf_argsort_in {
+				compatible  = "ikwzm,u-dma-buf";
+				device-name = "udmabuf-argsort-in";
+				size = <0x02000000>;
+	                };
+
+			udmabuf_argsort_out {
+				compatible = "ikwzm,u-dma-buf";
+				device-name = "udmabuf-argsort-out";
+				size = <0x02000000>;
+			};
+			
+			udmabuf_argsort_tmp {
+				compatible = "ikwzm,u-dma-buf";
+				device-name = "udmabuf-argsort-tmp";
+				size = <0x08000000>;
+			};
+                };
+	} ;
+} ;

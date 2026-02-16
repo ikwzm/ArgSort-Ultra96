@@ -320,45 +320,91 @@ See https://github.com/ikwzm/ZynqMP-FPGA-Linux or https://github.com/ikwzm/ZynqM
 #### Download ArgSort-Ultra96 to Ultra96
 
 ```console
-fpga@debian-fpga:~/$ git clone --branch 1.2.0 git://github.com/ikwzm/ArgSort-Ultra96.git
+fpga@debian-fpga:~/$ git clone --branch 1.2.1 git://github.com/ikwzm/ArgSort-Ultra96.git
 fpga@debian-fpga:~/$ cd ArgSort-Ultra96
 ```
+
+#### Set TARGET to Rakefile.env
+
+```console
+fpga@debian-fpga:~/ArgSort-Ultra96 cat Rakefile.env
+---
+TARGET: argsort_16_2_2
+```
+Specify the base name of the Bitstream file you want to execute in place of TARGET:.
+
+#### Set BASE_DTS to Rakefile.env
+
+##### For ZynqMP-FPGA-Linux-Kernel-6.1
+
+```console
+fpga@debian-fpga:~/ArgSort-Ultra96 cat Rakefile.env
+---
+TARGET: argsort_16_2_2
+BASE_DTS: argsort_axi_6.1.dts
+```
+
+##### For ZynqMP-FPGA-Linux-Kernel-6.6
+
+```console
+fpga@debian-fpga:~/ArgSort-Ultra96 cat Rakefile.env
+---
+TARGET: argsort_16_2_2
+BASE_DTS: argsort_axi_6.6.dts
+```
+
+The following changes have been made since ZynqMP-FPGA-Linux-Kernel-6.6(or later).
+
+  * The node name of "fpga-full" has been changed to "fpga-region".
+  * The fclk kernel driver is no longer built in by default.
+
+so a new device tree is required.
+
+##### For ZynqMP-FPGA-Linux-Kernel-6.12
+
+```console
+fpga@debian-fpga:~/ArgSort-Ultra96 cat Rakefile.env
+---
+TARGET: argsort_16_2_2
+BASE_DTS: argsort_axi_6.12.dts
+```
+
 #### Install FPGA Bitstream file and Device Tree
 
 ```console
-fpga@debian-fpga:~/ArgSort-Ultra96$ sudo TARGET=argsort_16_2_2 rake install
+fpga@debian-fpga:~/ArgSort-Ultra96$ sudo TARGET=argsort_16_2_2 BASE_DTS=argsort_axi_6.12.dts rake install
 gzip -d -f -c argsort_16_2_2.bin.gz > /lib/firmware/argsort_16_2_2.bin
-./dtbocfg.rb --install argsort --dts argsort_16_2_2_5.4.dts
-/tmp/dtovly20201118-1281-1tf8e0q: Warning (unit_address_vs_reg): /fragment@2/__overlay__/uio_argsort: node has a reg or ranges property, but no unit name
-/tmp/dtovly20201118-1281-1tf8e0q: Warning (avoid_unnecessary_addr_size): /fragment@2: unnecessary #address-cells/#size-cells without "ranges" or child "reg" property
-[10952.701089] fpga_manager fpga0: writing argsort_16_2_2.bin to Xilinx ZynqMP FPGA Manager
-[10952.861395] OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-full/firmware-name
-[10952.874409] fclkcfg amba_pl@0:fclk0: driver version : 1.7.1
-[10952.879998] fclkcfg amba_pl@0:fclk0: device name    : amba_pl@0:fclk0
-[10952.886447] fclkcfg amba_pl@0:fclk0: clock  name    : pl0_ref
-[10952.892194] fclkcfg amba_pl@0:fclk0: clock  rate    : 249999998
-[10952.898138] fclkcfg amba_pl@0:fclk0: clock  enabled : 1
-[10952.903363] fclkcfg amba_pl@0:fclk0: remove rate    : 1000000
-[10952.909107] fclkcfg amba_pl@0:fclk0: remove enable  : 0
-[10952.914327] fclkcfg amba_pl@0:fclk0: driver installed.
-[10952.935858] u-dma-buf udmabuf-argsort-in: driver version = 3.2.0
-[10952.941868] u-dma-buf udmabuf-argsort-in: major number   = 241
-[10952.947704] u-dma-buf udmabuf-argsort-in: minor number   = 0
-[10952.953360] u-dma-buf udmabuf-argsort-in: phys address   = 0x0000000070400000
-[10952.960498] u-dma-buf udmabuf-argsort-in: buffer size    = 33554432
-[10952.966762] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver installed.
-[10952.988678] u-dma-buf udmabuf-argsort-out: driver version = 3.2.0
-[10952.994773] u-dma-buf udmabuf-argsort-out: major number   = 241
-[10953.000697] u-dma-buf udmabuf-argsort-out: minor number   = 1
-[10953.006438] u-dma-buf udmabuf-argsort-out: phys address   = 0x0000000072400000
-[10953.013662] u-dma-buf udmabuf-argsort-out: buffer size    = 33554432
-[10953.020014] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver installed.
-[10953.085033] u-dma-buf udmabuf-argsort-tmp: driver version = 3.2.0
-[10953.091130] u-dma-buf udmabuf-argsort-tmp: major number   = 241
-[10953.097060] u-dma-buf udmabuf-argsort-tmp: minor number   = 2
-[10953.102804] u-dma-buf udmabuf-argsort-tmp: phys address   = 0x0000000074400000
-[10953.110028] u-dma-buf udmabuf-argsort-tmp: buffer size    = 134217728
-[10953.116466] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver installed.
+./dtbocfg.rb --install argsort --dts argsort_16_2_2_6.12.dts
+<stdin>:36.16-41.20: Warning (unit_address_vs_reg): /fragment@2/__overlay__/uio_argsort: node has a reg or ranges property, but no unit name
+<stdin>:27.13-61.5: Warning (avoid_unnecessary_addr_size): /fragment@2: unnecessary #address-cells/#size-cells without "ranges", "dma-ranges" or child "reg" property
+[  662.366716] fpga_manager fpga0: writing argsort_16_2_2.bin to Xilinx ZynqMP FPGA Manager
+[  662.521878] OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-region/firmware-name
+[  662.535253] fclkcfg amba_pl@0:fclk0: driver version : 1.9.1
+[  662.540860] fclkcfg amba_pl@0:fclk0: device name    : amba_pl@0:fclk0
+[  662.547375] fclkcfg amba_pl@0:fclk0: clock  name    : pl0_ref
+[  662.553158] fclkcfg amba_pl@0:fclk0: clock  rate    : 249999998
+[  662.559122] fclkcfg amba_pl@0:fclk0: clock  enabled : 1
+[  662.564351] fclkcfg amba_pl@0:fclk0: remove rate    : 1000000
+[  662.570096] fclkcfg amba_pl@0:fclk0: remove enable  : 0
+[  662.575322] fclkcfg amba_pl@0:fclk0: driver installed.
+[  662.599709] u-dma-buf udmabuf-argsort-in: driver version = 5.4.2
+[  662.605747] u-dma-buf udmabuf-argsort-in: major number   = 234
+[  662.611584] u-dma-buf udmabuf-argsort-in: minor number   = 0
+[  662.617247] u-dma-buf udmabuf-argsort-in: phys address   = 0x000000006db00000
+[  662.624389] u-dma-buf udmabuf-argsort-in: buffer size    = 33554432
+[  662.630659] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver installed.
+[  662.652935] u-dma-buf udmabuf-argsort-out: driver version = 5.4.2
+[  662.659060] u-dma-buf udmabuf-argsort-out: major number   = 234
+[  662.664989] u-dma-buf udmabuf-argsort-out: minor number   = 1
+[  662.670740] u-dma-buf udmabuf-argsort-out: phys address   = 0x000000006fb00000
+[  662.677962] u-dma-buf udmabuf-argsort-out: buffer size    = 33554432
+[  662.684318] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver installed.
+[  662.747650] u-dma-buf udmabuf-argsort-tmp: driver version = 5.4.2
+[  662.753778] u-dma-buf udmabuf-argsort-tmp: major number   = 234
+[  662.759709] u-dma-buf udmabuf-argsort-tmp: minor number   = 2
+[  662.765459] u-dma-buf udmabuf-argsort-tmp: phys address   = 0x0000000071b00000
+[  662.772696] u-dma-buf udmabuf-argsort-tmp: buffer size    = 134217728
+[  662.779138] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver installed.
 ```
 
 ### Run 
@@ -435,10 +481,11 @@ check_result: OK
 ```console
 fpga@debian-fpga:~/ArgSort-Ultra96$ sudo rake uninstall
 ./dtbocfg.rb --remove argsort
-[11218.745653] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver removed.
-[11218.757907] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver removed.
-[11218.770021] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver removed.
-[11218.777459] fclkcfg amba_pl@0:fclk0: driver removed.
+[  662.779138] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver installed.
+[  846.754460] u-dma-buf amba_pl@0:udmabuf_argsort_tmp: driver removed.
+[  846.765906] u-dma-buf amba_pl@0:udmabuf_argsort_out: driver removed.
+[  846.777085] u-dma-buf amba_pl@0:udmabuf_argsort_in: driver removed.
+[  846.786245] fclkcfg amba_pl@0:fclk0: driver removed.
 ```
 
 Build Bitstream file
