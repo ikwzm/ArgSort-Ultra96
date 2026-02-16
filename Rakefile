@@ -9,7 +9,12 @@ if ENV.key?("TARGET")
   env["TARGET"] = ENV["TARGET"]
   YAML.dump(env, File.open(ENV_YAML_FILE, 'w'))
 end
-TARGET                 = env.fetch("TARGET", "argsort_16_2_2")
+if ENV.key?("BASE_DTS")
+  env["BASE_DTS"] = ENV["BASE_DTS"]
+  YAML.dump(env, File.open(ENV_YAML_FILE, 'w'))
+end
+TARGET                 = env.fetch("TARGET"  , "argsort_16_2_2")
+BASE_DEVICE_TREE_FILE  = env.fetch("BASE_DTS", "argsort_axi_v1.dts")
 
 FPGA_BITSTREAM_FILE    = TARGET + ".bin"
 FPGA_BITSTREAM_GZ_FILE = FPGA_BITSTREAM_FILE + ".gz"
@@ -109,7 +114,7 @@ directory DEVICE_TREE_DIRECTORY do
   Rake::Task["install"].invoke
 end
 
-file DEVICE_TREE_FILE => [ "argsort_axi.dts" ] do
+file DEVICE_TREE_FILE => [ BASE_DEVICE_TREE_FILE ] do
   linux_release_number = 0
   /(\d+)\.(\d+)/.match(LINUX_KERNEL_RELEASE)[1..2].each do |n|
     linux_release_number = linux_release_number*100 + n.to_i
@@ -120,7 +125,7 @@ file DEVICE_TREE_FILE => [ "argsort_axi.dts" ] do
     clk_name = "zynqmp_clk"
   end
   File.open(DEVICE_TREE_FILE, "w") do |o_file|
-    File.open("argsort_axi.dts") do |i_file|
+    File.open(BASE_DEVICE_TREE_FILE) do |i_file|
       i_file.each_line do |line|
         line = line.gsub(/(^\s*firmware-name\s*=\s*)(.*);/){"#{$1}\"#{FPGA_BITSTREAM_FILE}\";"}
         line = line.gsub(/&zynqmp_clk/, "&#{clk_name}")

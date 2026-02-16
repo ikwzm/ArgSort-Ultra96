@@ -1,7 +1,7 @@
 /dts-v1/; /plugin/;
 / {
 	fragment@0 {
-		target-path = "/fpga-full";
+		target-path = "/fpga-region";
 		__overlay__ {
 			firmware-name = "argsort_axi.bin";
 		};
